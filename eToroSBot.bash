@@ -27,6 +27,8 @@ getStdConf () {
   # parameters
   maxHOpen=1
   nrNotFoundClosedPos=0
+  
+
 }
 
 
@@ -66,7 +68,11 @@ curlCrawl () {
   if [ $fetchWorked -ne 1 ]; then
     echo "Error: New cookie file required"
     if [ "$silentMode" == "false" ]; then
-      ./telegram -t $tgAPI -c $tgcID "Maintenance message: New cookie required. Pausing bot."
+    	if [ "$discord" == "true" ]; then
+    		./discord.sh --webhook-url $webhook --username $username --avatar $avatar --text "Maintenance message: New cookie required. Pausing bot."
+	else
+      		./telegram -t $tgAPI -c $tgcID "Maintenance message: New cookie required. Pausing bot."
+      	fi
     else
        echo "Maintenance message: New cookie required. Pausing bot."
     fi
@@ -91,7 +97,11 @@ curlCrawl () {
 # Kontrolliert bot beenden
 revertAndTerminate() {
    if [ "$silentMode" == "false" ]; then
-     ./telegram -t $tgAPI -c $tgcID "Maintenance message: eToro seems not available. Bot will be started in a few minutes again"
+       	if [ "$discord" == "true" ]; then
+    		./discord.sh --webhook-url $webhook --username $username --avatar $avatar --text "Maintenance message: eToro seems not available. Bot will be started in a few minutes again"
+	else
+     		./telegram -t $tgAPI -c $tgcID "Maintenance message: eToro seems not available. Bot will be started in a few minutes again"
+     	fi
   else
      echo "Maintenance message: eToro seems not available. Bot will be started in a few minutes again"
   fi
@@ -518,7 +528,12 @@ msgSend () {
     for msg in $msgFiles; do
 
       if [ "$silentMode" == "false" ]; then
-         cat $msg | ./telegram -H -t $tgAPI -c $tgcID -
+      	if [ "$discord" == "true" ]; then
+      		cat $msg
+    		./discord.sh --webhook-url $webhook --username $username --avatar $avatar --title "New Notification!" --description "$(jq -Rs . <$msg | tr -d "*" | awk '{gsub("<b>", "**");gsub("</b>", "**");print}'| cut -c 2- | rev | cut -c 2- | rev)"
+	else
+        	cat $msg | ./telegram -H -t $tgAPI -c $tgcID -
+        fi
       else
          cat $msg
       fi
@@ -526,9 +541,17 @@ msgSend () {
       rmFile $msg
     done
     if [ "$silentMode" == "false" ]; then
-      ./telegram -t $tgAPI -c $tgcID "Portfolio:https://www.etoro.com/people/$trader/portfolio"$'\n'"Donate for bot to: paypal.me/ChristianSenning"
+	if [ "$discord" == "true" ]; then
+    		./discord.sh --webhook-url $webhook --username $username --avatar $avatar --text "Maintenance message: New cookie required. Pausing bot."
+	else
+      		./telegram -t $tgAPI -c $tgcID "Portfolio:https://www.etoro.com/people/$trader/portfolio"$'\n'
+      	fi
       if [ "$nrNotFoundClosedPos" -ne "0" ]; then
-        ./telegram -t $tgAPI -c $tgcID "Maintenance message: Possibly closed position found."
+        if [ "$discord" == "true" ]; then
+    		./discord.sh --webhook-url $webhook --username $username --avatar $avatar --text "Maintenance message: New cookie required. Pausing bot."
+	else
+        	./telegram -t $tgAPI -c $tgcID "Maintenance message: Possibly closed position found."
+      	fi
       fi
     fi
   fi
