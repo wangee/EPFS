@@ -54,6 +54,9 @@ If you just like to see the bot in action you can follow some of my bots:
 
 Also for these telegram bots I do not take any responsibility and it is for educational purposes only. The bots runs on an old raspberry pi without proper server monitoring, UPS or similar, as it is just for my private purpose.
 
+ # Libraries
+Discord.sh licensed under GPL3 from https://github.com/ChaoticWeg/
+
 # Licence
 
 eToroSBot.bash is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
