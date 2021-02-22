@@ -13,6 +13,7 @@ So far the bot is in beta state. It has not been extensively tested.
 * Automatic cookie renewal
 * Locking, such that it only executes once
 * verbosity setting and log data
+* avoid detection as a bot
 
 # Which are the components of the bot
 
@@ -44,16 +45,8 @@ The bot has been developed under Linux and is mainly a bash script. The followin
 
 # Code state
 
-Personally I would call this code early beta state. The code is for educational purposes only and has not been intensively tested. Use it on your own risc.
-
-If you just like to see the bot in action you can follow some of my bots:
-* romantic69: https://t.me/esb_romantic69
-* adilelouali: https://t.me/esb_adilelouali
-* haich_s90: https://t.me/esb_haich_s90
-* OliverDanvel: https://t.me/esb_OliverDanvel
-* Lemansky: https://t.me/esb_lemansky
-
-Also for these telegram bots I do not take any responsibility and it is for educational purposes only. The bots runs on an old raspberry pi without proper server monitoring, UPS or similar, as it is just for my private purpose.
+This code was set but its original author as "early beta state". This fork is also to be considered as a "early beta state".   
+Use it for educational purposes only as it was not been intensively tested. Use it on your own risks.
 
  # Libraries
 Discord.sh licensed under GPL3 from https://github.com/ChaoticWeg/
