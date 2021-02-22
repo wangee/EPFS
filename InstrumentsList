@@ -1,0 +1,3585 @@
+1|EURUSD|EUR/USD
+2|GBPUSD|GBP/USD
+3|NZDUSD|NZD/USD
+4|USDCAD|USD/CAD
+5|USDJPY|USD/JPY
+6|USDCHF|USD/CHF
+7|AUDUSD|AUD/USD
+8|EURGBP|EUR/GBP
+9|EURCHF|EUR/CHF
+10|EURJPY|EUR/JPY
+11|GBPJPY|GBP/JPY
+12|EURAUD|EUR/AUD
+13|EURCAD|EUR/CAD
+14|AUDJPY|AUD/JPY
+15|CADJPY|CAD/JPY
+16|CHFJPY|CHF/JPY
+17|OIL|Oil
+18|GOLD|Gold
+19|SILVER|Silver
+21|COPPER|Copper
+22|NATGAS|Natural Gas
+25|USDOLLAR|US Dollar Index
+26|China50|China A50 Index
+27|SPX500|SPX500
+28|NSDQ100|NASDAQ100
+29|DJ30|DJ30
+30|UK100|UK100
+31|FRA40|FRA40
+32|GER30|GER30
+33|AUS200|AUS200
+34|ESP35|ESP35
+35|ITA40|ITA40
+36|JPN225|JPN225
+37|SUI30|SUI30
+38|HKG50|HKG50
+39|USDHKD|USD/HKD
+40|PLATINUM|Platinum
+41|PALLADIUM.spot|Palladium
+42|USDZAR|USD/ZAR
+43|EUSTX50|EUSTX50
+44|USDRUB|USD/RUB
+45|USDCNH|USD/CNH
+46|AUDCHF|AUD/CHF
+47|AUDCAD|AUD/CAD
+48|AUDNZD|AUD/NZD
+49|EURNZD|EUR/NZD
+50|GBPAUD|GBP/AUD
+51|GBPCHF|GBP/CHF
+52|GBPNZD|GBP/NZD
+53|NZDCAD|NZD/CAD
+54|NZDCHF|NZD/CHF
+55|NZDJPY|NZD/JPY
+56|CADCHF|CAD/CHF
+57|USDNOK|USD/NOK
+58|USDSEK|USD/SEK
+59|NOKSEK|NOK/SEK
+60|EURNOK|EUR/NOK
+61|EURSEK|EUR/SEK
+62|USDTRY|USD/TRY
+63|USDMXN|USD/MXN
+64|USDSGD|USD/SGD
+65|GBPCAD|GBP/CAD
+66|ZARJPY|ZAR/JPY
+68|EURPLN|EUR/PLN
+69|USDHUF|USD/HUF
+70|EURHUF|EUR/HUF
+71|GBPHUF|GBP/HUF
+72|CHFHUF|CHF/HUF
+73|USDPLN|USD/PLN
+75|USDDKK|USD/DKK
+76|EURDKK|EUR/DKK
+82|USDCZK|USD/CZK
+83|USDRON|USD/RON
+91|PALLADIUM|Palladium Future Contract
+92|SUGAR|Sugar Future Contract
+93|COTTON|Cotton Future Contract
+94|WhiteSugar|White Sugar Contract
+96|COCOA|Cocoa Future Contract
+97|WHEAT|Wheat Future Contract
+98|CottonNo7|Cotton No.7
+99|ALUMINUM|Aluminum Future Contract
+100|NICKEL|Nickel Future Contract
+101|US2000|Russell 2000
+115|CL.JUL20|Crude Oil Future July 20
+117|CL.AUG20|Crude Oil Future August 20
+118|CL.SEP20|Crude Oil Future September 20
+119|CL.OCT20|Crude Oil Future October 20
+120|CL.NOV20|Crude Oil Future November 20
+121|CL.DEC20|Crude Oil Future December 20
+122|CL.JAN21|Crude Oil Future January 21
+123|CL.FEB21|Crude Oil Future February 21
+124|CL.MAR21|Crude Oil Future March 21
+125|CL.APR21|Crude Oil Future April 21
+126|CL.MAY21|Crude Oil Future May 21
+127|CL.JUN21|Crude Oil Future June 21
+128|CL.JUL21|Crude Oil Future July 21
+129|CL.AUG21|Crude Oil Future August 21
+130|CL.SEP21|Crude Oil Future September 21
+131|CL.OCT21|Crude Oil Future October 21
+132|CL.NOV21|Crude Oil Future November 21
+133|CL.DEC21|Crude Oil Future December 21
+1001|AAPL|Apple
+1002|GOOG|Alphabet
+1003|FB|Facebook
+1004|MSFT|Microsoft
+1005|AMZN|Amazon
+1006|AABA|Altaba Inc
+1007|ZNGA|Zynga
+1008|AA|Alcoa
+1009|AXP|American Express CO
+1010|BA|Boeing
+1011|BAC|Bank of America Corp
+1012|CAT|Caterpillar
+1013|CSCO|Cisco
+1014|CVX|Chevron
+1015|DDOld|Du-Pont
+1016|DIS|Walt Disney
+1017|GE|General Electric Co
+1018|HD|Home Depot Inc
+1019|HPQ|Hewlett Packard
+1020|IBM|IBM
+1021|INTC|Intel
+1022|JNJ|Johnson & Johnson
+1023|JPM|JPMorgan Chase & Co
+1024|KO|Coca-Cola
+1025|MCD|McDonalds
+1026|MMM|3M
+1027|MRK|Merck
+1028|PFE|Pfizer
+1029|PG|Procter & Gamble Co
+1030|T|AT&T Inc
+1031|TRV|Travelers
+1032|UNH|UnitedHealth
+1033|RTX|Raytheon-Technologies
+1034|VZ|Verizon
+1035|WMT|Wal-Mart
+1036|XOM|Exxon-Mobil
+1037|C|Citigroup
+1038|HMC|Honda
+1039|HSBC|HSBC
+1040|MANU|Manchester United
+1041|MA|Mastercard
+1042|NKE|NIKE
+1043|PEP|PepsiCo
+1044|SNE|Sony
+1045|TM|Toyota
+1046|V|Visa
+1047|VOD|Vodafone
+1048|TWX|Time-Warner
+1049|DB|Deutsche-Bank
+1050|CL|Colgate-Palmolive
+1051|EBAY|eBay
+1052|SI|Siemens
+1053|YNDX|Yandex NV
+1054|QIWI|Qiwi Plc
+1055|CHL|China Mobile Limited
+1056|RENN|Renren Inc.
+1100|TEO|Telecom Argentina SA
+1101|TX|Ternium SA
+1102|PBR|Petroleo Brasileiro SA Petrobras
+1103|VALE|Vale SA
+1104|SAN|Banco Santander SA (US)
+1105|TEF|Telefonica SA (US)
+1106|AMX|America Movil
+1107|CX|Cemex
+1108|DTV|Directv
+1109|TV|Grupo Televisa
+1110|SNDK|SanDisk Corp
+1111|TSLA|Tesla Motors
+1112|F|Ford Motor Co
+1113|LVS|Las Vegas Sands Corp
+1114|LNKD|LinkedIn Corp
+1115|NOK|Nokia Oyj
+1116|POT|Potash Corporation of Saskatchewan
+1117|FSLR|First Solar
+1118|BRK.B|Berkshire Hathaway Inc
+1119|WU|Western Union Company
+1120|GPS|Gap
+1121|RL|Ralph Lauren Corp
+1122|HOG|Harley-Davidson Inc
+1123|TRIP|TripAdvisor Inc
+1124|EA|Electronic Arts
+1125|URBN|Urban Outfitters Inc.
+1126|ADBE|Adobe Systems Inc
+1127|NFLX|Netflix
+1128|MSI|Motorola Solutions
+1129|WDC|Western Digital Corporation
+1130|MU|Micron Technology
+1131|ANF|Abercrombie & Fitch Company
+1132|DEM|WisdomTree Emerging Markets
+1133|AGNC|American Capital Agency Corp.
+1134|ADSK|Autodesk
+1135|ORCL|Oracle Corporation
+1136|LMT|Lockheed Martin Corporation
+1137|NVDA|NVIDIA Corporation
+1138|FDX|FedEx Corporation
+1139|NBL|Noble Energy Inc
+1140|CAR|Avis Budget Group Inc
+1141|BIDU|Baidu
+1142|SBUX|Starbucks Corporation
+1143|AMGN|Amgen Inc
+1144|ATVI|Activision Blizzard
+1145|CHKP|Check Point Software Technologies
+1146|MOS|Mosaic Co
+1147|PETM|PetSmart Inc.
+1148|KDP|Dr Pepper Snapple Group
+1149|STZ|Constellation Brands Inc.
+1150|LMND|Lemonade Inc.
+1153|TWTR|Twitter
+1154|KING|King Digital Entertainment PLC
+1155|BABA|Alibaba
+1156|SPOT|Spotify
+1157|DBX|Dropbox Inc
+1159|ETSY|Etsy Inc
+1160|WIX|Wix.com Ltd
+1161|RYAAY|Ryanair Holdings plc
+1162|DLPH|Delphi Technologies PLC
+1164|ACB|Aurora Cannabis Inc
+1165|SMG|Scotts Miracle-Gro Company
+1166|CARA|Cara Therapeutics
+1167|INSY|Insys Therapeutics Inc
+1169|WP|World Pay Inc
+1170|ZYNE|Zynerba Pharmaceuticals Inc
+1171|CRBP|Corbus Pharmaceuticals Holding
+1172|CRON|Cronos Group Inc
+1173|PEGI|Pattern Energy Group
+1174|CVA|Covanta Holdings
+1175|EVA|Enviva Partners LP
+1176|NEP|NextEra Energy Partners LP
+1177|ALB|Albemarle Corporation
+1178|ENS|EnerSys
+1179|APHA|Aphria Inc.
+1180|XI|Xiaomi Corp
+1181|OSTK|Overstock.com
+1182|TLRY|Tilray
+1183|LYFT|Lyft Inc.
+1184|PINS|Pinterest Inc
+1185|LEVI|Levi Strauss & Co.
+1186|UBER|Uber
+1187|BYND|Beyond Meat Inc.
+1200|SIE.DE|Siemens Aktiengesellschaft
+1201|BAS.DE|BASF SE
+1202|SAP.DE|SAP AG
+1203|BAYN.DE|Bayer AG
+1204|ALV.DE|Allianz SE
+1205|EOAN.DE|E.ON SE
+1206|DAI.DE|Daimler AG
+1207|DTE.DE|Deutsche Telekom AG
+1209|LNA.DE|Linde Aktiengesellschaft
+1210|VOW3.DE|Volkswagen AG
+1211|BMW.DE|Bayerische Motoren Werke Aktiengesellschaft
+1212|MUV2.DE|Muenchener Rueckvrschrng Gslchft AG Mnch
+1213|RWE.DE|RWE AG
+1214|FME.DE|Fresenius Medical Care AG & Co. KGAA
+1215|ADS.DE|Adidas AG
+1216|DPW.DE|Deutsche Post AG
+1217|FRE.DE|Fresenius SE & Co KGaA
+1218|HEN3.DE|Henkel AG & Co. KGaA
+1219|DB1.DE|Deutsche Boerse AG
+1220|TKA.DE|ThyssenKrupp AG
+1221|IFX.DE|Infineon Technologies AG
+1222|SDF.DE|K+S Aktiengesellschaft
+1223|CBK.DE|Commerzbank AG
+1224|MRK.DE|Merck KGaA
+1225|BEI.DE|Beiersdorf AG
+1226|HEI.DE|HeidelbergCement AG
+1227|LHA.DE|Deutsche Lufthansa Aktiengesellschaft
+1228|CON.DE|Continental AG
+1229|LXSd.DE|Lanxess AG
+1230|BOSSd.DE|Hugo Boss AG
+1231|AC.PA|Accor S.A.
+1232|ACA.PA|Credit Agricole S.A.
+1233|AI.PA|Air Liquide SA
+1234|AIR.PA|AIRBUS GROUP
+1235|ALO.PA|Alstom SA
+1236|ALU.PA|Alcatel-Lucent
+1237|BN.PA|Danone
+1238|BNP.PA|BNP Paribas SA
+1239|CA.PA|Carrefour SA
+1240|CAP.PA|Cap Gemini S.A.
+1241|CS.PA|AXA Group
+1242|DG.PA|Vinci S.A
+1243|EDF.PA|Electricite de France SA
+1244|EL.PA|Essilor International SA
+1245|EN.PA|Bouygues SA
+1246|FP.PA|TOTAL S.A.
+1247|FR.PA|Valeo SA
+1248|GLE.PA|Societe Generale Group
+1249|ENGI.PA|Engie SA
+1250|KER.PA|Kering SA
+1251|LG.PA|Lafarge S.A.
+1252|LR.PA|Legrand SA
+1253|MC.PA|LVMH Moet Hennessy Louis Vuitton SA
+1254|ML.PA|Compagnie Generale DES Etablissements Michelin SCA
+1255|MTS.MC|ArcelorMittal
+1256|OR.PA|LOreal SA
+1257|ORA.PA|Orange
+1258|PUB.PA|PUB
+1259|RI.PA|Pernod-Ricard SA
+1260|RNO.PA|Renault
+1261|SAF.PA|SAF
+1262|SAN.PA|Sanofi
+1263|SGO.PA|Compagnie de Saint-Gobain S.A.
+1264|SOLB.PA|SOLVAY
+1265|SU.PA|Schneider Electric SE
+1266|TEC.PA|Technip SA
+1267|UG.PA|Peugeot S.A.
+1268|UL.PA|Unibail Rodamco
+1269|VIE.PA|Veolia Environnement S.A.
+1270|VIV.PA|Vivendi
+1271|A2A.MI|A2A Group
+1272|AGL.MI|Autogrill
+1273|ATL.MI|Atlantia Develops
+1274|AZM.MI|Azimut Holding
+1275|BMPS.MI|Montepaschi Banking Groups
+1276|BP.MI|Banco Popolare SC
+1277|BPE.MI|BPER Banca
+1278|BZU.MI|Buzzi Unicem Group
+1279|CNHI.MI|CNH Industrial Group
+1280|CPR.MI|Davide Campari - Milano Beverage
+1281|EGPW.MI|Enel Group company
+1282|ENEL.MI|Enel Power Company
+1283|ENI.MI|Eni Energy Company
+1284|EXO.MI|Exor Investment Company
+1285|STLA.MI|Stellantis NV
+1286|LDO.MI|Leonardo Finmeccanica
+1287|GASI.MI|Generali Group
+1288|ISP.MI|Intesa Sanpaolo Group
+1289|LUX.MI|Luxottica Group
+1290|MDBI.MI|Mediobanca Investment Bank
+1291|MED.MI|Mediolanum Group
+1292|MONC.MI|Moncler
+1293|MS.MI|Mediaset Group
+1295|PMI.MI|Bank Of Milano Cooperative Company
+1296|PRY.MI|Prysmian Group
+1297|SFER.MI|Salvatore Ferragamo Company
+1298|SPM.MI|Saipem Oil & Gas Industry
+1299|SRG.MI|Snam Group
+1300|STM.MI|STMicroelectronics Company
+1301|STS.MI|Ansaldo STS Company
+1302|TEN.MI|Tenaris Group
+1303|TLIT.MI|Telecom Italia Group
+1304|TOD.MI|Tods Group
+1305|TRN.MI|TERNA Eectricity Group
+1306|UBI.MI|UBI Banca Group
+1307|UCG.MI|UniCredit Commercial Bank
+1308|US.MI|UnipolSai multi-business insurance company
+1309|WDF.MI|World Duty Free Company
+1310|YNAP.MI|Yoox Net-A-Porter Group
+1311|ABE.MC|Abertis
+1312|ABG-P.MC|Abengoa B
+1313|ACS.MC|ACS
+1314|AMS.MC|Amadeus IT Hold -A-
+1315|ANA.MC|Acciona
+1316|BBVA.MC|BBVA
+1317|BKIA.MC|Bankia S.A
+1318|BKT.MC|Bankinter
+1319|BME.MC|Bolsas Y Mercados
+1320|CABK.MC|Caixabank
+1321|DIA.MC|DIA S.A.
+1322|ELE.MC|Endesa
+1323|ENG.MC|Enagas
+1324|FCC.MC|Fomento de Construcciones
+1325|FER.MC|Ferrovial
+1326|SGRE.MC|Siemens Gamesa Renewable Energy SA
+1327|NTGY.MC|Naturgy Energy Group
+1328|GRF.MC|Grifols A
+1330|IBE.MC|Iberdrola
+1331|IDR.MC|Indra Sistemas A
+1332|ITX.MC|Inditex
+1333|JAZ.MC|Jazztel
+1334|MAP.MC|Mapfre
+1336|OHL.MC|OHL
+1338|REE.MC|Red Electrica Corp
+1339|REP.MC|Repsol
+1340|SAB.MC|Banco Sabadell
+1342|SCYR.MC|Sacyr
+1344|TL5.MC|Mediaset Espana
+1345|TRE.MC|Tecnicas Reunidas
+1346|OGZDL.L|Gazprom OAO
+1347|KMGL.L|KazMunaiGas Exploration Production JSC
+1349|LKODL.L|Lukoil OAO
+1350|MGNTL.L|Magnit PJSC
+1351|MFONL.L|MegaFon OAO
+1352|MNODL.L|MMC Norilsk Nickel OJSC
+1353|NVTKL.L|NOVATEK OAO
+1354|PHORL.L|PhosAgro OAO
+1357|ROSNL.L|Rosneft OAO
+1358|SBERL.L|Sberbank of Russia
+1359|SVSTL.L|Severstal PAO
+1360|SGGDL.L|Surgutneftegas OAO
+1361|ATADL.L|Tatneft OAO
+1362|URKAL.L|Uralkali PJSC
+1368|QIHU.CH|Qihoo 360 Technology
+1370|JMEI.CH|Jumei Intl Holdings
+1371|CYOU.CH|ChangYou.com
+1373|QUNR.CH|Qunar Cayman Islands
+1377|NTES.CH|NetEase
+1378|JD.US|JD.com
+1379|TCOM.CH|Trip.com Group Ltd
+1380|ATHM.CH|Autohome
+1382|JOBS.CH|51Job
+1385|GSOL.CH|Global Sources
+1387|MOMO|MOMO Inc ADR
+1388|TTWO|Take Two Interactive Software Inc
+1400|NESN.ZU|Nestle SA
+1402|ROG.ZU|Roche Holding Ltd
+1403|CSGN.ZU|Credit Suisse Group AG
+1404|ABBN.ZU|ABB LTD
+1405|ADEN.ZU|Adecco Group AG
+1406|ATLN.ZU|Actelion Ltd
+1407|BAER.ZU|Julius Baer Gruppe AG
+1408|CFR.ZU|Compagnie Financiere Richemont SA
+1409|GEBN.ZU|Geberit AG
+1410|GIVN.ZU|Givaudan S.A
+1411|LHN.ZU|Lafargeholcim Ltd
+1412|SCMN.ZU|Swisscom AG
+1413|SGSN.ZU|SGS SA
+1414|SLHN.ZU|Swiss Life Holding AG
+1415|SREN.ZU|Swiss Re AG
+1416|SYNN.ZU|Syngenta AG
+1417|UBSG.ZU|UBS Group AG
+1418|UHR.ZU|The Swatch Group SA - B Shares
+1419|ZURN.ZU|Zurich Insurance Group Ltd
+1450|ACN|Accenture PLC
+1451|AAL|American Airlines Group Inc
+1452|ABBV|AbbVie Inc
+1454|BIIB|Biogen Inc
+1457|VIAC|VIACOMCBS
+1458|CELG|Celgene Corp
+1459|CMCSA|Comcast Corp
+1460|COF|Capital One Financial Corp
+1461|COST|Costco Wholesale Corp
+1462|CVS|CVS Health Corp
+1463|EMC|EMC Corp
+1464|FOX|Twenty-First Century Fox Inc
+1465|GILD|Gilead Sciences Inc
+1466|GPRO|GoPro Inc
+1467|GS|Goldman Sachs Group Inc
+1469|HON|Honeywell International Inc
+1472|K|Kellogg Co
+1473|CPRI|Capri Holdings Ltd
+1474|LOW|Lowes Companies Inc
+1475|M|Macys Inc
+1476|MCK|McKesson Corp
+1477|MDT|Medtronic PLC
+1478|MET|Metlife Inc
+1481|BKNG|Booking Holdings Inc
+1482|PM|Philip Morris International Inc
+1483|PSX|Phillips 66
+1484|PYPL|PayPal Holdings
+1485|QCOM|Qualcomm Inc
+1486|RDS.B|Royal Dutch Shell Shs -B- Sponsored American Deposit Receipt Repr 2 Shs B
+1487|S|Sprint Corporation
+1488|SHAK|Shake Shack Inc
+1490|TGT|Target Corp
+1491|TTM|Tata Motors Shs Sponsored American Deposit Receipt Repr 5 Shs
+1492|UNP|Union Pacific Corp
+1493|UPS|United Parcel Service Inc
+1494|WBA|Walgreens Boots Alliance Inc
+1495|WFC|Wells Fargo & Co
+1496|WMB|Williams Companies Inc
+1497|VLO|Valero Energy Corp
+1498|ABC|AmerisourceBergen Corp
+1499|FNMA|First Bancorp Inc Maine
+1500|KR|Kroger Co
+1501|GM|General Motors Co
+1502|ESRX|Express Scripts Holding Co
+1503|MPC|Marathon Petroleum Corporation
+1504|CAH|Cardinal Health Inc
+1505|ANTM|Anthem Inc
+1506|FMC|FMC Corp
+1507|AIG|American International Group Inc
+1508|DOW|Dow Chemical Co
+1509|AET|Aetna Inc
+1510|COP|ConocoPhillips Co
+1511|ET|Energy Transfer Equity LP
+1512|HUM|Humana Inc
+1513|EPD|Enterprise Products Partners LP
+1514|SYY|Sysco Corp
+1515|IM|Ingram Micro Inc
+1516|JCI|Johnson Controls Inc
+1517|PAGP|Plains GP Holdings LP
+1518|INT|World Fuel Services Corp
+1520|BBY|Best Buy Co Inc
+1521|DAL|Delta Air Lines Inc (DE)
+1522|HCA|HCA Holdings Inc
+1523|ANDV|Andeavor
+1524|UAL|United Continental Holdings Inc
+1525|TSN|Tyson Foods Inc
+1526|DE|Deere & Co
+1527|ALL|Allstate Corp
+1528|CI|Cigna Corp
+1529|MDLZ|Mondelez International Inc
+1530|SNEX|StoneX Group Inc
+1531|HAL|Halliburton Co
+1533|SHLD|Sears Holdings Corp
+1534|GD|General Dynamics Corp
+1535|TJX|TJX Companies Inc
+1536|TECD|Tech Data Corp
+1537|AVT|Avnet Inc
+1538|EXC|Exelon Corp
+1539|IP|International Paper Co
+1540|QRTEA|Qurate Retail Group inc
+1541|DUK|Duke Energy Corp
+1542|RAD|Rite Aid Corp
+1543|BHI|Baker Hughes Inc
+1544|EMR|Emerson Electric Co
+1545|NOC|Northrop Grumman Corp
+1546|NOV|National Oilwell Varco Inc
+1547|RTN|Raytheon Co
+1548|TWC|Time Warner Cable Inc
+1549|ARW|Arrow Electronics Inc
+1550|AFL|Aflac Inc
+1551|SPLS|Staples Inc
+1552|ABT|Abbott Laboratories
+1553|CYH|Community Health Systems Inc
+1554|FLR|Fluor Corp
+1555|FCX|Freeport-McMoRan Inc
+1556|USB|US Bancorp
+1557|NUE|Nucor Corp
+1558|KMB|Kimberly-Clark Corp
+1559|HES|Hess Corp
+1560|CHK|Chesapeake Energy Corp
+1561|XRX|Xerox Corp
+1562|MAN|Manpower Inc Doing Business As ManpowerGroup
+1563|DHR|Danaher Corp
+1564|WHR|Whirlpool Corp
+1565|PBF|PBF Energy Inc
+1566|HFC|HollyFrontier Corp
+1567|LLY|Eli Lilly & Co
+1568|DVN|Devon Energy Corp
+1569|PGR|Progressive Corp
+1570|CMI|Cummins Inc (Ex. Cummins Engine Inc)
+1571|IEP|Icahn Entrpres Depositary Units Repr Units of LP Interests
+1573|KSS|Kohls Corp
+1574|PCAR|Paccar Inc
+1575|HIG|The Hartford Financial Services Group Inc
+1576|LUV|Southwest Airlines Co
+1577|APC|Anadarko Petroleum Corp
+1578|SO|Southern Co
+1579|SVU|Supervalu Inc
+1580|GT|Goodyear Tire & Rubber Co
+1581|EOG|EOG Resources Inc
+1582|LUMN|CenturyLink Inc
+1583|MO|Altria Group Inc
+1584|THC|Tenet Healthcare Corp
+1585|GIS|General Mills Inc
+1586|CAG|ConAgra Foods Inc
+1587|LEA|Lear Corp
+1588|X|United States Steel Corp
+1589|PAG|Penske Automotive Group Inc
+1590|AES|AES Corp
+1591|GLP|Global Partners LP
+1592|TMO|Thermo Fisher Scientific Inc
+1593|PCG|PG&E Corp
+1594|NEE|NextEra Energy Inc
+1595|AEP|American Electric Power Inc
+1596|BAX|Baxter International Inc
+1597|CNC|Centene Corp
+1598|BK|Bank of New York Mellon Corp
+1599|JBL|Jabil Circuit Inc
+1600|PNC|PNC Financial Services Group Inc
+1601|KMI|Kinder Morgan Inc
+1602|ODP|Office Depot Inc
+1603|BMY|Bristol-Myers Squibb Co
+1604|NRG|NRG Energy Inc
+1605|MON|Monsanto Co
+1606|PPG|PPG Industries Inc
+1607|GPC|Genuine Parts Co
+1608|OMC|Omnicom Group Inc
+1609|ITW|Illinois Tool Works Inc
+1610|MUSA|Murphy USA Inc
+1611|WNR|Western Refining Inc
+1612|FE|FirstEnergy Corp
+1613|ARMK|Aramark
+1614|DISH|DISH Network Corp
+1615|L|Loews Corp
+1616|ECL|Ecolab Inc
+1617|WFM|Whole Foods Market Inc
+1618|CB|Chubb Corp
+1619|HNT|Health Net Inc
+1620|WM|Waste Management Inc
+1621|APA|Apache Corp
+1622|TXT|Textron Inc
+1623|SNX|Synnex Corp
+1625|VIA|Viacom Inc
+1626|LNC|Lincoln National Corp
+1627|JWN|Nordstrom Inc
+1628|CHRW|C.H.Robinson Worldwide Inc
+1629|EIX|Edison International
+1630|YUM|Yum Brands Inc
+1631|PH|Parker-Hannifin Corp
+1632|DVA|DaVita HealthCare Partners Inc
+1633|KMX|CarMax Inc
+1634|TXN|Texas Instruments Inc
+1635|WCG|Wellcare Health Plans Inc
+1636|MMC|Marsh & McLennan Cos Inc
+1637|ED|Consolidated Edison Inc
+1638|OKE|ONEOK Inc (New)
+1639|J|Jacobs Engineering Group Inc
+1640|CSX|CSX Corp
+1641|ETR|Entergy Corp
+1642|D|Dominion Energy Inc
+1643|JEF|Jefferies Financial Group Inc
+1644|AMP|Ameriprise Financial Inc
+1645|VFC|VF Corp
+1646|PX|Praxair Inc
+1647|JCP|JC Penney Co Inc
+1648|ADP|Automatic Data Processing Inc
+1649|LLL|L-3 Communications Holdings Inc
+1650|CDW|CDW Corp (New)
+1651|XEL|Xcel Energy Inc
+1652|NSC|Norfolk Southern Corp
+1653|PPL|PPL Corp
+1654|RRD|R.R.Donnelley & Sons Co
+1655|HUN|Huntsman Corp
+1656|BBBY|Bed Bath & Beyond Inc
+1657|SWK|Stanley Black & Decker Inc
+1658|LB|L Brands Inc
+1660|SHW|Sherwin-Williams Co
+1661|BLK|BlackRock Inc
+1663|ROST|Ross Stores Inc
+1664|SRE|Sempra Energy
+1665|EL|Estee Lauder Companies Inc
+1666|RGA|Reinsurance Group America Inc
+1667|PEG|Public Service Enterprise Group Inc
+1668|CAM|Schlumberger Ltd
+1669|NAV|Navistar International Corp
+1670|CST|CST Brands Inc
+1671|STT|State Street Corp
+1672|UNM|Unum Group
+1673|HLT|Hilton Worldwide Holdings Inc
+1674|PFG|Principal Financial Group Inc
+1675|RS|Reliance Steel And Aluminum Co
+1676|APD|Air Products & Chemicals Inc
+1677|AIZ|Assurant Inc
+1678|HSIC|Henry Schein Inc
+1679|CTSH|Cognizant Technology Solutions Corp
+1680|MGM|MGM Resorts International
+1681|GWW|WW Grainger Inc
+1682|GPI|Group 1 Automotive Inc
+1683|TFC|Truist Financial
+1684|AAP|Advance Auto Parts Inc
+1685|ALLY|Ally Financial Inc
+1686|AGCO|AGCO Corp
+1687|GLW|Corning Inc
+1689|SYK|Stryker Corp
+1690|MOH|Molina Healthcare Inc
+1691|PCP|Precision Castparts Corp
+1692|DFS|Discover Financial Services
+1693|GNW|Genworth Financial Inc
+1694|EMN|Eastman Chemical Co
+1695|DF|Dean Foods Co
+1696|AZO|Autozone Inc
+1697|OMI|Owens & Minor Inc
+1698|HRL|Hormel Foods Corp
+1699|GME|GameStop Corp New
+1700|CNP|Centerpoint Energy Inc
+1701|FNF|Fidelity National Financial Inc
+1702|SAH|Sonic Automotive Inc
+1703|HDS|HD Supply Holdings Inc
+1704|CHTR|Charter Communications Inc
+1705|CCK|Crown Holdings Inc
+1706|AMAT|Applied Materials Inc
+1707|CBRE|CBRE Group Inc
+1708|AVP|Avon Products Inc
+1709|RSG|Republic Services Inc
+1710|UHS|Universal Health Services Inc
+1711|DRI|Darden Restaurants Inc
+1712|STLD|Steel Dynamics Inc
+1713|STI|Suntrust Banks Inc
+1714|CZRdel|Caesars Entertainment Corp
+1715|TRGP|Targa Resources Corp
+1716|DLTR|Dollar Tree Inc
+1717|NWSA|News Corp
+1718|BLL|Ball Corp
+1719|MAS|Masco Corp
+1720|BEN|Franklin Resources Inc.
+1721|RAI|Reynolds American Inc
+1722|BDX|Becton Dickinson & Co.
+1723|BRCM|Broadcom Corporation
+1725|CPB|Campbell Soup Co
+1726|ACM|AECOM
+1727|VC|Visteon Corp
+1728|DK|Delek US Holdings Inc
+1729|DOV|Dover Corp
+1730|BWA|BorgWarner Inc
+1731|JAH|Jarden Corp
+1732|UGI|UGI Corp
+1733|MUR|Murphy Oil Corp
+1734|PVH|PVH Corp
+1735|CORE|Core-Mark Holding Company Inc
+1736|CPN|Calpine Corp
+1737|DHI|D.R. Horton Inc
+1738|WY|Weyerhaeuser Co
+1739|KKR|KKR & Co LP
+1740|FTI|TechnipFMC Plc
+1741|SPTN|SpartanNash Company
+1742|WCC|WESCO International Inc
+1743|PWR|Quanta Services Inc
+1744|MHK|Mohawk Industries Inc
+1745|LEN|Lennar Corp
+1746|TA|TravelCenters of America LLC
+1747|SEE|Sealed Air Corp
+1748|ES|Eversource Energy
+1749|CCEP|Coca-Cola Enterprises Inc
+1750|ASH|Ashland Inc
+1751|IPG|Interpublic Group of Companies Inc
+1752|BX|BlackStone Group LP
+1753|DGX|Quest Diagnostics Inc
+1757|NEM|Newmont Mining Corp
+1758|ORLY|OReilly Automotive Inc
+1759|CASY|Caseys General Stores Inc
+1760|CMS|CMS Energy Corp
+1761|FL|Foot Locker Inc
+1763|CMC|Commercial Metals Co
+1764|A|Agilent Technologies Inc
+1765|HII|Huntington Ingalls Industries Inc
+1766|LYV|Live Nation Entertainment Inc
+1767|DKS|Dicks Sporting Goods Inc
+1768|OSK|Oshkosh Corp
+1769|CE|Celanese Corp
+1770|SPR|Spirit AeroSystems Holdings Inc
+1771|UNFI|United Natural Foods Inc
+1772|BTU|Peabody Energy Corp
+1773|OI|Owens-Illinois Inc
+1774|DDS|Dillards Inc
+1775|LVLT|Level 3 Communications Inc
+1776|LKQ|LKQ Corp
+1777|NLOK|NortonLifeLock
+1778|BPL|Buckeye Partners L P
+1779|R|Ryder System Inc
+1780|ROK|Rockwell Automation Inc
+1781|DAN|Dana Holding Corp
+1782|NCR|NCR Corp
+1783|EXPD|Expeditors International of Washington
+1785|AKS|Ak Steel Holding Corp
+1786|FITB|Fifth Third Bancorp
+1788|NI|Nisource Inc
+1789|CVC|Cablevision Systems Corp
+1790|AXE|Anixter International Inc
+1791|EME|Emcor Group Inc
+1792|FIS|Fidelity National Information Services Inc
+1793|BKS|Barnes & Noble Inc
+1794|KBR|KBR Inc
+1795|AVY|Avery Dennison Corp
+1796|NTAP|NetApp Inc
+1798|DISCA|Discovery Communications Inc
+1799|SANM|Sanmina Corp
+1801|JBHT|J.B.Hunt Transport Services Inc
+1802|SCHW|Charles Schwab Corp
+1803|AEE|Ameren Corp
+1804|MAT|Mattel Inc
+1805|LH|Laboratory Corp Of America Holdings
+1806|HOT|Starwood Hotels & Resorts Worldwide Inc
+1807|BGC|General Cable Corp
+1808|AMRI|Albany Molecular Research Inc
+1809|SPB|Spectrum Brands Holdings Inc.
+1811|SE.delisted|Spectra Energy Corp
+1812|ABG|Asbury Automotive Group Inc
+1813|PKG|Packaging Corp of America
+1815|PHM|PulteGroup Inc
+1816|JBLU|JetBlue Airways Corp
+1817|NWL|Newell Rubbermaid Inc
+1819|CLMT|Calumet Specialty Products Partners LP
+1820|EXPE|Expedia Inc Del
+1821|AFG|American Financial Group Inc
+1822|URI|United Rentals Inc
+1823|INGR|Ingredion Inc
+1824|NAVI|Navient Corp
+1826|STJ|St Jude Medical Inc
+1827|SJM|JM Smucker Co
+1828|CLX|Clorox Co
+1831|ORI|Old Republic International Corp
+1832|AMD|Advanced Micro Devices Inc
+1833|BAH|Booz Allen Hamilton Holding Corp
+1834|IQV|IQVIA Holdings Inc.
+1835|WYNN|Wynn Resorts Ltd
+1836|JLL|Jones Lang Lasalle Inc
+1837|RF|Regions Financial Corp
+1838|LAD|Lithia Motors Inc
+1839|CRM|Salesforce.com Inc
+1840|ALK|Alaska Air Group Inc
+1841|HST|Host Hotels & Resorts Inc
+1842|HAR|Harman International Industries Inc
+1843|APH|Amphenol Corporation (New)
+1844|RLGY|Realogy Holdings Corp
+1845|ESND|Essendant Inc
+1846|HBI|Hanesbrands Inc
+1847|KND|Kindred Healthcare Inc
+1848|ARRS|ARRIS Group Inc
+1850|LPNT|LifePoint Health Inc
+1851|PXD|Pioneer Natural Resources Company
+1852|WYND|Wyndham Destinations Inc
+1853|OC|Owens Corning Inc
+1854|Y|Alleghany Corp
+1855|SPGI|S&P Global Inc
+1856|BIG|Big Lots Inc
+1857|NTI|Northern Tier Energy LP
+1858|MKL|Markel Corp
+1859|LDOS|Leidos Holdings Inc
+1860|COL|Rockwell Collins Inc
+1864|THG|The Hanover Insurance Group Inc
+1865|FISV|Fiserv Inc
+1866|ABM|ABM Industries Inc
+1867|SON|Sonoco Products Co
+1868|LHX|L3Harris
+1870|WEC|Wisconsin Energy Corp
+1872|RJF|Raymond James Financial Inc
+1873|BERY|Berry Plastics Group Inc
+1874|SCG|SCANA Corp
+1875|CINF|Cincinnati Financial Corp
+1876|ATO|Atmos Energy Corp
+1877|POM|Pepco Holdings Inc
+1878|FLS|Flowserve Corp
+1879|SPG|Simon Property Group Inc
+1881|BURL|Burlington Stores Inc
+1882|BMS|Bemis Co Inc
+1883|TPR|Tapestry
+1884|CLR|Continental Resources Inc
+1885|ASNA|Ascena Retail Group Inc
+1886|Z|Zillow Group Inc
+1887|OA|Orbital ATK Inc
+1888|FTR|Frontier Communications Corporation
+1890|CF|CF Industries Holdings Inc
+1891|MIK|The Michaels Companies Inc
+1892|MTB|M&T Bank Corporation
+1893|RUSHB|Rush Enterprises Inc
+1894|GMCR|Keurig Green Mountain Inc
+1895|SPN|Superior Energy Services Inc
+1896|WSM|Williams-Sonoma Inc
+1897|RHI|Robert Half International Inc
+1898|FAF|First American Financial Corp
+1900|MDU|MDU Resources Group Inc
+1901|JNPR|Juniper Networks Inc
+1902|AJG|Arthur J.Gallagher & Co
+1903|CFX|Colfax Corp
+1905|MTZ|MasTec Inc
+1906|LRCX|Lam Research Corp
+1907|AXLL|Axiall Corp
+1909|CTAS|Cintas Corp
+1910|COTY|Coty Inc
+1911|ANDE|Andersons Inc
+1912|VAL|Valspar Corp
+1913|NTRS|Northern Trust Corp
+1914|INTU|Intuit Corp
+1915|TPC|Tutor Perini Corp
+1916|PII|Polaris Industries Inc
+1917|RACE|Ferrari NV
+1918|NVR|NVR Inc
+1919|FWONA|Liberty Media Formula One Corp A
+1920|ENR|Energizer Holdings Inc
+1921|BLMN|Bloomin Brands Inc
+1922|WLK|Westlake Chemical Corp
+1923|H|Hyatt Hotels Corp
+1924|MJN|Mead Johnson Nutrition Co
+1925|EVHC|Envision Healthcare Holdings Inc
+1926|FBHS|Fortune Brands Home & Security Inc
+1927|RPM|RPM International Inc
+1928|VWR|VWR Corp
+1930|KEY|KeyCorp
+1931|KNX|Knight Transportation Inc
+1932|AGN|Allergan PLC
+1933|HAS|Hasbro Inc
+1934|RFP|Resolute Forest Products Inc
+1935|TIF|Tiffany & Co
+1936|MKC|McCormick & Co Inc
+1937|GPK|Graphic Packaging Holding Co
+1938|GEF|Greif Inc
+1939|ATI|Allegheny Technologies Inc
+1940|BEAV|B/E Aerospace Inc
+1941|TAP|Molson Coors Brewing Co
+1943|CNO|CNO Financial Group Inc
+1945|CMG|Chipotle Mexican Grill Inc
+1946|AMT|American Tower Corp
+1948|AFSI|AmTrust Financial Services Inc
+1949|BC|Brunswick Corp
+1950|PDCO|Patterson Companies Inc
+1951|SWN|Southwestern Energy Co
+1952|AME|AMETEK Inc (New)
+1953|TROW|T Rowe Price Group Inc
+1954|GL|Globe Life Inc
+1955|DAR|Darling Ingredients Inc
+1956|LEG|Leggett & Platt Inc
+1957|WSO|Watsco Inc
+1958|CEQP|Crestwood Equity Partners LP
+1959|XYL|Xylem Inc
+1960|SLGN|Silgan Holdings Inc
+1961|TOL|Toll Brothers Inc
+1962|MTW|Manitowoc Co Inc
+1963|ARGO|Argo Group
+1964|ARG|Airgas Inc
+1965|GNC|GNC Holdings Inc
+1966|MAR|Marriott International Inc
+1967|SQ|Square
+1968|MTCH|Match Group
+1969|SEDG|SolarEdge Technologies
+1970|FIT|Fitbit
+1971|NTDOY|Nintendo CO Ltd
+1972|REGN|Regeneron Pharmaceuticals
+1973|SGMO|Sangamo Biosciences Inc
+1974|NTLA|Intellia Therapeutics Inc
+1975|EDIT|Editas Medicine Inc
+1976|MS|Morgan Stanley
+1977|CLLS|Cellectis SA
+1978|RMS|Hermes International
+1979|SNAP|Snapchat Inc
+2000|AAL.L|Anglo American
+2001|ABF.L|Associated British Foods
+2002|ADM.L|Admiral Group
+2003|ADN.L|Aberdeen Asset Management
+2004|AGK.L|Aggreko
+2005|AHT.L|Ashtead Group
+2006|AMFW.L|Amec Foster Wheeler Plc
+2007|ANTO.L|Antofagasta
+2008|ARM.L|ARM Holdings
+2009|AV.L|Aviva
+2010|AZN.L|AstraZeneca
+2011|BA.L|BAE Systems
+2012|BAB.L|Babcock International
+2013|BARC.L|Barclays
+2014|BATS.L|British American Tobacco
+2015|BG.L|BG Group
+2016|BLND.L|British Land
+2017|BHP.L|BHP Billiton
+2018|BNZL.L|Bunzl
+2019|BP.L|BP
+2020|BRBY.L|Burberry Group
+2021|SKY.L|Sky PLC
+2022|BT.L|BT Group
+2023|CCH.L|Coca Cola Hellenic
+2024|CCL.L|Carnival
+2025|CNA.L|Centrica
+2026|CPG.L|Compass Group
+2027|CPI.L|Capita
+2028|CRH.L|CRH
+2029|DGE.L|Diageo
+2030|EXPN.L|Experian
+2031|EZJ.L|easyJet
+2032|FRES.L|Fresnillo
+2033|GFS.L|G4S
+2034|GKN.L|GKN
+2035|GLEN.L|Glencore Plc
+2036|GSK.L|GlaxoSmithKline
+2037|HL.L|Hargreaves Lansdown
+2038|HMSO.L|Hammerson
+2039|HSBA.L|HSBC Holdings
+2040|IAG.L|International Consolidated Airlines
+2041|IHG.L|InterContinental Hotels Group
+2042|IMI.L|IMI
+2043|IMB.L|Imperial Brands PLC
+2044|ITRK.L|Intertek Group
+2045|ITV.L|ITV
+2046|JMAT.L|Johnson Matthey
+2047|KGF.L|Kingfisher
+2048|LAND.L|Land Securities
+2049|LGEN.L|Legal & General
+2050|LLOY.L|Lloyd's
+2051|LSE.L|London Stock Exchange
+2052|MGGT.L|Meggitt
+2053|MKS.L|Marks & Spencer
+2054|MNDI.L|Mondi
+2055|MRO.L|Melrose Industries
+2056|MRW.L|Morrisons
+2057|NG.L|National Grid
+2058|NXT.L|Next
+2059|OML.L|Old Mutual
+2060|PFC.L|Petrofac
+2061|PRU.L|Prudential
+2062|PSN.L|Persimmon
+2063|PSON.L|Pearson
+2064|RB.L|Reckitt Benckiser
+2065|NWG.L|Natwest Group PLC
+2066|RDSA.L|Royal Dutch Shell
+2068|REL.L|RELX PLC
+2069|REX.L|REXAM
+2070|RIO.L|Rio Tinto
+2071|RMG.L|Royal Mail
+2072|RR.L|Rolls-Royce
+2073|RRS.L|Randgold Resources
+2074|RSA.L|RSA Insurance
+2075|RSL.L|Resolution
+2076|SAB.L|SABMiller
+2077|SBRY.L|Sainsbury (J)
+2078|SDR.L|Schroders
+2079|SGE.L|Sage Group
+2080|SHP.L|Shire
+2081|SLA.L|Standard Life Aberdeen PLC
+2082|SMIN.L|Smiths Group
+2083|SN.L|Smith & Nephew
+2084|FRAS|Frasers Group
+2085|SSE.L|SSE
+2086|STAN.L|Standard Chartered
+2087|SVT.L|Severn Trent
+2088|TATE.L|Tate & Lyle
+2089|TLW.L|Tullow Oil
+2090|TPK.L|Travis Perkins
+2091|TSCO.L|Tesco
+2092|TT.L|TUI Travel
+2093|ULVR.L|Unilever
+2094|UU.L|United Utilities
+2095|VOD.L|Vodafone Group
+2096|WEIR.L|Weir Group
+2097|WMH.L|William Hill
+2098|FERG.L|Ferguson PLC
+2099|WPP.L|WPP
+2100|WTB.L|Whitbread
+2101|DMGT.L|Daily Mail plc
+2102|III|3i Group PLC
+2151|BDEV.L|Barratt Developments
+2152|CRDA.L|Croda International
+2153|DCC.L|DCC PLC
+2154|DLG.L|Direct Line Group
+2155|INF.L|Informa
+2156|MCRO.L|Micro Focus International PLC
+2157|FLTR.L|Paddy Power Betfair
+2158|RTO.L|Rentokil Initial PLC
+2159|SGRO.L|Segro
+2160|SKG.L|Smurfit Kappa Group
+2161|SMT.L|Scottish Mortgage Investment Trust
+2163|TUI.L|TUI AG
+2164|TW.L|Taylor Wimpey
+2165|QLT.L|Quilter PLC
+2166|MDC.L|Mediclinic International PLC
+2167|AML.L|Aston Martin Lagonda Global Holdings PLC
+2168|FEVR.L|Fevertree Drinks PLC
+2169|ASC.L|ASOS PLC
+2171|RDSB.L|Royal Dutch Shell B
+2172|RYyA.L.OLD|Ryanair Holdings PLC
+2173|AVST.L|Avast PLC
+2175|SMSN.L|Samsung Electronics Co Ltd
+2176|TRN.L|Trainline PLC
+2211|AKSO.OL|Aker Solutions
+2212|BWLPG.OL|BW LPG
+2213|DNB.OL|DNB
+2214|DNO.OL|DNO International
+2215|FOE.OL|Fred. Olsen Energy
+2216|GJF.OL|Gjensidige Forsikring
+2217|GOGL.OL|Golden Ocean Group
+2218|MOWI.OL|Mowi ASA
+2219|NHY.OL|Norsk Hydro
+2220|NAS.OL|Norwegian Air Shuttle
+2222|ORK.OL|Orkla
+2223|PGS.OL|Petroleum Geo-Services
+2224|PRS.OL|Prosafe
+2226|STB.OL|Storebrand
+2227|SUBC.OL|Subsea 7
+2228|TEL.OL|Telenor
+2229|TGS.OL|TGS-NOPEC
+2230|YAR.OL|Yara International
+2231|ERIC-A.ST|Ericsson
+2232|TELIA.ST|Telia Company AB
+2233|NDA_SE.ST|Nordea Bank AB
+2234|VOLV-A.ST|Volvo AB ser. A
+2235|SEB-A.ST|Skandinaviska Enskilda Banken ser. A
+2236|SAND.ST|Sandvik AB
+2237|HM-B.ST|Hennes & Mauritz AB
+2239|SHB-A.ST|Svenska Handelsbanken ser. A
+2240|SKF-A.ST|SKF
+2241|SWED-A.ST|Swedbank AB ser A
+2242|ASSA-B.ST|ASSA ABLOY AB ser. B
+2243|ATCO-A.ST|Atlas Copco AB ser. A
+2244|BOL.ST|Boliden AB
+2246|ALFA.ST|Alfa Laval AB
+2248|SECU-B.ST|Securitas AB ser. B
+2249|SKA-B.ST|Skanska AB ser. B
+2250|INVE-A.ST|Investor AB ser. A
+2251|LUPE.ST|Lundin Petroleum AB
+2252|TREL-B.ST|Trelleborg AB ser. B
+2253|SWMA.ST|Swedish Match AB
+2254|HEXA-B.ST|Hexagon AB ser. B
+2256|ICA.ST|ICA Gruppen AB
+2257|INDU-A.ST|Industrivärden
+2258|LUND-B.ST|Lundbergföretagen AB
+2259|SANT.DE|S&T AG
+2260|NOVO-B.CO|Novo Nordisk B A/S
+2261|DANSKE.CO|Danske Bank A/S
+2262|ORSTED.CO|Orsted A/S
+2263|VWS.CO|Vestas Wind Systems A/S
+2264|NZYM-B.CO|Novozymes B A/S
+2265|PNDORA.CO|Pandora A/S
+2266|TRYG.CO|Tryg A/S
+2267|DSV.CO|DSV A/S
+2268|DEMANT.CO| Demant A/S
+2269|ISS.CO|ISS A/S
+2270|LUN.CO|H. Lundbeck A/S
+2271|GMAB.CO|Genmab A/S
+2272|COLO-B.CO|Coloplast B A/S
+2274|CHR.CO|Chr. Hansen Holding A/S
+2277|NDA1V.HE|Nordea Bank AB
+2278|SSABAH.HE|SSAB AB ser. A
+2280|FORTUM.HE|Fortum Oyj
+2281|UPM.HE|UPM-Kymmene Oyj
+2282|NESTE.HE|Neste Oyj
+2283|KNEBV.HE|KONE Oyj
+2284|SAMPO.HE|Sampo Oyj A
+2285|ELISA.HE|Elisa Oyj
+2286|TYRES.HE|Nokian Renkaat Oyj
+2287|WRT1V.HE|Wärtsilä Oyj Abp
+2300|0939.HK|China Construction Bank
+2301|3988.HK|Bank of China
+2302|1398.HK|Industrial And Commercial Bank of China
+2303|1288.HK|Agricultural Bank of China
+2304|0386.HK|Sinopec
+2305|0883.HK|Cnooc
+2306|2007.HK|Country Garden
+2307|0998.HK|China Citic Bank
+2308|1988.HK|Minsheng Bank
+2309|1339.HK|Peoples Insurance Company (Group) of China
+2310|3323.HK|China National Building Material
+2311|1359.HK|China Cinda Asset Management Co Ltd
+2312|0992.HK|Lenovo Group
+2313|1088.HK|China Shenhua
+2314|1171.HK|Yanzhou Coal
+2315|1800.HK|China Communications Construction
+2316|2318.HK|Ping An Insurance
+2317|3800.HK|GCL-Poly Energy
+2318|0902.HK|Huaneng Power International Inc (HK)
+2319|2328.HK|Picc Property And Casualty
+2320|0762.HK|China Unicom HK
+2321|0728.HK|China Telecom
+2322|1816.HK|CGN Power Co Ltd
+2323|2899.HK|Zijin Mining
+2324|2628.HK|China Life Insurance (HK)
+2325|1898.HK|China Coal Energy
+2326|0494.HK|Li & Fung Ltd
+2327|3328.HK|Bank of Communications
+2328|0753.HK|Air China
+2329|0968.HK|Xinyi Solar Holdings Ltd
+2330|0688.HK|China Overseas Land & Investment
+2331|2333.HK|Great Wall Motor
+2332|2883.HK|China Oilfield
+2333|0916.HK|China Longyuan
+2334|1299.HK|AIA Group Ltd
+2335|0390.HK|China Railway Group
+2336|2338.HK|Weichai Power
+2337|2601.HK|China Pacific Insurance
+2338|3968.HK|China Merchants Bank
+2339|0700.HK|Tencent
+2340|2238.HK|Guangzhou Automobile
+2341|1966.HK|China SCE Property Holdings Ltd
+2342|0941.HK|China Mobile
+2343|0489.HK|Dongfeng Motor Group
+2344|6030.HK|CITIC Securities Co Ltd
+2345|1628.HK|Yuzhou Properties Co Ltd
+2346|0914.HK|Anhui Conch
+2347|0656.HK|Fosun International
+2348|1618.HK|Metallurgical Corporation of China
+2349|1109.HK|China Resources Land
+2350|1186.HK|China Railway Construction
+2351|00001.HK|CK Hutchison Holdings Ltd
+2352|00002.HK|CLP Holdings Ltd
+2353|00006.HK|Power Assets Holdings Ltd
+2354|00011.HK|Hang Seng Bank Ltd
+2355|00016.HK|Sun Hung Kai Properties Ltd
+2356|00017.HK|New World Development Co Ltd
+2357|00019.HK|Swire Pacific Ltd
+2358|00027.HK|Galaxy Entertainment Group Ltd
+2359|00135.HK|Kunlun Energy Co Ltd
+2360|00175.HK|Geely Automobile Holdings Ltd
+2361|00241.HK|Alibaba Health Information Tec
+2362|00257.HK|China Everbright International
+2363|00268.HK|Kingdee International Software
+2364|00285.HK|BYD Electronic International
+2365|00322.HK|Tingyi Cayman Islands Holding
+2366|00384.HK|China Gas Holdings Ltd
+2367|00388.HK|Hong Kong Exchanges & Clearing
+2368|00763.HK|ZTE Corp
+2369|00788.HK|China Tower Corp Ltd
+2370|00857.HK|PetroChina Co Ltd
+2371|00880.HK|SJM Holdings Ltd
+2372|00966.HK|China Taiping Insurance Holdin
+2373|00981.HK|Semiconductor Manufacturing
+2374|01055.HK|China Southern Airlines Co Ltd
+2375|01093.HK|CSPC Pharmaceutical Group Ltd
+2376|01113.HK|CK Asset Holdings Ltd
+2377|01114.HK|Brilliance China Automotive
+2378|01128.HK|Wynn Macau Ltd
+2379|01177.HK|Sino Biopharmaceutical Ltd
+2380|01211.HK|BYD Co Ltd
+2381|01336.HK|New China Life Insurance Co Ltd
+2382|01928.HK|Sands China Ltd
+2383|02018.HK|AAC Technologies Holdings Inc
+2384|02020.HK|ANTA Sports Products Ltd
+2385|02196.HK|Shanghai Fosun Pharmaceutical
+2386|02269.HK|Wuxi Biologics Cayman Inc
+2387|02313.HK|Shenzhou International Group
+2388|02319.HK|China Mengniu Dairy Co Ltd
+2389|02382.HK|Sunny Optical Technology Group
+2390|02386.HK|Sinopec Engineering Group Co
+2391|02388.HK|BOC Hong Kong Holdings Ltd
+2392|02688.HK|ENN Energy Holdings Ltd
+2393|03333.HK|China Evergrande Group
+2394|03690.HK|Meituan Class B
+2395|03908.HK|China International Capital Co
+2396|03993.HK|China Molybdenum Co Ltd
+2397|06060.HK|ZhongAn Online P&C Insurance
+2398|06837.HK|Haitong Securities Co Ltd
+2399|06862.HK|Haidilao International Holding
+2400|06881.HK|China Galaxy Securities Co Ltd
+2401|06886.HK|Huatai Securities Co Ltd
+2402|9988.HK|Alibaba Group Holding Ltd (Hong Kong)
+2403|01122.HK|Qingling Motors Co Ltd
+2404|1958.HK|BAIC Motor Corp Ltd
+2405|1585.HK|Yadea Group Holdings Ltd
+2406|3.HK|Hong Kong & China Gas Co Ltd
+2407|12.HK|Henderson Land Development Co Ltd
+2408|83.HK|Sino Land Co Ltd
+2409|101.HK|Hang Lung Properties Ltd
+2410|151.HK|Want Want China Holdings Ltd
+2412|1801.HK|Innovent Biologics Inc
+2413|341.HK|Cafe de Coral Holdings Ltd
+2414|669.HK|Techtronic Industries Co Ltd
+2415|823.HK|Link REIT
+2416|1038.HK|CK Infrastructure Holdings Ltd
+2417|1044.HK|Hengan International Group Co Ltd
+2418|1317.HK|China Maple Leaf Educational Systems Ltd
+2419|1530.HK|3SBio Inc
+2420|1797.HK|Koolearn Technology Holding Ltd
+2421|1873.HK|Viva Biotech Holdings
+2422|1997.HK|Wharf Real Estate Investment Co Ltd
+2423|2013.HK|Weimob Inc
+2424|2778.HK|Champion REIT
+2425|6185.HK|CanSino Biologics Inc
+2426|778.HK|Fortune Real Estate Investment Trust
+2428|9618.HK|JD.com Inc
+2429|9926.HK|Akeso Inc
+2430|200.HK|Melco International Development Ltd
+2500|HDD.DE|Heidelberger Druckmaschinen AG
+2501|AIXA.DE|AIXTRON
+2502|O2D.DE|Telefonica Deutschland Holding AG
+2503|CEC.DE|Ceconomy St
+2504|EVT.DE|EVOTEC
+2505|KGX.DE|KION GROUP
+2506|SHA.DE|Schaeffler
+2508|UN01.DE|Uniper
+2509|NDX1.DE|Nordex
+2510|SGL.DE|SGL Carbon
+2511|EVK.DE|Evonik
+2512|DWNI.DE|Deutsche Wohnen
+2513|LXS.DE|LANXESS
+2514|QGEN.DE|QIAGEN
+2515|DLG.DE|Dialog Semiconductor
+2516|1COV.DE|Covestro
+2518|G1A.DE|GEA
+2519|RKET.DE|Rocket Internet
+2520|WDI.DE|Wirecard
+2521|ZAL.DE|Zalando
+2522|SZU.DE|Suedzucker
+2523|GYC.DE|Grand City Properties
+2524|TEG.DE|TAG Immobilien
+2525|GXI.DE|Gerresheimer
+2526|FNTN.DE|freenet
+2527|GBF.DE|Bilfinger
+2528|AOX.DE|alstria office REIT-AG
+2529|SZG.DE|Salzgitter
+2530|BNR.DE|Brenntag
+2531|ARL.DE|Aareal Bank
+2532|PAT.DE|PATRIZIA AG
+2533|UTDI.DE|United Internet
+2534|LEO.DE|LEONI
+2535|WAF.DE|Siltronic
+2536|SY1.DE|Symrise
+2537|RRTL.DE|RTL
+2538|SOW.DE|Software
+2539|SAZ.DE|STADA
+2540|DEQ.DE|Deutsche Euroshop
+2541|HLE.DE|Hella
+2542|HLAG.DE|Hapag-Lloyd
+2543|ZIL2.DE|ElringKlinger
+2544|OSR.DE|OSRAM
+2545|BOSS.DE|HUGO BOSS
+2546|MOR.DE|MorphoSys
+2547|DRI.DE|Drillisch
+2548|EVD.DE|CTS Eventim
+2550|SHL.DE|Siemens Healthineers AG
+2551|VNA.DE|Vonovia SE
+2552|IGY.DE|Innogy SE
+2553|HNR1.DE|Hannover Rueck SE
+2554|KBX.DE|Knorr-Bremse AG
+2555|SRT.DE|Sartorius AG
+2556|MTX.DE|MTU Aero Engines AG
+2557|HOT.DE|HOCHTIEF AG
+2558|TLX.DE|Talanx AG
+2559|AT1.DE|Aroundtown SA
+2560|AFX.DE|Carl Zeiss Meditec AG
+2561|LEG.DE|LEG Immobilien AG
+2562|FRA.DE|Fraport AG Frankfurt Airport S
+2563|RAA.DE|Rational AG
+2564|DHER.DE|Delivery Hero SE
+2565|DWS.DE|DWS Group GmbH & Co KGaA
+2566|NEM.DE|Nemetschek SE
+2567|B4B.DE|METRO AG
+2568|FIE.DE|Fielmann AG
+2569|G24.DE|Scout24 AG
+2570|SPR.DE|Axel Springer SE
+2571|WCH.DE|Wacker Chemie AG
+2572|GLJ.DE|GRENKE AG
+2573|SIX2.DE|SIXT SE
+2575|BC8.DE|Bechtle AG
+2577|PSM.DE|ProSiebenSat.1 Media SE
+2578|SAX.DE|Stroeer SE & Co KGaA
+2579|COP.DE|CompuGroup Medical SE
+2580|TLG.DE|TLG Immobilien AG
+2581|KRN.DE|Krones AG
+2582|DUE.DE|Duerr AG
+2583|ADJ.DE|ADO Properties SA
+2585|NDA.DE|Aurubis AG
+2586|PUM.DE|PUMA AG
+2587|RHM.DE|Rheinmetall AG
+2588|VOE.DE|Voestalpine AG
+2590|JEN.DE|Jenoptik
+2591|JUN3.DE|Jungheinrich Aktie
+2594|SFT|SoftBank Group Corp
+2600|HILS.L|Hill & Smith Holdings PLC
+2601|MGAM.L|Morgan Advanced Materials PLC
+2602|COA.L|Coats Group PLC
+2603|DPH.L|Dechra Pharmaceuticals PLC
+2604|MSLH.L|Marshalls PLC
+2605|HWDN.L|Howden Joinery Group PLC
+2606|INTU.L|Intu Properties PLC
+2607|SNR.L|Senior PLC
+2609|OSB.L|OneSavings Bank PLC
+2610|SXS.L|Spectris PLC
+2611|SPX.L|Spirax-Sarco Engineering PLC
+2612|TCAP.L|TP ICAP PLC
+2613|FSJ.L|James Fisher & Sons PLC
+2614|BBY.L|Balfour Beatty PLC
+2615|COB.L|Cobham PLC
+2616|RMV.L|Rightmove PLC
+2617|SHI.L|SIG PLC
+2618|SYNT.L|Synthomer PLC
+2619|HAS.L|Hays PLC
+2621|RCP.L|RIT Capital Partners PLC
+2622|UTG.L|UNITE Group PLC
+2623|SMDS.L|DS Smith PLC
+2624|HTG.L|Hunting PLC
+2625|HSTG.L|Hastings Group Holdings PLC
+2626|BOY.L|Bodycote PLC
+2627|JLG.L|John Laing Group PLC
+2628|HSTN.L|Hansteen Holdings PLC
+2629|ESNT.L|Essentra PLC
+2630|IGG.L|IG Group Holdings PLC
+2631|DTY.L|Dignity PLC
+2632|RNK.L|Rank Group PLC
+2633|RSW.L|Renishaw PLC
+2634|PTEC.L|Playtech Plc
+2635|CRST.L|Crest Nicholson Holdings plc
+2636|RDW.L|Redrow PLC
+2637|DRX.L|Drax Group PLC
+2638|SIG.L|Signature Aviation PLC
+2639|CCC.L|Computacenter PLC
+2640|SOPH.L|Sophos Group PLC
+2641|STOB.L|Stobart Group Ltd
+2642|ISAT.L|Inmarsat PLC
+2643|DLN.L|Derwent London PLC
+2644|RTN.L|Restaurant Group PLC
+2645|BCPT.L|BMO Commercial Property Trust Ltd
+2647|POLY.L|Polymetal International PLC
+2648|IWG.L|IWG PLC
+2649|PLI.L|Perpetual Income and Growth Investment T
+2650|CAPC.L|Capital & Counties Properties PLC
+2651|GFTU.L|Grafton Group PLC
+2652|TMPL.L|Temple Bar Investment Trust PLC
+2653|CKN.L|Clarkson PLC
+2654|GRG.L|Greggs PLC
+2655|ELM.L|Elementis PLC
+2656|RAT.L|Rathbone Brothers PLC
+2657|PAGE.L|Pagegroup PLC
+2658|SVS.L|Savills PLC
+2659|PHNX.L|Phoenix Group Holdings
+2660|SGC.L|Stagecoach Group PLC
+2661|ULE.L|Ultra Electronics Holdings PLC
+2662|NEX.L|National Express Group PLC
+2663|ASCL.L|Ascential PLC
+2664|CEY.L|Centamin PLC
+2665|LMP.L|LondonMetric Property PLC
+2666|AUTO.L|Auto Trader Group PLC
+2667|ATST.L|Alliance Trust PLC
+2668|ESUR.L|esure Group PLC
+2670|HOC.L|Hochschild Mining PLC
+2671|ACA.L|Acacia Mining PLC
+2672|WG.L|John Wood Group PLC
+2674|PLP.L|Polypipe Group plc
+2675|JLT.L|Jardine Lloyd Thompson Group PLC
+2676|HIK.L|Hikma Pharmaceuticals PLC
+2677|FDSA.L|Fidessa Group PLC
+2679|DC.L|Dixons Carphone PLC
+2680|HICL.L|HICL Infrastructure Co Ltd
+2682|FDM.L|FDM Group Holdings PLC
+2683|CINE.L|Cineworld Group PLC
+2684|ROR.L|Rotork PLC
+2685|BKG.L|Berkeley Group Holdings PLC
+2686|TRIG.L|Renewables Infrastructure Group Ltd
+2687|EVR.L|Evraz PLC
+2688|IBST.L|Ibstock PLC
+2689|EMG.L|Man Group PLC
+2690|MLC.L|Millennium & Copthorne Hotels PLC
+2691|REDD.L|Redde Northgate PLC
+2692|VM.L|Virgin Money Holdings UK PLC
+2693|HSX.L|Hiscox Ltd
+2694|FXPO.L|Ferrexpo PLC
+2695|VSVS.L|Vesuvius PLC
+2696|GNK.L|Greene King PLC
+2697|UKCM.L|UK Commercial Property Trust Ltd
+2698|LRE.L|Lancashire Holdings Ltd
+2699|SMP.L|St Modwen Properties PLC
+2700|PZC.L|PZ Cussons PLC
+2702|RPC.L|RPC Group PLC
+2704|INCH.L|Inchcape PLC
+2705|DOM.L|Domino's Pizza Group PLC
+2706|HFD.L|Halfords Group PLC
+2707|MONY.L|Moneysupermarket.com Group PLC
+2709|QQ.L|QinetiQ Group PLC
+2710|BEZ.L|Beazley PLC
+2711|JUP.L|Jupiter Fund Management PLC
+2713|INVP.L|Investec PLC
+2714|CTY.L|City of London Investment Trust PLC
+2716|VED.L|Vedanta Resources PLC
+2717|BBOX.L|Tritax Big Box REIT Plc
+2719|SAFE.L|Safestore Holdings PLC
+2720|HLMA.L|Halma PLC
+2721|SMWH.L|WH Smith PLC
+2723|WKP.L|Workspace Group PLC
+2724|HSV.L|HomeServe PLC
+2725|PNN.L|Pennon Group PLC
+2726|BWNG.L|N Brown Group PLC
+2727|TEP.L|Telecom Plus PLC
+2728|ETO.L|Entertainment One Ltd
+2730|MNKS.L|Monks Investment Trust PLC
+2731|TALK.L|TalkTalk Telecom Group PLC
+2732|FCIT.L|Foreign & Colonial Investment Trust PLC
+2733|PAG.L|Paragon Group of Cos PLC
+2734|DCG.L|Dairy Crest Group PLC
+2737|NXG.L|NEX Group PLC
+2738|CWK.L|Cranswick PLC
+2739|BME.L|B&M European Value Retail SA
+2740|BGEO.L|BGEO Group PLC
+2742|BYG.L|Big Yellow Group PLC
+2743|PAY.L|PayPoint PLC
+2744|MTO.L|Mitie Group PLC
+2745|JD.L|JD Sports Fashion PLC
+2746|MRC.L|Mercantile Investment Trust PLC
+2748|ECM.L|Electrocomponents PLC
+2749|AGR.L|Assura PLC
+2750|TEM.L|Templeton Emerging Markets Investment Tr
+2751|INDV.L|Indivior PLC
+2753|3IN.L|3i Infrastructure PLC
+2754|ICP.L|Intermediate Capital Group PLC
+2755|SHB.L|Shaftesbury PLC
+2756|PETS.L|Pets at Home Group Plc
+2757|NRR.L|NewRiver REIT PLC
+2758|TBCG.L|TBC Bank Group PLC
+2760|VCT.L|Victrex PLC
+2762|RDI.L|Redefine International PLC
+2763|SPI.L|Spire Healthcare Group PLC
+2764|GRI.L|Grainger PLC
+2765|ZPG.L|ZPG PLC
+2766|CSP.L|Countryside Properties PLC
+2767|UDG.L|UDG Healthcare PLC
+2768|GPOR.L|Great Portland Estates PLC
+2769|GNC.L|Greencore Group PLC
+2770|SSPG.L|SSP Group Plc
+2771|BVIC.L|Britvic PLC
+2772|MAB.L|Mitchells & Butlers PLC
+2773|DPLM.L|Diploma PLC
+2774|ERM.L|Euromoney Institutional Investor PLC
+2775|MARS.L|Marston's PLC
+2776|BRW.L|Brewin Dolphin Holdings PLC
+2778|BWY.L|Bellway PLC
+2779|TED.L|Ted Baker PLC
+2780|BAG.L|A.G. Barr PLC
+2781|SAGA.L|Saga PLC
+2782|AA.L|AA PLC
+2783|NMC|NMC Health PLC
+2784|JUST.L|Just Group PLC
+2785|CARD.L|Card Factory PLC
+2786|JDW.L|J D Wetherspoon PLC
+2787|MCS.L|McCarthy & Stone PLC
+2788|INPP.L|International Public Partnerships Ltd
+2790|SNN.L|Sanne Group PLC
+2791|ENT.L|Entain PLC
+2792|KIE.L|Kier Group PLC
+2793|SCT.L|Softcat PLC
+2794|GOG.L|Go-Ahead Group PLC
+2795|CBG.L|Close Brothers Group PLC
+2798|DNLM.L|Dunelm Group PLC
+2799|VTY.L|Vistry Group PLC
+2800|GFRD.L|Galliford Try PLC
+2801|ASHM.L|Ashmore Group PLC
+2802|TCG.L|Thomas Cook Group PLC
+2803|GNS.L|Genus PLC
+2805|SRP.L|Serco Group PLC
+2806|PDL.L|Petra Diamonds Ltd
+2807|NOG.L|Nostrum Oil & Gas PLC
+2808|HVPE.L|HarbourVest Global Private Equity Ltd
+2809|KAZ.L|KAZ Minerals PLC
+2810|FGP.L|Firstgroup PLC
+2811|CNE.L|Cairn Energy PLC
+2812|BTG.L|BTG PLC
+2815|GSS.L|Genesis Emerging Markets Fund Ltd
+2816|WIZZ.L|Wizz Air Holdings Plc
+2817|OCDO.L|Ocado Group PLC
+2818|SXX.L|Sirius Minerals PLC
+2820|MTRO.L|Metro Bank PLC
+2821|AVV.L|AVEVA Group PLC
+2822|VEC.L|Vectura Group PLC
+2823|PSH.L|Pershing Square Holdings Ltd
+2824|VMUK.L|Virgin Money UK
+2825|JE.L|Just Eat PLC
+2827|IPO.L|IP Group PLC
+2828|VOF.L|VinaCapital Vietnam Opportunity Fund
+2831|TIFS.L|TI Fluid Systems
+2832|SDRY.L|Superdry
+2833|SEQI.L|Sequoia Economic Infrastructure Income Fund
+2834|SDP.L|Schroder AsiaPacific Fund
+2835|RHIM.L|RHI Magnesita
+2836|RWI.L|Renewi
+2838|PURE.L|Purecircle
+2839|PFG.L|Provident Financial
+2840|PHP.L|Primary Health Properties
+2841|PIN.L|Pantheon International
+2842|OTB.L|On the Beach
+2843|MERL.L|Merlin Entertainments
+2844|JEO.L|Jupiter European Opportunities Trust
+2845|GAW.L|Games Workshop
+2848|EQN.L|Equiniti
+2849|DGN.L|Edinburgh Dragon Trust
+2850|CTEC.L|ConvaTec
+2851|GLO.L|ContourGlobal
+2852|CCFS.L|Charter Court Financial Services
+2854|BCA.L|BCA Marketplace
+2856|BAKK.L|Bakkavor
+2859|888.L|888 Holdings
+2860|CSX5.LN|CoreiShares  EURO STOXX 50 UCITS ETF
+2861|IUAA.L|iShares US Aggregate Bond UCITS ETF
+2863|SPT.L|Spirent Communications PLC
+2864|SPY5.L|SPDR S&P 500 UCITS ETF
+2865|UDVD|SPDR S&P US Dividend Aristocrats UCITS ETF
+3000|SPY|SPDR S&P 500 ETF
+3001|EEM|Emrg Mkts Index MSCI Ishares
+3002|GDX|Gold Miners ETF VanEck Vectors
+3003|EWJ|Ishares MSCI JAPAN ETF
+3004|XLF|Financial Select Sector SPDR
+3005|IWM|Ishares Russell 2000 ETF
+3006|QQQ|Powershares QQQ
+3007|USO|United States Oil Fund
+3008|XLE|Energy Select Sector SPDR
+3009|EFA|EAFE Index MSCI Ishares
+3010|FXI|FTSE China 25 Index Fund Ishares
+3011|RSX|Russia ETF VanEck Vectors
+3012|EWZ|Brazil Index MSCI Ishares
+3013|XLU|Utilities Select Sector SPDR
+3014|GDXJ|Junior Gold Miners ETF VanEck Vectors
+3015|IYR|DJ US Real Estate Ishares
+3016|XOP|SPDR S&P Oil & Gas Exploration & Prod
+3017|XLV|Healthcare Select Sector SPDR
+3018|UNG|US Natural Gas
+3019|XLI|Industrial Select Sector SPDR
+3020|TLT|20+ Year Trsy Bond Ishares
+3021|XLK|Technology Select Sector SPDR
+3022|XLP|Consumer Staples Select Sector SPDR
+3023|HYG|Iboxx $ High Yield Corporate Bd Ishares
+3024|XLY|Consumer Discret Select Sector SPDR
+3025|GLD|SPDR Gold
+3026|DIA|SPDR DOW 30 ETF
+3027|SSO|Proshares Ultra S&P 500
+3028|IBB|Ishares Nasdaq Biotechnology
+3029|MDY|SPDR S&P Midcap 400
+3030|LQDE.L|iShares $ Corporate Bond UCITS ETF
+3035|IAEX.L|iShares AEX UCITS ETF
+3036|IAPD.L|iShares Asia Pacific Dividend UCITS ETF
+3040|SWDA.L|iShares Core MSCI World UCITS ETF
+3048|IEML.L|iShares Emerging Markets Local Government Bond UCITS ETF
+3052|ISF.L|iShares FTSE 100 UCITS ETF (Dist)
+3054|IMIB.L|iShares FTSE MIB UCITS ETF (Dist)
+3058|SEMB.L|iShares J.P. Morgan $ Emerging Markets Bond UCITS ETF
+3060|IFFF.L|iShares MSCI AC Far East ex-Japan UCITS ETF
+3061|IBZL.L|iShares MSCI Brazil UCITS ETF (Dist)
+3063|IDEM.L|iShares MSCI Emerging Markets UCITS ETF (Dist)
+3066|IMEU.L|iShares MSCI Europe UCITS ETF (Dist)
+3068|IJPE.L|iShares MSCI Japan EUR Hedged UCITS ETF
+3072|ITWN.L|iShares MSCI Taiwan UCITS ETF
+3075|IUSA.L|iShares S&P 500 UCITS ETF (Dist)
+3079|IUKP.L|iShares UK Property UCITS ETF
+3080|VXXOLD|BARCLAYS BANK IPATH S&P 500 VIX S/T FU ETN
+3099|XIV|Credit Suisse AG - VelocityShares Daily Inverse VIX Short Term ETN
+3100|SHY|iShares Barclays 1-3 Year Treasry Bnd Fd
+3101|IEF|iShares Barclays 7-10 Year Trasry Bnd Fd
+3102|DBA|PowerShares DB Agriculture Fund
+3103|CORN|Teucrium Corn Fund
+3104|WEAT|Teucrium Wheat Fund
+3105|UGA|United States Gasoline Fund
+3111|RWR|SPDR DOW JONES REIT ETF
+3118|EWY|ISHARES MSCI SOUTH KOREA CAP
+3121|EWW|ISHARES MSCI MEXICO CAPPED
+3122|EWT|ISHARES MSCI TAIWAN CAPPED E
+3124|LQD|ISHARES IBOXX INVESTMENT GRA
+3125|BOND|PIMCO TOTAL RETURN ACTIVE EX
+3137|HMMJ|Horizons Marijuana Life Sciences Index ETF
+3138|IVV|iShares Core S&P 500 ETF
+3139|IEFA|iShares Core MSCI EAFE ETF
+3140|AGG|iShares Core U.S. Aggregate Bond ETF
+3141|IEMG|iShares Core MSCI Emerging Markets ETF
+3142|IJH|iShares Core S&P Mid-Cap ETF
+3143|IJR|iShares Core S&P Small-Cap ETF
+3144|ITOT|iShares Core S&P Total U.S. Stock Market ETF
+3145|IXUS|iShares Core MSCI Total International Stock ETF
+3146|HDV|iShares Core High Dividend ETF
+3147|IUSG|iShares Core S&P US Growth
+3148|IUSV|iShares Core S&P US Value
+3149|DGRO|iShares Core Dividend Growth ETF
+3150|IEUR|iShares Core MSCI Europe ETF
+3151|IUSB|iShares Core Total USD Bond Market ETF
+3152|ISTB|iShares Core 1-5 Year USD Bond ETF
+3153|AOR|iShares Core Growth Allocation ETF
+3155|IPAC|iShares Core MSCI Pacific ETF
+3156|IDEV|iShares Core MSCI International Developed Markets ETF
+3157|AOA|iShares Core Aggressive Allocation ETF
+3158|IAGG|iShares Core International Aggregate Bond ETF
+3159|USRT|iShares Core U.S. REIT ETF
+3160|AOK|iShares Core Conservative Allocation ETF
+3161|ILTB|iShares Core 10+ Year USD Bond ETF
+3162|IMTB|iShares Core 5-10 Year USD Bond ETF
+3163|VXX|VIX Short-Term Futures ETN Ipath (B)
+3164|AMZA|InfraCap MLP ETF
+3165|ARKF|ARK Fintech Innovation ETF
+3166|ARKK|ARK Innovation ETF
+3167|ARKW|ARK Next Generation Internet ETF
+3168|BAR|Graniteshares Gold Trust
+3169|BLOK|Amplify Transformational Data Sharing ETF
+3170|BLV|Vanguard Long-Term Bond ETF
+3171|BRZU|Direxion Daily MSCI Brazil Bull 2X Shares
+3172|CGW|Invesco S&P Global Water Index ETF
+3173|CQQQ|Invesco China Technology ETF
+3174|DBO|Invesco DB Oil Fund
+3175|DFEN|Direxion Daily Aerospace & Defense Bull 3X Shares
+3176|DIV|Global SuperDividend US ETF
+3177|DJP|iPath Bloomberg Commodity Index Total Return ETN
+3178|DRIP|Direxion Daily S&P Oil & Gas Exp. & Prod. Bear 2X Shares
+3179|DUST|Direxion Daily Gold Miners Index Bear 2X Shares
+3180|ERX|Direxion Daily Energy Bull 2X Shares
+3181|EWL|iShares MSCI Switzerland ETF
+3182|EWN|iShares MSCI Netherlands ETF
+3183|FAS|Direxion Daily Financial Bull 3X Shares
+3185|FIVG|Defiance Next Gen Connectivity ETF
+3187|FNGU|MicroSectors FANG+ Index 3X Leveraged ETNs due January 8
+3188|FREL|Fidelity MSCI Real Estate Index ETF
+3189|FTEC|Fidelity MSCI Information Technology Index ETF
+3190|GLDM|SPDR Gold MiniShares Trust
+3191|GUSH|Direxion Daily S&P Oil & Gas Exp. & Prod. Bull 2X Shares
+3192|IHI|iShares U.S. Medical Devices ETF
+3193|IXJ|iShares Global Healthcare ETF
+3194|JDST|Direxion Daily Junior Gold Miners Index Bear 2X Shares
+3195|JETS|US Global Jets ETF
+3196|JNUG|Direxion Daily Junior Gold Miners Index Bull 2X Shares
+3198|LABD|Direxion Daily S&P Biotech Bear 3X Shares
+3199|LABU.US|Direxion Daily S&P Biotech Bull 3X Shares
+3200|LIT|Global X Lithium & Battery Tech ETF
+3202|NAIL|Direxion Shares Etf Trust-Direxion Daily Homebuilders & Supplies Bull 3x Shares
+3204|NRGU|MicroSectors US Big Oil Index 3X Leveraged ETN
+3205|NUGT|Direxion Daily Gold Miners Index Bull 2X Shares
+3206|OIH|VanEck Vectors Oil Services ETF
+3207|OUSA|OShares US Quality Dividend ETF
+3208|PALL|Aberdeen Standard Physical Palladium Shares ETF
+3209|PGX|Invesco Preferred ETF
+3210|PHYS|Sprott Physical Gold Trust
+3212|PPLT|Aberdeen Standard Physical Platinum Shares ETF
+3213|PSLV|Sprott Physical Silver Trust
+3214|REET|iShares Global REIT ETF
+3215|REML|X-Links Monthly Pay 2x Leveraged Mortgage REIT ETN
+3216|RUSL|Direxion Daily Russia Bull 2X Shares
+3217|SCHD|Schwab US Dividend Equity ETF
+3218|SCHE|Schwab Emerging Markets Equity ETF
+3219|SCHF|Schwab International Equity ETF
+3220|SCHX|Schwab US Large-Cap ETF
+3221|SDIV|Global X SuperDividend ETF
+3223|SDOW|ProShares UltraPro Short Dow30
+3224|SDS|ProShares UltraShort S&P500
+3225|SH|ProShares Short S&P500
+3226|SOXL|Direxion Daily Semiconductors Bull 3x Shares
+3227|SOXS|Direxion Daily Semiconductor Bear 3X Shares
+3228|SPGP.L|iShares Gold Producers UCITS ETF
+3229|SPHD|Invesco S&P 500 High Dividend Low Volatility ETF
+3230|SPXL|Direxion Daily S&P 500 Bull 3X
+3231|SPXS|Direxion Daily S&P 500 Bear 3X Shares
+3232|SPXU|ProShares UltraPro Short S&P 500
+3233|SPYD|SPDR Portfolio S&P 500 High Dividend ETF
+3234|SPYG|SPDR Portfolio S&P 500 Growth ETF
+3235|SRTY|ProShares UltraPro Short Russell2000
+3236|SVXY|ProShares Short VIX Short-Term Futures ETF
+3237|TAN|Invesco Solar ETF
+3238|THD|iShares MSCI Thailand ETF
+3239|TMF|Direxion Daily 20 Year Plus Treasury Bull 3x Shares
+3241|TNA|Direxion Daily Small Cap Bull 3X Shares
+3242|UCO|ProShares Ultra Bloomberg Crude Oil
+3243|UDOW|ProShares UltraPro Dow30
+3244|UPRO|ProShares UltraPro S&P 500
+3245|USL|United States 12 Month Oil Fund LP
+3246|UVXY|ProShares Ultra VIX Short-Term Futures ETF
+3247|VB|Vanguard Small-Cap ETF
+3248|VBK|Vanguard Small-Cap Growth ETF
+3249|VBR|Vanguard Small-Cap Value ETF
+3250|VFH|Vanguard Financials ETF
+3251|VHT|Vanguard Health Care ETF
+3252|VIG|Vanguard Dividend Appreciation ETF
+3253|VO|Vanguard Mid-Cap ETF
+3254|VOOG|Vanguard S&P 500 Growth ETF
+3255|VOOV|Vanguard S&P 500 Value ETF
+3256|VOX|Vanguard Communication Services ETF
+3257|VT.US|Vanguard Total World Stock ETF
+3258|VTEB|Vanguard Tax-Exempt Bond Index ETF
+3259|YINN|Direxion Daily FTSE China Bull 3X Shares
+3260|YYY|Amplify High Income ETF
+4001|GOLD.BARRICK|Barrick Gold
+4002|ACWI|iShares MSCI ACWI Index Fund
+4003|AGRO|Adecoagro S.A.
+4004|AKAM|Akamai Technologies
+4005|AKRX|Akorn
+4006|ALLE|Allegion
+4008|AMG|Affiliated Managers Group
+4009|AN|AutoNation
+4011|ANSS|ANSYS
+4013|ARII|American Railcar Industries Inc
+4015|AXTA|Axalta Coating Systems
+4016|BB|BlackBerry Limited
+4017|BITA|Bitauto Holdings Limited
+4018|BPY|Brookfield Property Partners L.P.
+4020|BSAC|Banco Santander Chile
+4021|BUD|Anheuser-Busch Inbev Sa
+4023|CAA|CalAtlantic Group
+4024|CACQ|Caesars Acquisition
+4026|CAVM|Cavium Inc
+4027|CBPO|China Biologic
+4028|CERN|Cerner Corp.
+4029|CHDN|Churchill Downs Inc.
+4031|CIT|CIT Group
+4033|CME|CME Group
+4035|COO|Cooper Cos Inc
+4036|CRI|Carters
+4037|UNIT|Uniti Group Inc
+4039|CVI.N|CVR Energy
+4040|CVRR|CVR Refining
+4041|CYBR|CyberArk
+4042|DCI|Donaldson Company
+4045|DNOW|Now Inc
+4046|DPZ|Dominos Pizza Inc
+4047|EAT|Brinker Intl.
+4048|EPC|Edgewell Personal Care
+4050|ESNT|Essent Group
+4053|FDML|Federal-Mogul Corp.
+4054|FEYE|FireEye
+4057|FLO|Flowers Foods
+4058|FLT|FleetCor Technologies
+4059|FTV|Fortive Corporation
+4061|GDDY|GoDaddy Inc.
+4062|GHC|Graham Holdings Co - Class B
+4063|GIB|CGI Group
+4064|GLPI|Gaming and Leisure
+4066|GRMN|Garmin Ltd.
+4067|GSAT|Globalstar
+4068|GWPH|GW Pharmaceuticals Plc
+4069|HAIN|Hain Celestial
+4070|HLF|Herbalife
+4071|HRI|Herc Holdings
+4072|HSY|Hershey Co
+4073|HTZGQ|Hertz Global Holdings Inc
+4074|HUBS|HubSpot
+4075|IBKR|Interactive Brokers Group
+4076|ICPT|Intercept Pharma
+4077|ILMN|Illumina
+4079|IMPV|Imperva
+4080|INCY|Incyte Corp.
+4081|INFY|Infosys Limited
+4083|INVN|InvenSense
+4084|IONS|Ionis Pharmaceuticals
+4085|IPGP|Ipg Photonics Corp.
+4086|TT|Trane Technologies
+4087|JAZZ|Jazz Pharmaceuticals
+4089|KHC|The Kraft Heinz Company
+4091|KRO|Kronos Worldwide Inc
+4093|LAMR|Lamar Advertising Company
+4095|LBTYA|Liberty Global A
+4096|LBTYK|Liberty Global C
+4098|LILA|Liberty Global PLC LiLAC Class A
+4099|LLTC|Linear Technology Corporation
+4102|LNG|Cheniere Energy Inc
+4104|LSXMA|Liberty Media Corporation Series A Liberty SiriusXM Common Stock
+4105|MAA|Mid-America Apartment
+4106|MCO|Moodys Corp.
+4107|MEG|Media General
+4108|MELI|MercadoLibre
+4109|WBT|Welbilt Inc
+4110|MMYT|Makemytrip
+4111|MNST|Monster Beverage Corp
+4114|MWA|MUELLER WATER PRODUCTS
+4115|MXL|Maxlinear Inc
+4116|NATI|National Instruments Corporation
+4117|NEWR|New Relic
+4118|NLSN|Nielsen N.V.
+4119|NUAN|Nuance Communications
+4121|NXPI|NXP Semiconductors
+4122|P|Pandora Media
+4123|PAM|Pampa Energia S.A.
+4124|PANW|Palo Alto Networks
+4125|PBYI|Puma Biotechnology Inc
+4126|PF|Pinnacle Foods
+4128|POWI|Power Integrations
+4129|PPC|Pilgrims Pride
+4130|PRGO|Perrigo Company
+4133|QSR|Restaurant Brands International Inc.
+4135|RHT|Red Hat
+4136|RIG|Transocean LTD
+4138|ROP|Roper Technologies Inc
+4140|SAVE|Spirit Airlines
+4141|SBAC|SBA Communications Corporation
+4142|SBNY|Signature Bank
+4143|SCI|Service Corp Intl
+4145|SEIC|SEI Investments Company
+4146|TMX|Terminix Global Holdings Inc
+4147|SGEN|Seattle Genetics
+4148|SHOP|Shopify Inc.
+4149|SIG|Signet Jewelers Limited (us)
+4153|SRCL|Stericycle
+4155|ST|Sensata Technologies Holding N.V.
+4157|SU|Suncor Energy Inc.
+4159|SWBI|Smith & Wesson Brands Inc
+4160|SWKS|Skyworks Solutions
+4161|SYNA|Synaptics Inc.
+4162|SYNT|Syntel
+4163|TDG|Transdigm Group Incorporated
+4164|TIVO|TiVo Corporation
+4165|TPH|TRI Pointe Group
+4166|TPX|Tempur Sealy
+4167|TRMB|Trimble Inc.
+4168|TVPT|Travelport
+4169|UA|Under Armour
+4170|UI|Ubiquiti Inc
+4171|USG|USG Corporation
+4172|VAR|Varian Medical Systems
+4173|VIAV|Viavi Solutions
+4174|VIPS|Vipshop
+4176|VMW|VMware
+4177|VRSK|Verisk Analytics
+4178|VRSN|Verisign
+4179|VRTX|Vertex Pharmaceuticals Incorporated
+4180|BHC|Bausch Health Companies Inc
+4181|VSTO|Vista Outdoor Inc.
+4182|W|Wayfair Inc.
+4183|WAT|Waters Corporation
+4184|WBC|WABCO Holdings
+4185|WFT|Weatherford International plc
+4186|WLTW|Willis Towers Watson Public Limited Company
+4188|WUBA|58.com Inc
+4189|XRAY|Dentsply Sirona Inc.
+4190|XXIA|Ixia
+4191|YELP|Yelp Inc.
+4193|ZEN|Zendesk
+4194|ZTS|Zoetis
+4196|BYD|Boyd Gaming
+4197|SIX|Six Flags
+4198|GRA|W.R Grace
+4199|WEN|Wendy's
+4200|LM|Legg Mason
+4201|CC|The Chemours
+4202|LAZ|Lazard
+4203|CACC|Credit Acceptance
+4204|RNR|Renaissancere Holdings
+4205|AON|Aon plc
+4206|COMM|CommScope Holding Co Inc
+4207|SBH|Sally Beauty
+4208|DNB|The Dun & Bradstreet
+4209|POST|Post holdings
+4210|OUT|Outfront Media
+4211|MMI|Marcus & Millichap
+4212|FAST|Fastenal Company
+4213|CCU|Cia Cervecerias unidas
+4214|FCPT|Four Corners Property Trust
+4215|RMAX|RE/MAX Holdings
+4216|HAWK|Blackhawk Network Holdings
+4218|AMP.MI|Amplifon
+4219|BGN.MI|Banca Generali
+4220|BAMI.MI|Banco Bpm
+4221|BRE.MI|Brembo
+4222|DIA.MI|Diasorin
+4223|FBK.MI|FinecoBank
+4224|IG.MI|Italgas
+4225|JUVE.MI|Juventus Football Club
+4226|PIRC.MI|Pirelli & C
+4227|PST.MI|Poste Italiane
+4228|REC.MI|Recordati
+4230|UNI.MI|Unipol
+4231|RDS.A|Royal Dutch ADR
+4232|NVS|Novartis ADR
+4235|BHP|BHP Group Ltd ADR
+4236|AVGO|Broadcom Inc
+4237|VTI|Vanguard Total Stock Market ETF
+4238|VOO|Vanguard S&P 500 ETF
+4239|AZN|AstraZeneca PLC ADR
+4240|RIO|Rio Tinto PLC ADR
+4241|LIN|Linde PLC
+4242|PBR.A|Petroleo Brasileiro ADR
+4243|BTI|British American Tobacco PLC ADR
+4244|ASML|ASML Holding NV
+4245|DD|DowDuPont Inc
+4246|ITUB|Itau Unibanco Holding ADR
+4247|ENB|Enbridge Inc
+4248|VEA|Vanguard FTSE Developed Market ETF
+4249|ABEV|Ambev ADR
+4250|BBD|Banco Bradesco ADR
+4251|ISRG|Intuitive Surgical Inc
+4252|VWO|Vanguard FTSE Emerging Markets
+4253|SLB|Schlumberger Ltd
+4254|TMUS|T-Mobile US Inc
+4255|CCI|Crown Castle International
+4257|OXY|Occidental Petroleum Corp
+4258|VTV|Vanguard Value ETF
+4259|PLD|Prologis Inc
+4260|NOW|ServiceNow Inc
+4261|DELL|Dell Technologies Inc C
+4262|IWF|iShares Russell 1000 Growth ETF
+4263|WDAY|Workday Inc A
+4264|ADI|Analog Devices Inc
+4265|EW|Edwards Lifesciences Corp
+4266|PRU|Prudential Financial Inc
+4267|VUG|Vanguard Growth ETF
+4268|EQIX|Equinix Inc
+4269|IWD|iShares Russell 1000 Value ETF
+4270|PSA|Public Storage
+4271|BND|Vanguard Total Bond Market ETF
+4272|CCL|Carnival Corp
+4273|ETN|Eaton Corp PLC
+4274|VNQ|Vanguard Real Estate ETF
+4275|LYB|LyondellBasell Industries NV
+4276|XLNX|Xilinx Inc
+4277|ALXN|Alexion Pharmaceuticals Inc
+4278|WELL|Welltower Inc
+4280|AMTD|TD Ameritrade Holding Corp
+4281|PAYX|Paychex Inc
+4283|SIRI|Sirius XM Holdings Inc
+4284|AVB|AvalonBay Communities Inc
+4285|EQR|Equity Residential
+4286|TEAM|Atlassian Corp PLC A
+4287|BKR|Baker Hughes A GE Co
+4289|DLR|Digital Realty Trust Inc
+4290|ZBH|Zimmer Biomet Holdings Inc
+4291|FDC|First Data Corp A
+4292|USMV|iShares Edge MSCI Min Vol USA
+4293|RCL|Royal Caribbean Cruises Ltd
+4294|ANET|Arista Networks Inc
+4295|VCSH|Vanguard Short-Term Corporate
+4296|BSV|Vanguard Short-Term Bond ETF
+4297|ADM|Archer-Daniels-Midland Co
+4298|VEU|Vanguard FTSE All-World ex-US
+4299|ALGN|Align Technology Inc
+4300|SYF|Synchrony Financial
+4301|IVW|iShares S&P 500 Growth ETF
+4302|VCIT|Vanguard Intermediate-Term Corp
+4303|DTE|DTE Energy Co
+4304|VTR|Ventas Inc
+4305|INFO|IHS Markit Ltd
+4306|APTV|Aptiv PLC
+4307|O|Realty Income Corp
+4308|CXO|Concho Resources Inc
+4309|LULU|Lululemon Athletica Inc
+4310|GPN|Global Payments Inc
+4311|TIP|iShares TIPS Bond ETF
+4312|HPE|Hewlett Packard Enterprise Co
+4313|MCHP|Microchip Technology Inc
+4314|BXP|Boston Properties Inc
+4315|TAL|TAL Education Group ADR
+4316|ULTA|Ulta Beauty Inc
+4317|KLAC|KLA Corporation
+4318|VGT|Vanguard Information Technology
+4319|IWB|iShares Russell 1000 ETF
+4320|IDXX|IDEXX Laboratories Inc
+4321|SHV|iShares Short Treasury Bond ETF
+4322|SPLK|Splunk Inc
+4323|VEEV|Veeva Systems Inc A
+4324|IWR|iShares Russell Mid-Cap ETF
+4325|AWK|American Water Works Co Inc
+4326|CDNS|Cadence Design Systems Inc
+4327|IAC|IAC/InterActiveCorp
+4328|CHD|Church & Dwight Co Inc
+4329|SNPS|Synopsys Inc
+4330|DXC|DXC Technology Co
+4331|MSCI|MSCI Inc
+4333|FRC|First Republic Bank/CA
+4334|EMB|iShares JP Morgan USD Emerging
+4335|YUMC|Yum China Holdings Inc
+4336|TEVA|Teva Pharmaceutical Industries ADR
+4337|TSS|Total System Services Inc
+4338|KEYS|Keysight Technologies Inc
+4339|FANG|Diamondback Energy Inc
+4340|TWLO|Twilio Inc A
+4341|ATUS|Altice USA Inc A
+4342|VMC|Vulcan Materials Co
+4343|CFG|Citizens Financial Group Inc
+4344|MXIM|Maxim Integrated Products Inc
+4346|FTNT|Fortinet Inc
+4347|CGC|Canopy Growth Corp
+4348|PFF|iShares Preferred & Income Sec
+4349|EVRG|Evergy Inc
+4350|NLY|Annaly Capital Management Inc
+4351|EDU|New Oriental Education & Techn ADR
+4352|IFF|International Flavors & Fragra
+4353|VTRS|Viatris Inc
+4354|HBAN|Huntington Bancshares Inc
+4355|MRO|Marathon Oil Corp
+4356|STX|Seagate Technology PLC
+4357|VGK|Vanguard FTSE Europe ETF
+4358|MRVL|Marvell Technology Group Ltd
+4359|CTXS|Citrix Systems Inc
+4361|TRU|TransUnion
+4362|ABMD|ABIOMED Inc
+4363|VST|Vistra Energy Corp
+4364|MLM|Martin Marietta Materials Inc
+4365|IAU|iShares Gold Trust
+4366|BR|Broadridge Financial Solutions
+4367|NCLH|Norwegian Cruise Line Holdings
+4368|SIVB|SVB Financial Group
+4369|WAB|Wabtec Corp
+4370|CMA|Comerica Inc
+4371|ELAN|Elanco Animal Health Inc
+4372|TSCO|Tractor Supply Co
+4373|ETFC|E*TRADE Financial Corp
+4374|KSU|Kansas City Southern
+4375|MINT|PIMCO Enhanced Short Maturity
+4376|EXAS|Exact Sciences Corp
+4377|DATA|Tableau Software Inc A
+4378|PAYC|Paycom Software Inc
+4379|COG|Cabot Oil & Gas Corp
+4380|STNE|StoneCo Ltd A
+4381|LW|Lamb Weston Holdings Inc
+4382|DXCM|DexCom Inc
+4383|ULTI|Ultimate Software Group Inc
+4384|QUAL|iShares Edge MSCI USA Quality
+4386|OVV|Ovintiv Inc
+4387|WRK|Westrock Co
+4388|SPLV|Invesco S&P 500 Low Volatility
+4389|OKTA|Okta Inc
+4390|GG|Goldcorp Inc
+4391|FFIV|F5 Networks Inc
+4392|JNK|SPDR Bloomberg Barclays High Y
+4393|ADS|Alliance Data Systems Corp
+4394|IWO|iShares Russell 2000 Growth ETF
+4395|AMLP|Alerian MLP ETF
+4396|IWN|iShares Russell 2000 Value ETF
+4397|ON|ON Semiconductor Corp
+4398|DOCU|DocuSign Inc
+4399|TTD|Trade Desk Inc A
+4400|SRPT|Sarepta Therapeutics Inc
+4401|ZION|Zions Bancorp NA
+4402|MTUM|iShares Edge MSCI USA Momentum
+4403|ZS|Zscaler Inc
+4404|CVNA|Carvana Co
+4405|GWRE|Guidewire Software Inc
+4406|MDB|MongoDB Inc
+4407|BIL|SPDR Bloomberg Barclays 1-3 Months
+4408|OLED|Universal Display Corp
+4409|ROKU|Roku Inc
+4411|EZU|iShares MSCI Eurozone ETF
+4412|ZAYO|Zayo Group Holdings Inc
+4413|FIVE|Five Below Inc
+4414|NTNX| Nutanix Inc A
+4416|XEC|Cimarex Energy Co
+4417|GRUB|GrubHub Inc
+4418|MLNX|Mellanox Technologies Ltd
+4419|XPO|XPO Logistics Inc
+4420|GH|Guardant Health Inc
+4421|CIEN|Ciena Corp
+4422|PE|Parsley Energy Inc A
+4423|COUP|Coupa Software Inc
+4425|VSM|Versum Materials Inc
+4427|XLC|SPDR-COMM SERV Equity
+4428|BKLN|Invesco Senior Loan ETF
+4429|INDA|iShares MSCI India ETF
+4430|SLV|iShares Silver Trust
+4431|XBI|SPDR S&P Biotech ETF
+4432|MCHI|iShares MSCI China ETF
+4433|AAXJ|iShares MSCI All Country Asia
+4434|LITE|Lumentum Holdings Inc
+4435|BHF|Brighthouse Financial Inc
+4437|ONCE|Spark Therapeutics Inc
+4438|XLB|Materials Select Sector SPDR
+4439|TNDM|Tandem Diabetes Care Inc
+4440|ELLI|Ellie Mae Inc
+4441|EWH|iShares MSCI Hong Kong ETF
+4442|XLRE|Real Estate Select Sector SPDR
+4443|KRE|SPDR S&P Regional Banking ETF
+4444|WLL|Whiting Petroleum Corp
+4445|FEZ|SPDR EURO STOXX 50 ETF
+4446|EWG|iShares MSCI Germany ETF
+4447|ASHR|Xtrackers Harvest CSI 300 China
+4448|RH|RH
+4449|KBE|SPDR S&P Bank ETF
+4450|KWEB|KraneShares CSI China Internet
+4451|LNT|Alliant Energy Corp
+4452|JKHY|Jack Henry & Associates Inc
+4453|XS6R.L|Xtrackers Stoxx Europe 600 Utilities Swap ETF
+4454|XDJP.L|Xtrackers Nikkei 225 UCITS ETF
+4459|SQQQ|ProShares UltraPro Short QQQ
+4460|TVIX|VelocityShares Daily 2x VIX Short-Term ETN
+4461|TZA|Direxion Daily Small Cap Bear 3x Shares
+4462|FAZ|Direxion Daily Financial Bear 3X Shares
+4463|SOXX|iShares PHLX Semiconductor ETF
+4464|SCO|ProShares UltraShort Bloomberg Crude Oil
+4465|TQQQ|ProShares UltraPro QQQ
+4466|SKYY|First Trust Cloud Computing
+4467|XCX5.L|Xtrackers MSCI India Swap UCITS ETF
+4482|TME|Tencent Music Entertainment Group
+4483|PDD|Pinduoduo Inc
+4485|WB|Weibo Corp
+4488|BILI|Bilibili
+4489|NIO|Nio Inc.
+4491|VOE|Vanguard Mid-Cap Value ETF
+4492|IWS|iShares Russell Mid-Cap Value ETF
+4493|IJJ|iShares S&P Mid-Cap 400 Value ETF
+4494|MUB|iShares National Muni Bond ETF
+4495|TFI|SPDR Nuveen Bloomberg Barclays Municipal Bond ETF
+4496|VTIP|Vanguard Short-Term Inflation-Protected Securities ETF
+4497|JPST|JPMorgan Ultra-Short Income ETF
+4498|BNDX|Vanguard Total International Bond ETF
+4499|NIU|Niu Technologies
+4500|AALB.NV|Aalberts Industries NV
+4501|ABN.NV|ABN AMRO Group NV
+4502|ADYEN.NV|Adyen NV
+4503|AGN.NV|Aegon NV
+4504|AKZA.NV|Akzo Nobel NV
+4505|ATC.NV|Altice Europe NV
+4506|AMG.NV|AMG Advanced Metallurgical Group NV
+4507|ARCAD.NV|Arcadis NV
+4508|ASMI.NV|ASM International NV
+4509|ASML.NV|ASML Holding NV
+4510|ASRNL.NV|ASR Nederland NV
+4513|BESI.NV|BE Semiconductor Industries NV
+4514|BOKA.NV|Koninklijke Boskalis Westminster NV
+4516|DSM.NV|Koninklijke DSM NV
+4517|FLOW.NV|Flow Traders Cooperatief UA
+4519|GVNV.NV|GrandVision NV
+4521|HEIA.NV|Heineken
+4522|HEIO.NV|Heineken Holding NV
+4524|IMCD.NV|IMCD NV
+4525|INTER.NV|Intertrust NV
+4526|KPN.NV|KPN
+4528|NN.NV|NN Group NV
+4529|OCI.NV|OCI NV
+4531|PHIA.NV|Royal Philips Electronics NV
+4532|PNL.NV|PostNL NV
+4533|RAND.NV|Randstad Holding NV
+4534|SBMO.NV|SBM Offshore NV
+4535|LIGHT.NV|Signify NV
+4537|TKWY.NV|Takeaway.com NV
+4539|TWEKA.NV|TKH Group
+4540|TOM2.NV|TomTom BV
+4541|UNA.NV|Unilever DR
+4542|KVW.NV|Koninklijke VolkerWessels NV
+4543|VOPA.NV|Koninklijke Vopak NV
+4544|WHA.NV|Wereldhave NV
+4545|WKL.NV|Wolters Kluwer NV
+4546|AD.NV|Koninklijke Ahold NV
+4548|URW.NV|Unibail-Rodamco-Westfield
+5000|ATO.PA|Atos SE
+5001|DSY.PA|Dassault Systemes
+5002|SW.PA|Sodexo SA
+5003|STM.PA|STMicroelectronics NV
+5004|FTI.PA|TechnipFMC Ltd
+5005|AF.PA|Air France-KLM
+5006|ALT.PA|Altran Technologies SA
+5007|AMUN.PA|Amundi SA
+5008|BB.PA|Societe BIC SA
+5009|BIM.PA|BioMerieux
+5010|BOL.PA|Bollore SA
+5011|BVI.PA|Bureau Veritas SA
+5012|CO.PA|Casino Guichard Perrachon SA
+5013|CNP.PA|CNP Assurances
+5014|AM.PA|Dassault Aviation SA
+5015|FGR.PA|Eiffage SA
+5016|ELIOR.PA|Elior Group SA
+5017|ERF.PA|Eurofins Scientific SE
+5018|ENX.PA|Euronext NV
+5019|FNAC.PA|Fnac Darty SA
+5020|GNFT.PA|Genfit
+5021|GET.PA|Getlink SE
+5022|ADP.PA|Aeroports de Paris ADP
+5023|ILD.PA|Iliad SA
+5024|ING.PA|Ingenico Group SA
+5025|IPN.PA|Ipsen SA
+5027|LI.PA|Klepierre SA
+5028|MMB.PA|Lagardere SCA
+5029|MMT.PA|Metropole Television SA
+5030|KN.PA|Natixis SA
+5031|NXI.PA|Nexity SA
+5032|POM.PA|Cie Plastic Omnium SA
+5033|RCO.PA|Remy Cointreau SA
+5034|SK.PA|SEB SA
+5035|SOP.PA|Sopra Steria Group
+5036|SEV.PA|Suez
+5037|TKTT.PA|Tarkett SA
+5038|TCH.PA|Technicolor SA
+5039|TFI.PA|Television Francaise 1
+5040|HO.PA|Thales SA
+5041|TRI.PA|Trigano SA
+5042|UBI.PA|Ubisoft Entertainment SA
+5043|VK.PA|Vallourec SA
+5044|CDI.PA|Christian Dior
+5045|FSLY|Fastly Inc
+5046|LK|Luckin Coffee Inc.
+5500|PLUS|PLUS 500 LTD
+5501|CMCX|CMC MARKETS PLC
+5502|GCAP|GAIN CAPITAL HOLDINGS LTD
+5503|FVRR|Fiverr International
+5504|WORK|Slack Technologies Inc
+5505|CHWY|Chewy
+5506|CRWD|Crowdstrike Holdings
+5507|FTCH|Farfetch
+5508|ACX.MC|Acerinox SA
+5509|AENA.MC|Aena SME
+5510|ALM.MC|Laboratorios Almirall SA
+5512|APPS.MC|Applus Services SA
+5518|ENC.MC|Ence Energia Y Celulosa SA
+5523|GEST.MC|Gestamp Automocion
+5526|LOG.MC|Compania de Distribucion Integral Logista Holdings
+5527|MAS.MC|Masmovil Ibercom SA
+5528|MEL.MC|Melia Hotels International SA
+5533|PHM.MC|Pharma Mar SA
+5534|PSG.MC|Prosegur Compania de Seguridad SA
+5542|UNI.MC|Unicaja Banco SA
+5544|VIS.MC|Viscofan SA
+5560|AKA.PA|Akka Technologies
+5561|DBV.PA|DBV Technologies
+5567|IRE.MI|Iren
+5569|MAERBc.CO|A P Moller
+5571|CGCBV.HE|Cargotec Oyj
+5572|DNA.HE|DNA Oyj
+5573|HUH1V.HE|Huhtamaki Oyj
+5576|METSB.HE|Metsa Board
+5578|NOKIA.HE|Nokia Corp.
+5580|OUT1V.HE|Outokumpu Oyj
+5581|MOCORP.HE|Metso Outotec Oyj
+5591|AMS.ZU|Ams AG
+5592|LAND.ZU|Landis Gyr Group Ltd
+5593|UBXN.ZU|u-blox Holding AG
+5596|DAE.ZU|Daetwyler Holding AG
+5598|SRAIL.ZU|Stadler Rail AG
+5603|S92.DE|SMA Solar Technology AG
+5604|KTOS|Kratos Defense & SEC Solutions Com new
+5605|AMBA|Ambarella Inc
+5606|HEI|Heico Corporation
+5607|AVAV|AeroVironment Inc.
+5608|PARRO.PA|Parrot SA
+5609|DOYU|Douyu
+5610|Ryanair|Ryanair
+5611|CLA.PA|Claranova SADIR
+5612|MZDAY|Mazda Motor Corp
+5613|BMWYY|Bayerische Motoren Werke AG
+5614|DEN|Denbury Resources Inc
+5615|QFIN|360 Finance Inc.
+5617|ALRM|Alarm.com Holdings Inc.
+5618|ALDR|Alder BioPharmaceuticals Inc.
+5621|AVID|Avid Technology Inc.
+5622|AXGN|Axogen Inc.
+5623|BLDP|Ballard Power Systems Inc.
+5624|BEAT|BioTelemetry Inc.
+5625|CAMP|CalAmp Corp.
+5626|CSIQ|Canadian Solar Inc.
+5627|CEVA|Ceva Inc.
+5628|CNMD|Conmed Corp.
+5630|CRAY|Cray Inc.
+5631|CREE|Cree Inc.
+5632|CY|CYPRESS SEMICOND
+5633|DENN|Dennys Corp.
+5634|ENPH|Enphase Energy Inc.
+5635|EEFT|Euronet Worldwide Inc.
+5636|FLEX|Flex Ltd
+5637|FLIR|FLIR Systems Inc.
+5638|FOSL|Fossil Inc.
+5639|GNTX|Gentex Corporation
+5640|PI|Impinj Inc.
+5641|PODD|Insulet Corp.
+5642|IDCC|InterDigital Inc.
+5643|IRTC|iRhythm Technologies Inc.
+5645|IRBT|iRobot Corp.
+5646|JOUT|Johnson Outdoors Inc.
+5648|MASI|Masimo Corp.
+5649|MDSO|Medidata Solutions Inc.
+5650|NUVA|NuVasive Inc.
+5651|ORBC|ORBCOMM Inc.
+5652|POOL|Pool Corp.
+5653|PTC|PTC Inc.
+5654|QRVO|Qorvo Inc.
+5656|QTT|Qutoutiao Inc.
+5657|SMTC|Semtech Corp.
+5659|SLAB|Silicon Laboratories Inc.
+5660|RUN|Sunrun Inc.
+5661|UEIC|Universal Electronics Inc.
+5662|ZBRA|Zebra Technologies Corp.
+5664|JMIA|Jumia Technologies AG
+5665|FDS|Factset Research Systems Inc.
+5666|XXII|22nd Century Group Inc.
+5667|DDD|3D Systems Corp.
+5668|AYI|Acuity Brands Inc.
+5669|ADT|ADT Inc.
+5670|AYX|Alteryx Inc.
+5671|AQ|Aquantia Corp.
+5672|BFAM|Bright Horizons Family Solutions
+5674|CLDR|Cloudera Inc.
+5675|CIG|Companhia Energetica de Minas Gerais
+5676|CUB|Cubic Corp.
+5677|HAE|Haemonetics Corp.
+5679|HMI|Huami Corp.
+5680|HUBb|Hubbell Inc.
+5682|IIPR|Innovative Industrial Properties Inc. A
+5683|INSP|Inspire Medical Systems Inc.
+5685|LTC.US|LTC Properties Inc.
+5686|MX|MagnaChip Semiconductor Corp.
+5687|MAIN|Main Street Capital Corp.
+5688|MD|MEDNAX Inc.
+5690|NPTN|NeoPhotonics Corp.
+5691|ORA.US|Ormat Technologies Inc.
+5692|QD|Qudian Inc.
+5693|RST|Rosetta Stone Inc.
+5694|STAG|STAG Industrial Inc.
+5695|STOR|Store Capital Corp.
+5696|TEL.US|TE Connectivity Ltd
+5697|VSLR|Vivint Solar Inc.
+5698|WTW|Weight Watchers International Inc.
+5699|WGO|Winnebago Industries Inc.
+5701|TRXC|TransEnterix Inc.
+5702|FLWS|1 800 FLOWERS COM
+5703|APRN|Blue Apron Holdings Inc.
+5704|CBRL|CBRL Group Inc.
+5705|JBT|John Bean Technologies Corp.
+5706|PZZA|Papa Johns International Inc.
+5707|PFGC|Performance Food Group Co.
+5708|SFM|Sprouts Farmers Market Inc.
+5709|THS|TreeHouse Foods Inc.
+5710|USFD|US Foods Holding Corp.
+5711|WE|WeWork
+5712|NET|Cloudflare
+5714|PTON|Peloton Interactive
+5715|JFU|9F Inc
+5721|HER.MI|Hera SPA
+5722|IP.MI|Interpump Group
+5724|AMBUB.CO|Ambu A/S
+5726|FLS.CO|FLSmidth & Co. A/S
+5727|GN.CO|GN Store Nord A/S
+5728|JYSK.CO|Jyske Bank A/S
+5729|ROCKB.CO|Rockwool International B A/S
+5730|RBREW.CO|Royal Unibrew A/S
+5731|SIM.CO|SimCorp A/S
+5732|GLPG.NV|Galapagos
+5733|INGA.NV|ING Groep NV
+5735|ACKB.BR|Ackermans & Van Haaren NV
+5736|AGS.BR|Ageas NV
+5737|ABI.BR|Anheuser Busch InBev
+5738|ARGX.BR|Argenx Se
+5740|COLR.BR|Colruyt
+5741|GBLB.BR|Groupe Bruxelles Lambert
+5742|KBC.BR|KBC Groep
+5743|PROX.BR|Proximus SA
+5744|SOF.BR|Sofina SA
+5745|TNET.BR|Telenet Group Holding NV
+5746|UCB.BR|UCB SA
+5747|UMI.BR|Umicore
+5748|WDP.BR|Warehouse & Distribution De Pauw SICAFI SCA
+5749|AED.PA|Aedifica SA
+5750|COFB.PA|Cofinimmo SA
+5751|GLB.L.GBX|Glanbia Plc
+5752|KYG.L.GBX|Kerry Group Plc
+5753|KSP.L.GBX|Kingspan Group Plc
+5754|BCP|Banco Comercial Portugues SA
+5755|EDP.LSB|EDP - Energias de Portugal SA
+5757|JMT.LSB|Jeronimo Martins SGPS SA
+5758|ATE.PA|Alten SA
+5759|AKE.PA|Arkema
+5760|COV.PA|Covivio SA
+5761|EDEN.PA|Edenred SA
+5762|ELIS.PA|Elis SA
+5763|RF.PA|Eurazeo
+5764|ETL.PA|Eutelsat Communications
+5765|EO.PA|Faurecia
+5766|GFC.PA|Gecina Nom.
+5767|ICAD.PA|Icade SA
+5768|NK.PA|Imerys
+5769|DEC.PA|J C Decaux
+5770|ORP.PA|Orpea
+5771|RXL.PA|Rexel SA
+5772|RUI.PA|Rubis SCA
+5773|DIM.PA|Sartorius Stedim Biotech SA
+5774|SCR.PA|Scor SE
+5775|SESG.PA|SES GLOBAL FDR
+5776|SPIE.PA|Spie SA
+5777|TEP.PA|Teleperformance SE
+5778|MF.PA|Wendel
+5779|WLN.PA|Worldline SA
+5781|KESKOB.HE|Kesko Oyj B
+5782|KCR.HE|Konecranes Oyj
+5783|NELES.HE|Neles Oyj
+5785|ORNBV.HE|Orion Oyj B
+5787|VALMT.HE|Valmet Corporation
+5789|STJ.L|St.Jamess Place Capital Plc
+5797|AKERBP.OL|Aker BP ASA
+5798|EQNR.OL|Equinor ASA
+5799|NEL.OL|NEL ASA
+5800|SALM.OL|SalMar ASA
+5801|SCHA.OL|Schibsted ASA
+5802|TOM.OL|Tomra Systems
+5804|ALC.ZU|Alcon Inc.
+5806|BALN.ZU|Baloise Holding AG
+5807|BARN.ZU|Barry Callebaut AG
+5808|BUCN.ZU|Bucher Industries AG
+5809|CMBN.ZU|Cembra Money Bank AG
+5811|CLN.ZU|Clariant AG
+5812|DKSH.ZU|DKSH Holding AG
+5813|DUFN.ZU|Dufry AG
+5814|EMSN.ZU|Ems-Chemie Holding AG
+5815|FHZN.ZU|Flughafen Zurich AG
+5816|GALE.ZU|Galenica AG
+5818|HELN.ZU|Helvetia Holding AG
+5819|KNIN.ZU|Kuehne & Nagel International AG
+5820|LOGN.ZU|Logitech International SA
+5821|LONN.ZU|Lonza Group Ltd
+5822|OERL.ZU|OC Oerlikon Corporation AG
+5823|PARG.ZU|Pargesa Holding SA
+5824|PGHN.ZU|Partners Group Holding AG
+5825|PSPN.ZU|PSP Swiss Property AG
+5826|SCHP.ZU|Schindler Holding AG
+5827|SIKA.ZU|Sika Ltd
+5828|SOON.ZU|Sonova Holding AG
+5829|STMN.ZU|Straumann Holding Ltd
+5830|SRCG.ZU|Sunrise Communications Group Ltd
+5831|SPSN.ZU|Swiss Prime Site AG
+5832|TECN.ZU|Tecan Group AG
+5833|TEMN.ZU|Temenos Ltd
+5834|VACN.ZU|VAT Group Ltd
+5835|VIFN.ZU|Vifor Pharma AG
+5838|CLNX.MC|Cellnex Telecom SA
+5839|COL.MC|Inmobiliaria Colonial Socimi SA
+5840|MRL.MC|Merlin Properties SOCIMI SA
+5843|AAK.ST|AAK AB
+5844|CAST.ST|Castellum AB
+5845|DOM.ST|Dometic Group AB
+5846|EKTAB.ST|Elekta AB Ser. B
+5847|EPIA.ST|Epiroc AB - A shares - A shares
+5848|ESSITYB.ST|Essity AB ser. B
+5849|FABG.ST|Fabege AB
+5850|BALDB.ST|Fastighets AB Balder ser. B
+5851|GETIB.ST|Getinge AB Ser. B
+5852|HPOLB.ST|HEXPOL AB ser. B
+5853|HUSQB.ST|Husqvarna AB Ser. B
+5854|INVEB.ST|Investor AB ser. B
+5855|KINDSDB.ST|Kindred Group plc
+5857|LOOMIS.ST|Loomis AB
+5858|NIBEB.ST|Nibe Industrier AB Ser. B
+5860|SAABB.ST|Saab AB Ser. B
+5862|SOBI.ST|Swedish Orphan Biovitrum AB
+5863|TEL2B.ST|Tele2 AB Ser. B
+5882|PAH3.DE|Porsche Automobil Holding SE
+5888|FDJ.PA|LA FRANCAISE DES JEUX
+5952|CISN|Cision Ltd
+5954|STMP|Stamps.com Inc
+5955|RNG|RingCentral Inc
+5956|CSGP|CoStar Group Inc
+5957|SAM|Boston Beer Co Inc
+5958|ZM|Zoom Video Communications Inc
+5959|MTD|Mettler-Toledo International Inc
+5960|SE|Sea Ltd
+5962|CSOD|Cornerstone OnDemand Inc
+5963|MKTX|MarketAxess Holdings Inc
+5964|SSNC|SS&C Technologies Holdings Inc
+5965|WMGI|Wright Medical Group NV
+5966|EFX|Equifax Inc
+5967|CPRT|Copart Inc
+5968|TDOC|Teladoc Health Inc
+5969|IEX|IDEX Corp
+5970|KMT|Kennametal Inc
+5971|ODFL|Old Dominion Freight Line Inc
+5972|PRG|Prog Holdings Inc
+5973|MPW|Medical Properties Trust Inc
+5974|ARE|Alexandria Real Estate Equities Inc
+5976|BMRN|BioMarin Pharmaceutical Inc
+5977|ESS|Essex Property Trust Inc
+5978|PLNT|Planet Fitness Inc
+5979|AEO|American Eagle Outfitters Inc
+5980|PAGS|Pagseguro Digital Ltd
+5981|ACAD|ACADIA Pharmaceuticals Inc
+5982|LII|Lennox International Inc
+5983|PEN|Penumbra Inc
+5984|LPX|Louisiana-Pacific Corp
+5985|HOLX|Hologic Inc
+5986|EXR|Extra Space Storage Inc
+5987|TFX|Teleflex Inc
+5988|IT|Gartner Inc
+5989|ATNX|Athenex Inc
+5990|SMAR|Smartsheet Inc
+5991|OLLI|Ollies Bargain Outlet Holdings Inc
+5992|IRM|Iron Mountain Inc
+5993|CPE|Callon Petroleum Co
+5994|PFPT|Proofpoint Inc
+5995|SUI|Sun Communities Inc
+5996|LPT|Liberty Property Trust
+5997|ARWR|Arrowhead Pharmaceuticals Inc
+5998|SKT|Tanger Factory Outlet Centers Inc
+5999|NBIX|Neurocrine Biosciences Inc
+6001|UDR|UDR Inc
+6002|VNO|Vornado Realty Trust
+6004|RE|Everest Re Group Ltd
+6005|RMD|ResMed Inc
+6006|BIO|Bio-Rad Laboratories Inc
+6007|DRE|Duke Realty Corp
+6009|RETA|Reata Pharmaceuticals Inc
+6011|OHI|Omega Healthcare Investors Inc
+6012|STE|STERIS PLC
+6013|SUZ|Suzano SA
+6014|THO|Thor Industries Inc
+6015|CHGG|Chegg Inc
+6016|ATH|Athene Holding Ltd
+6017|NVCR|Novocure Ltd
+6018|EHTH|eHealth Inc
+6019|MRTX|Mirati Therapeutics Inc
+6020|MTN|Vail Resorts Inc
+6021|GNRC|Generac Holdings Inc
+6022|SFIX|Stitch Fix Inc
+6023|PKI|PerkinElmer Inc
+6024|TREE|LendingTree Inc
+6025|COLD|Americold Realty Trust
+6026|BZUN|Baozun Inc
+6027|CADE|Cadence BanCorp
+6028|MTH|Meritage Homes Corp
+6029|BJ|BJs Wholesale Club Holdings Inc
+6030|HQY|HealthEquity Inc
+6032|WPC|WP Carey Inc
+6033|SAFM|Sanderson Farms Inc
+6034|HGV|Hilton Grand Vacations Inc
+6035|REG|Regency Centers Corp
+6036|SAGE|Sage Therapeutics Inc
+6037|CRUS|Cirrus Logic Inc
+6038|PENN|Penn National Gaming Inc
+6039|PNR|Pentair PLC
+6040|GOSS|Gossamer Bio Inc
+6041|BG|Bunge Ltd
+6042|PRAH|PRA Health Sciences Inc
+6043|BLUE|Bluebird Bio Inc
+6044|FRT|Federal Realty Investment Trust
+6045|ARCH|Arch Coal Inc
+6046|WST|West Pharmaceutical Services Inc
+6048|ZTO|ZTO Express Cayman Inc
+6050|WTR|Essential Utilities Inc
+6051|DECK|Deckers Outdoor Corp
+6052|GGB|Gerdau SA
+6053|CROX|Crocs Inc
+6054|288.HK|WH Group Ltd
+6055|AZPN|Aspen Technology Inc
+6056|QTWO|Q2 Holdings Inc
+6057|OLN|Olin Corp
+6058|BRO|Brown & Brown Inc
+6059|CHE|Chemed Corp
+6060|BRFS|BRF SA
+6061|EVBG|Everbridge Inc
+6062|KBH|KB Home
+6063|TREX|Trex Co Inc
+6064|BXS|BancorpSouth Bank
+6065|RARX|Ra Pharmaceuticals Inc
+6066|REXR|Rexford Industrial Realty Inc
+6067|DNKN|Dunkin Brands Group Inc
+6068|EHC|Encompass Health Corp
+6069|AMED|Amedisys Inc
+6070|IBKC|IBERIABANK Corp
+6071|AAXN|Axon Enterprise Inc
+6072|CRL|Charles River Laboratories International Inc
+6073|SPWR|SunPower Corp
+6074|CUBE|CubeSmart
+6075|HRC|Hill-Rom Holdings Inc
+6077|MTDR|Matador Resources Co
+6078|SEAS|SeaWorld Entertainment Inc
+6079|PEB|Pebblebrook Hotel Trust
+6080|NVRO|Nevro Corp
+6081|VAC|Marriott Vacations Worldwide Corp
+6082|CHRS|Coherus Biosciences Inc
+6083|FRPT|Freshpet Inc
+6084|EXEL|Exelixis Inc
+6085|2331.HK|Li Ning Co Ltd
+6086|NTRA|Natera Inc
+6087|CZR|Caesars Enertainment Inc
+6088|HTA|Healthcare Trust of America Inc
+6089|ABCB|Ameris Bancorp
+6090|LSI|Life Storage Inc
+6091|HTHT|Huazhu Group Ltd
+6092|IPHI|Inphi Corp
+6094|IIVI|II-VI Inc
+6095|TMHC|Taylor Morrison Home Corp
+6096|BLDR|Builders FirstSource Inc
+6097|MRCY|Mercury Systems Inc
+6098|RDN|Radian Group Inc
+6099|CNK|Cinemark Holdings Inc
+6100|MDC|MDC Holdings Inc
+6101|NSP|Insperity Inc
+6102|PDCE|PDC Energy Inc
+6104|BRKR|Bruker Corp
+6105|INGN|Inogen Inc
+6106|PLAY|Dave & Busters Entertainment Inc
+6107|GOL|Gol Linhas Aereas Inteligentes SA
+6108|LPSN|LivePerson Inc
+6109|NVTA|Invitae Corp
+6110|SM|SM Energy Co
+6111|CTLT|Catalent Inc
+6112|AZUL|Azul SA
+6113|EGHT|8x8 Inc
+6114|AIN|Albany International Corp
+6115|EV|Eaton Vance Corp
+6116|1833.HK|Ping An Healthcare and Technology Co Ltd
+6117|VCYT|Veracyte Inc
+6118|RGEN|Repligen Corp
+6120|QEP|QEP Resources Inc
+6122|SBS|Cia de Saneamento Basico do Estado de Sao Paulo
+6123|FBP|First BanCorp/Puerto Rico
+6124|JACK|Jack in the Box Inc
+6125|SUM|Summit Materials Inc
+6126|TXRH|Texas Roadhouse Inc
+6127|GKOS|Glaukos Corp
+6128|ACIA|Acacia Communications Inc
+6129|SBRA|Sabra Health Care REIT Inc
+6130|BCO|Brinks Co
+6131|BHVN|Biohaven Pharmaceutical Holding Co Ltd
+6132|SXT|Sensient Technologies Corp
+6133|OAS|Oasis Petroleum Inc
+6134|TECH|Bio-Techne Corp
+6135|SKM|SK Telecom Co Ltd
+6136|BPMC|Blueprint Medicines Corp
+6137|00066.HK|MTR Corp Ltd
+6138|IMMU|Immunomedics Inc
+6139|OIBR|Oi SA
+6140|ATGE|Adtalem Global Education Inc
+6141|TACO|Del Taco Restaurants Inc
+6142|IDA|IDACORP Inc
+6143|ISBC|Investors Bancorp Inc
+6144|CNX|CNX Resources Corp
+6145|BOX|Box Inc
+6146|MTOR|Meritor Inc
+6147|SAIL|SailPoint Technologies Holding Inc
+6148|3888.HK|Kingsoft Corp Ltd
+6149|SCCO|Southern Copper Corp
+6150|6055.HK|China Tobacco International HK Co Ltd
+6151|IBP|Installed Building Products Inc
+6152|MRNA|Moderna Inc
+6153|TMV.DE|TeamViewer AG
+6154|LOGM|LogMeIn Inc
+6155|NVAX|Novavax Inc
+6166|PS|Pluralsight Inc
+6167|CODX|Co-Diagnostics Inc
+6168|ABIO|ARCA biopharma Inc
+6169|ACST|Acasti Pharma Inc
+6170|ADMP|Adamis Pharmaceuticals Corp
+6171|AEMD|Aethlon Medical Inc
+6172|AEZS|Aeterna Zentaris Inc
+6173|AGRX|Agile Therapeutics Inc
+6174|AIHS|Senmiao Technology Ltd
+6175|ALDX|Aldeyra Therapeutics Inc
+6176|ANTE|AirNet Technology Inc
+6177|APDN|Applied DNA Sciences Inc
+6178|APPS|Digital Turbine Inc
+6179|ARPO|Aerpio Pharmaceuticals Inc
+6180|ATHX|Athersys Inc
+6181|ATRS|Antares Pharma Inc
+6182|AVCO|Avalon GloboCare Corp
+6183|AVGR|Avinger Inc
+6184|AVXL|Anavex Life Sciences Corp
+6185|AXAS|Abraxas Petroleum Corp
+6186|AYRO|AYRO Inc
+6187|AYTU|Aytu BioScience Inc
+6188|BHTG|BioHiTech Global Inc
+6189|BIOC|Biocept Inc
+6190|BIOL|Biolase Inc
+6191|BKYI|Bio-key International Inc
+6192|BLFS|BioLife Solutions Inc
+6193|BLNK|Blink Charging Co
+6194|BNGO|BioNano Genomics Inc
+6195|BOXL|Boxlight Corp
+6196|BYFC|Broadway Financial Corp/DE
+6197|CDEV|Centennial Resource Development Inc/DE
+6198|CEMI|Chembio Diagnostics Inc
+6199|CETX|Cemtrex Inc
+6200|CHEK|Check Cap Ltd
+6201|CHFS|CHF Solutions Inc
+6202|CJJD|China Jo-Jo Drugstores Inc
+6203|CLDX|Celldex Therapeutics Inc
+6204|CLIR|ClearSign Technologies Corp
+6205|CLSK|Cleanspark Inc
+6206|CLSN|Celsion Corp
+6207|COCP|Cocrystal Pharma Inc
+6208|COOP|Mr Cooper Group Inc
+6209|CPRX|Catalyst Pharmaceuticals Inc
+6210|CTRM|Castor Maritime Inc
+6211|DFFN|Diffusion Pharmaceuticals Inc
+6212|DGLY|Digital Ally Inc
+6213|DLPN|Dolphin Entertainment Inc
+6214|DVAX|Dynavax Technologies Corp
+6215|EGAN|eGain Corp
+6216|EKSO|Ekso Bionics Holdings Inc
+6217|EVFM|Evofem Biosciences Inc
+6218|FAMI|Farmmi Inc
+6219|TTCF|Tattooed Chef Inc
+6220|FRSX|Foresight Autonomous Holdings Ltd
+6221|GENE|Genetic Technologies Ltd
+6222|GEVO|Gevo Inc
+6223|GHSI|Guardion Health Sciences Inc
+6224|GLBS|Globus Maritime Ltd
+6225|GNPX|Genprex Inc
+6226|GNUS|Genius Brands International Inc
+6227|CSCW|Color Star Technology Co Ltd
+6228|HJLI|Hancock Jaffe Laboratories Inc
+6229|HTBX|Heat Biologics Inc
+6230|HTGM|HTG Molecular Diagnostics Inc
+6231|IDEX|Ideanomics Inc
+6232|IMRN|Immuron Ltd
+6233|INPX|Inpixon
+6234|IZEA|IZEA Worldwide Inc
+6235|JAGX|Jaguar Health Inc
+6236|KIN|Kindred Biosciences Inc
+6237|KTOV|Kitov Pharma Ltd
+6238|GNOG|Golden Nugget Online Gaming Inc
+6239|LKCO|Luokung Technology Corp
+6240|LLIT|Lianluo Smart Ltd
+6241|LMFA|LM Funding America Inc
+6242|LPCN|Lipocine Inc
+6243|LUNA|Luna Innovations Inc
+6244|MARA|Marathon Patent Group Inc
+6245|MARK|Remark Holdings Inc
+6246|MBRX|Moleculin Biotech Inc
+6248|VRDN|Miragen Therapeutics Inc
+6249|MITK|Mitek Systems Inc
+6250|MDVL|MedAvail Holdings Inc
+6251|MYT|Urban Tea Inc
+6252|NAKD|Naked Brand Group
+6253|NBEV|New Age Inc
+6254|NESR|National Energy Services Reunited Corp
+6255|NNDM|Nano Dimension Ltd
+6256|NTEC|Intec Pharma Ltd
+6257|NXTD|NXT-ID Inc
+6258|OCGN|Ocugen Inc
+6259|ONTX|Onconova Therapeutics Inc
+6260|ONVO|Oraganovo Holdings Inc
+6261|OTLK|Outlook Therapeutics Inc
+6262|PAYS|Paysign Inc
+6263|PHUN|Phunware Inc
+6264|PLUG|Plug Power Inc
+6265|PRPO|Precipio Inc
+6266|QLGN|Qualigen Therapeutics Inc
+6267|REPH|Recro Pharma Inc
+6268|RESN|Resonant Inc
+6269|RGLS|Regulus Therapeutics Inc
+6270|RIOT|Riot Blockchain Inc
+6271|SCON|Superconductor Technologies Inc
+6272|SHIP|Seanergy Maritime Holdings Corp
+6273|SINT|SiNtx Technologies Inc
+6275|SNCA|Seneca Biopharma Inc
+6277|SOLO|ElectraMeccanica Vehicles Corp
+6278|SRNE|Sorrento Therapeutics Inc
+6279|SSSS|SuRo Capital Corp
+6280|SSTI|ShotSpotter Inc
+6281|SUNW|Sunworks Inc
+6282|SXTC|China SXT Pharmaceuticals Inc
+6283|TBLT|Toughbuilt Industries Inc
+6284|TELL|Tellurian Inc
+6285|TEUM|Pareteum Corp
+6286|TH|Target Hospitality Corp
+6287|TOPS|TOP Ships Inc
+6288|TRVN|Trevena Inc
+6289|TTNP|Titan Pharmaceuticals Inc
+6290|UONE|Urban One Inc
+6292|VBIV|VBI Vaccines Inc
+6293|VISL|Vislink Technologies Inc
+6294|VKTX|Viking Therapeutics Inc
+6295|VUZI|Vuzix Corp
+6296|VXRT|Vaxart Inc
+6297|WATT|Energous Corp
+6298|WKHS|Workhorse Group Inc
+6299|WRAP|Wrap Technologies Inc
+6300|XELA|Exela Technologies Inc
+6301|XSPA|XpresSpa Group Inc
+6302|ZNOG|Zion Oil & Gas Inc
+6303|ZSAN|Zosano Pharma Corp
+6304|ZYXI|Zynex Inc
+6305|ACMR|ACM Research Inc
+6306|ACRX|AcelRx Pharmaceuticals Inc
+6307|ADMA|ADMA Biologics Inc
+6308|ADMS|Adamas Pharmaceuticals Inc
+6309|ADVM|Adverum Biotechnologies Inc
+6310|ALT|Altimmune Inc
+6312|APPF|Appfolio Inc
+6313|ARCT|Arcturus Therapeutics Holdings Inc
+6314|AXSM|Axsome Therapeutics Inc
+6317|CAN|Canaan Inc
+6318|CDLX|Cardlytics Inc
+6319|CERS|Cerus Corp
+6320|CIBR|First Trust NASDAQ Cybersecurity ETF
+6321|CIDM|Cinedigm Corp
+6322|CLOU|Global X Cloud Computing ETF
+6323|CRIS|Curis Inc
+6324|CRSP|CRISPR Therapeutics AG
+6325|CRVS|Corvus Pharmaceuticals Inc
+6326|DOMO|Domo Inc
+6327|DVY|iShares Select Dividend ETF
+6328|EH|EHang Holdings Ltd
+6329|EOLS|Evolus Inc
+6330|EQ|Equillium Inc
+6331|EVER|EverQuote Inc
+6332|EXPI|eXp World Holdings Inc
+6333|FATE|Fate Therapeutics Inc
+6334|FCEL|FuelCell Energy Inc
+6336|FOLD|Amicus Therapeutics Inc
+6337|HALL|Hallmark Financial Services Inc
+6338|HEAR|Turtle Beach Corp
+6339|HX|Hexindai Inc ADR
+6340|MDIV|First Trust Multi-Asset Diversified Income Index Fund
+6341|MNKD|MannKind Corp
+6342|MRNS|Marinus Pharmaceuticals Inc
+6343|MVIS|MicroVision Inc
+6344|NERV|Minerva Neurosciences Inc
+6345|NMIH|NMI Holdings Inc
+6346|NOVN.US|Novan Inc
+6347|OCUL|Ocular Therapeutix Inc
+6348|PHAS|PhaseBio Pharmaceuticals Inc
+6350|PRQR|ProQR Therapeutics NV
+6351|PRTK|Paratek Pharmaceuticals Inc
+6352|PTGX|Protagonist Therapeutics Inc
+6353|QYLD|Global X Nasdaq 100 Covered Call ETF
+6354|RPD|Rapid7 Inc
+6355|RVNC|Revance Therapeutics Inc
+6356|SELB|Selecta Biosciences Inc
+6357|SMH|VanEck Vectors Semiconductor ETF
+6358|SNSR|Global X Internet of Things ETF
+6359|SRET|Global X SuperDividend REIT ETF
+6360|SURF|Surface Oncology Inc
+6361|SY|So-Young International Inc
+6362|TNXP|Tonix Pharmaceuticals Holding Corp
+6363|TPIC|TPI Composites Inc
+6364|TTOO|T2 Biosystems Inc
+6365|VONG|Vanguard Russell 1000 Growth ETF
+6366|VRAY|ViewRay Inc
+6367|VSTM|Verastem Inc
+6368|VXUS|Vanguard Total International Stock ETF
+6369|WCLD|WisdomTree Cloud Computing Fund
+6370|WIMI|WiMi Hologram Cloud Inc
+6371|ZGNX|Zogenix Inc
+6372|ABUS|Arbutus Biopharma Corp
+6373|ACOR|Acorda Therapeutics Inc
+6374|ADAP|Adaptimmune Therapeutics Plc
+6376|AINV|Apollo Investment Corp
+6377|ALNA|Allena Pharmaceuticals Inc
+6378|ALNY|Alnylam Pharmaceuticals Inc
+6379|AMRS|Amyris Inc
+6380|ANGI|ANGI Homeservices Inc
+6381|ARAY|Accuray Inc
+6382|ARCC|Ares Capital Corp
+6383|ATRA|Atara Biotherapeutics Inc
+6385|SIOX|Sio Gene Therapies Inc
+6386|AY|Atlantica Sustainable Infrastructure PLC
+6387|BBIO|Bridgebio Pharma Inc
+6388|BCRX|BioCryst Pharmaceuticals Inc
+6389|BGCP|BGC Partners Inc
+6390|BLU|Bellus Health Inc
+6391|BNTX|BioNTech SE
+6393|BRKS|Brooks Automation Inc
+6394|CAKE|Cheesecake Factory Inc/The
+6395|CARG|Cargurus Inc
+6396|CASA|Casa Systems Inc
+6397|CBAY|Cymabay Therapeutics Inc
+6398|CDXS|Codexis Inc
+6399|CG|Carlyle Group Inc/The
+6400|CGNX|Cognex Corp
+6401|CHEF|Chefs Warehouse Inc/The
+6402|CHMA|Chiasma Inc
+6403|CIH|China Index Holdings Ltd
+6404|CLNE|Clean Energy Fuels Corp
+6405|CLVS|Clovis Oncology Inc
+6406|CMTL|Comtech Telecommunications Corp
+6407|CNDT|Conduent Inc
+6408|CNST|Constellation Pharmaceuticals Inc
+6409|CONE|CyrusOne Inc
+6410|CONN|Conns Inc
+6411|CRNT|Ceragon Networks Ltd
+6412|CWCO|Consolidated Water Co Ltd
+6413|CYTK|Cytokinetics Inc
+6414|DDOG|Datadog Inc
+6416|DTIL|Precision BioSciences Inc
+6417|DXLG|Destination XL Group Inc
+6418|EGLE|Eagle Bulk Shipping Inc
+6419|EIGI|Endurance International Group Holdings Inc
+6420|EPZM|Epizyme Inc
+6421|ERIC|Telefonaktiebolaget LM Ericsson
+6422|FIZZ|National Beverage Corp
+6423|FLDM|Fluidigm Corp
+6424|FOXA|Fox Corp
+6425|GERN|Geron Corp
+6426|GIII|G-III Apparel Group Ltd
+6427|GLAD|Gladstone Capital Corp
+6428|GLNG|Golar LNG Ltd
+6429|GLUU|Glu Mobile Inc
+6430|GMLP|Golar LNG Partners LP
+6431|GO|Grocery Outlet Holding Corp
+6432|GOGO|Gogo Inc
+6433|GOOD|Gladstone Commercial Corp
+6434|GOOGL|Alphabet Inc Class A
+6435|GPRE|Green Plains Inc
+6436|GSKY|GreenSky Inc
+6437|HA|Hawaiian Holdings Inc
+6438|HALO|Halozyme Therapeutics Inc
+6439|HCAT|Health Catalyst Inc
+6441|HLIT|Harmonic Inc
+6442|HMHC|Houghton Mifflin Harcourt Co
+6443|IFRX|InflaRx NV
+6444|IHRT|iHeartMedia Inc
+6445|ILPT|Industrial Logistics Properties Trust
+6446|IMGN|ImmunoGen Inc
+6447|INFN|Infinera Corp
+6448|INMD|Inmode Ltd
+6449|INO|Inovio Pharmaceuticals Inc
+6450|INSG|Inseego Corp
+6452|IRDM|Iridium Communications Inc
+6453|ITCI|Intra-Cellular Therapies Inc
+6454|ITRI|Itron Inc
+6455|KNDI|Kandi Technologies Group Inc
+6456|LECO|Lincoln Electric Holdings Inc
+6457|LI|Li Auto Inc
+6458|LLNW|Limelight Networks Inc
+6459|LSCC|Lattice Semiconductor Corp
+6460|LSXMK|Liberty Media Corp-Liberty SiriusXM
+6461|LTRPA|Liberty TripAdvisor Holdings Inc
+6462|LVGO|Livongo Health Inc
+6463|LXRX|Lexicon Pharmaceuticals Inc
+6464|MCRB|Seres Therapeutics Inc
+6465|MGI|MoneyGram International Inc
+6466|MIDD.L|iShares FTSE 250 UCITS ETF
+6467|MIST|Milestone Pharmaceuticals Inc
+6468|MKSI|MKS Instruments Inc
+6469|MLCO|Melco Resorts & Entertainment Ltd
+6470|VYNE|VYNE Therapeutics INC
+6471|MPWR|Monolithic Power Systems Inc
+6473|MSTR|MicroStrategy Inc
+6474|MYOK|MyoKardia Inc
+6475|NARI|Inari Medical Inc
+6476|NBRV|Nabriva Therapeutics PLC
+6477|NCMI|National CineMedia Inc
+6478|NDLS|Noodles & Co
+6479|NICE|Nice Ltd
+6480|NK|NantKwest Inc
+6481|NKLA|Nikola Corp
+6482|NKTR|Nektar Therapeutics
+6483|NMRK|Newmark Group Inc
+6484|NXST|Nexstar Media Group Inc
+6485|NXTC|NextCure Inc
+6486|NYMT|New York Mortgage Trust Inc
+6487|OGI|Organigram Holdings Inc
+6488|ONEM|1Life Healthcare Inc
+6489|OPI|Office Properties Income Trust
+6490|OPK|OPKO Health Inc
+6491|OPTN|Optinose Inc
+6492|ORTX|Orchard Therapeutics plc
+6493|OSUR|OraSure Technologies Inc
+6494|OVID|Ovid Therapeutics Inc
+6495|PAAS|Pan American Silver Corp
+6496|PACB|Pacific Biosciences of California Inc
+6497|PBCT|Peoples United Financial Inc
+6498|PCH|PotlatchDeltic Corp
+6499|PFLT|PennantPark Floating Rate Capital Ltd
+6500|PGEN|Precigen Inc
+6501|PGNY|Progyny Inc
+6502|PINC|Premier Inc
+6503|PLCE|Childrens Place Inc
+6504|PLYA|Playa Hotels & Resorts NV
+6505|PNNT|PennantPark Investment Corp
+6506|PPD|PPD Inc
+6507|PRFT|Perficient Inc
+6508|PRVB|Provention Bio Inc
+6509|PSEC|Prospect Capital Corp
+6510|PTEN|Patterson-UTI Energy Inc
+6511|PVAC|Penn Virginia Corp
+6513|QDEL|Quidel Corp
+6514|QURE|uniQure NV
+6515|RDFN|Redfin Corp
+6516|REAL|RealReal Inc/The
+6517|REGI|Renewable Energy Group Inc
+6518|RIGL|Rigel Pharmaceuticals Inc
+6519|ROIC|Retail Opportunity Investments Corp
+6520|RPRX|Royalty Pharma PLC
+6521|RRGB|Red Robin Gourmet Burgers Inc
+6522|RRR|Red Rock Resorts Inc
+6523|RUBY|Rubius Therapeutics Inc
+6524|RUTH|Ruths Hospitality Group Inc
+6525|RVMD|REVOLUTION Medicines Inc
+6526|SABR|Sabre Corp
+6527|SBGI|Sinclair Broadcast Group Inc
+6528|SDC|SmileDirectClub Inc
+6529|SDGR|Schrodinger Inc/United States
+6530|SEAC|SeaChange International Inc
+6531|SGMS|Scientific Games Corp
+6532|SINA|SINA Corp/China
+6533|SKYW|SkyWest Inc
+6534|SLM|SLM Corp
+6535|SNCR|Synchronoss Technologies Inc
+6536|SNDL|Sundial Growers Inc
+6537|SNDX|Syndax Pharmaceuticals Inc
+6538|SONO|Sonos Inc
+6539|SPPI|Spectrum Pharmaceuticals Inc
+6540|SPWH|Sportsmans Warehouse Holdings Inc
+6541|SSRM|SSR Mining Inc
+6542|STAY|Extended Stay America Inc
+6543|STOK|Stoke Therapeutics Inc
+6544|SVC|Service Properties Trust
+6545|SVMK|SVMK Inc
+6546|SWAV|Shockwave Medical Inc
+6548|SYNH|Syneos Health Inc
+6549|TER|Teradyne Inc
+6550|TNAV|Telenav Inc
+6551|TRVG|Trivago NV
+6552|TSEM|Tower Semiconductor Ltd
+6553|TVTY|Tivity Health Inc
+6554|TXG|10X Genomics Inc
+6555|TXMD|TherapeuticsMD Inc
+6556|UPWK|Upwork Inc
+6557|USCR|US Concrete Inc
+6558|UTHR|United Therapeutics Corp
+6559|VEON|VEON Ltd
+6560|VIR|Vir Biotechnology Inc
+6562|VRA|Vera Bradley Inc
+6563|VREX|Varex Imaging Corp
+6564|VRM|Vroom Inc
+6565|VYGR|Voyager Therapeutics Inc
+6566|WETF|WisdomTree Investments Inc
+6567|WING|Wingstop Inc
+6568|WMG|Warner Music Group Corp
+6569|WTRH|Waitr Holdings Inc
+6570|XBIT|XBiotech Inc
+6571|XNET|Xunlei Ltd
+6572|XP|XP Inc
+6575|ZG|Zillow Group Inc
+6576|ZI|ZoomInfo Technologies Inc
+6577|AAT|American Assets Trust Inc
+6579|ABR|Arbor Realty Trust Inc
+6580|ACC|American Campus Communities Inc
+6581|ADC|Agree Realty Corp
+6582|AEM|Agnico Eagle Mines Ltd
+6583|AER|AerCap Holdings NV
+6584|AG|First Majestic Silver Corp
+6585|AGI|Alamos Gold Inc
+6586|AIV|Apartment Investment and Management Co
+6587|AJRD|Aerojet Rocketdyne Holdings Inc
+6588|AKR|Acadia Realty Trust
+6589|ALX|Alexanders Inc
+6590|AM|Antero Midstream Corp
+6591|AMC|AMC Entertainment Holdings Inc
+6592|AMCR|Amcor PLC
+6593|AMH|American Homes 4 Rent
+6594|AMRC|Ameresco Inc
+6595|AMRX|Amneal Pharmaceuticals Inc
+6596|AOS|A O Smith Corp
+6597|APLE|Apple Hospitality REIT Inc
+6598|APO|Apollo Global Management Inc
+6599|AQUA|Evoqua Water Technologies Corp
+6600|AR|Antero Resources Corp
+6601|ARCO|Arcos Dorados Holdings Inc
+6602|AROC|Archrock Inc
+6603|ARR|ARMOUR Residential REIT Inc
+6604|AU|AngloGold Ashanti Ltd
+6605|AUY|Yamana Gold Inc
+6606|AVTR|Avantor Inc
+6607|AXL|American Axle & Manufacturing Holdings Inc
+6608|BAM|Brookfield Asset Management Inc
+6609|BBAR|Banco BBVA Argentina SA
+6610|BCS|Barclays PLC
+6611|BDC|Belden Inc
+6612|BDJ|BlackRock Enhanced Equity Dividend Trust
+6613|BDN|Brandywine Realty Trust
+6614|BE|Bloom Energy Corp
+6615|BEST|BEST Inc
+6616|BHR|Braemar Hotels & Resorts Inc
+6617|BIP|Brookfield Infrastructure Partners LP
+6618|BKD|Brookdale Senior Living Inc
+6619|BMI|Badger Meter Inc
+6620|BOOT|Boot Barn Holdings Inc
+6621|BORR|Borr Drilling Ltd
+6622|BRX|Brixmor Property Group Inc
+6623|BSM|Black Stone Minerals LP
+6624|BSX.US|Boston Scientific Corp
+6625|BTE|Baytex Energy Corp
+6626|BW|Babcock & Wilcox Enterprises Inc
+6627|BXMT|Blackstone Mortgage Trust Inc
+6628|CAL|Caleres Inc
+6629|CARR|Carrier Global Corp
+6630|CARS|Cars.com Inc
+6631|CBB|Cincinnati Bell Inc
+6632|CBD|Cia Brasileira de Distribuicao
+6634|CCJ|Cameco Corp
+6635|CCO|Clear Channel Outdoor Holdings Inc
+6636|CDE|Coeur Mining Inc
+6637|CDR|Cedar Realty Trust Inc
+6638|CEN|Center Coast Brookfield MLP & Energy Infrastructure Fund
+6640|CHAP|Chaparral Energy Inc
+6641|CHS|Chicos FAS Inc
+6642|CHU|China Unicom Hong Kong Ltd
+6643|CIM|Chimera Investment Corp
+6644|CLDT|Chatham Lodging Trust
+6645|CLF.US|Cleveland-Cliffs Inc
+6646|CLI.US|Mack-Cali Realty Corp
+6647|CLNY|Colony Capital Inc
+6648|CM|Canadian Imperial Bank of Commerce
+6650|CMRE|Costamare Inc
+6651|CNQ|Canadian Natural Resources Ltd
+6652|CO|Global Cord Blood Corp
+6653|COR|CoreSite Realty Corp
+6654|CORR|CorEnergy Infrastructure Trust Inc
+6655|CPA|Copa Holdings SA
+6656|CPT|Camden Property Trust
+6657|CRK|Comstock Resources Inc
+6658|CTT|CatchMark Timber Trust Inc
+6659|CTVA|Corteva Inc
+6660|CUK|Carnival PLC
+6661|CUZ|Cousins Properties Inc
+6662|CVE|Cenovus Energy Inc
+6663|CWEN|Clearway Energy Inc
+6664|CWK.US|Cushman & Wakefield PLC
+6665|CXP|Columbia Property Trust Inc
+6666|DBD|Diebold Nixdorf Inc
+6667|DBI|Designer Brands Inc
+6668|DEI|Douglas Emmett Inc
+6669|DHT|DHT Holdings Inc
+6670|DIN|Dine Brands Global Inc
+6671|DOC|Physicians Realty Trust
+6673|DRH|DiamondRock Hospitality Co
+6674|DS|Drive Shack Inc
+6675|DX|Dynex Capital Inc
+6676|EB|Eventbrite Inc
+6677|EC|Ecopetrol SA
+6678|ECC|Eagle Point Credit Co Inc
+6679|EGO|Eldorado Gold Corp
+6680|EGP.US|EastGroup Properties Inc
+6681|ELF|elf Beauty Inc
+6682|ELS|Equity LifeStyle Properties Inc
+6683|ENBL|Enable Midstream Partners LP
+6684|ENV|Envestnet Inc
+6685|EPR|EPR Properties
+6686|EPRT|Essential Properties Realty Trust Inc
+6687|EQC|Equity Commonwealth
+6688|EQNR|Equinor ASA
+6689|EQT|EQT Corp
+6690|ESGC|Eros International PLC
+6691|ESRT|Empire State Realty Trust Inc
+6692|ESTC|Elastic NV
+6693|ETM|Entercom Communications Corp
+6694|ETRN|Equitrans Midstream Corp
+6695|EURN.BR|Euronav NV
+6696|EVRI|Everi Holdings Inc
+6697|EXK|Endeavour Silver Corp
+6698|FCAU|Fiat Chrysler Automobiles NV
+6699|FCN|FTI Consulting Inc
+6700|FET|Forum Energy Technologies Inc
+6701|FI|Franks International NV
+6702|FNV|Franco-Nevada Corp
+6703|FPI|Farmland Partners Inc
+6704|FR.US|First Industrial Realty Trust Inc
+6705|FRO|Frontline Ltd/Bermuda
+6706|FSK|FS KKR Capital Corp
+6707|FSM|Fortuna Silver Mines Inc
+6708|FTAI|Fortress Transportation and Infrastructure Investors LLC
+6709|FUN|Cedar Fair LP
+6710|GCI|Gannett Co Inc
+6711|GDOT|Green Dot Corp
+6712|GEL|Genesis Energy LP
+6713|GEO|GEO Group Inc/The
+6714|GFI|Gold Fields Ltd
+6715|GLOG|GasLog Ltd
+6716|GLOP|GasLog Partners LP
+6717|GMED|Globus Medical Inc
+6718|GMRE|Global Medical REIT Inc
+6719|GNL|Global Net Lease Inc
+6720|GSX|GSX Techedu Inc
+6721|GTN|Gray Television Inc
+6723|GTY|Getty Realty Corp
+6724|GVA|Granite Construction Inc
+6725|HASI|Hannon Armstrong Sustainable Infrastructure Capital Inc
+6726|HEXO|HEXO Corp
+6727|HHC|Howard Hughes Corp/The
+6728|HIW|Highwoods Properties Inc
+6729|HLX|Helix Energy Solutions Group Inc
+6730|HMY|Harmony Gold Mining Co Ltd
+6731|HOME|At Home Group Inc
+6732|HP|Helmerich & Payne Inc
+6733|HPP|Hudson Pacific Properties Inc
+6734|HPR|HighPoint Resources Corp
+6735|HR|Healthcare Realty Trust Inc
+6736|HRB|H&R Block Inc
+6737|HSC|Harsco Corp
+6738|HTGC|Hercules Capital Inc
+6739|HUD|Hudson Ltd
+6741|HWM|Howmet Aerospace Inc
+6742|HXL|Hexcel Corp
+6743|HYT|BlackRock Corporate High Yield Fund Inc
+6744|IBN|ICICI Bank Ltd
+6746|IGT|International Game Technology PLC
+6747|IMAX|IMAX Corp
+6748|ING.NV|ING Group
+6749|INN|Summit Hotel Properties Inc
+6750|INVH|Invitation Homes Inc
+6751|IRT|Independence Realty Trust Inc
+6752|IVR|Invesco Mortgage Capital Inc
+6753|JBGS|JBG SMITH Properties
+6754|JE.US|Just Energy Group Inc
+6755|JOE|St Joe Co/The
+6756|KAR|KAR Auction Services Inc
+6757|KDMN|Kadmon Holdings Inc
+6758|KGC|Kinross Gold Corp
+6759|KIM|Kimco Realty Corp
+6760|KL|Kirkland Lake Gold Ltd
+6762|KOS|Kosmos Energy Ltd
+6763|KRC|Kilroy Realty Corp
+6764|KW|Kennedy-Wilson Holdings Inc
+6765|LBRT|Liberty Oilfield Services Inc
+6766|LFC|China Life Insurance Co Ltd
+6767|LN|LINE Corp
+6768|LPI|Laredo Petroleum Inc
+6769|LRN|K12 Inc
+6770|LTHM|Livent Corp
+6771|LXP|Lexington Realty Trust
+6772|LYG|Lloyds Banking Group PLC
+6773|MAC|Macerich Co/The
+6774|MAXR|Maxar Technologies Inc
+6775|MBT|Mobile TeleSystems PJSC
+6776|MDLA|Medallia Inc
+6777|MDP|Meredith Corp
+6778|MED.US|Medifast Inc
+6779|MFA|MFA Financial Inc
+6780|MFG|Mizuho Financial Group Inc
+6781|MGP|MGM Growth Properties LLC
+6782|MGY|Magnolia Oil & Gas Corp
+6783|MITT|AG Mortgage Investment Trust Inc
+6784|MNRL|Brigham Minerals Inc
+6785|MPLX|MPLX LP
+6786|MR|Montage Resources Corp
+6787|MSGS|Madison Square Garden Sports Corp
+6788|MT.US|ArcelorMittal
+6789|MUFG|Mitsubishi UFJ Financial Group Inc
+6790|MUX|McEwen Mining Inc
+6791|NAT|Nordic American Tankers Ltd
+6792|NBR|Nabors Industries Ltd
+6793|NNN|National Retail Properties Inc
+6794|NOMD|Nomad Foods Ltd
+6795|NOVA|Sunnova Energy International Inc
+6796|NRZ|New Residential Investment Corp
+6797|NS|NuStar Energy LP
+6798|NSA|National Storage Affiliates Trust
+6799|NUS|Nu Skin Enterprises Inc
+6800|NVGS|Navigator Holdings Ltd
+6801|NYT|New York Times Co/The
+6802|OFC|Corporate Office Properties Trust
+6804|ONTO|Onto Innovation Inc
+6805|OTIS|Otis Worldwide Corp
+6806|PAA|Plains All American Pipeline LP
+6807|PACDQ|Pacific Drilling SA
+6808|PBA|Pembina Pipeline Corp
+6809|PBI|Pitney Bowes Inc
+6810|PD|PagerDuty Inc
+6811|PDM|Piedmont Office Realty Trust Inc
+6812|RVLV|Revolve Group Inc
+6813|PEAK|Healthpeak Properties Inc
+6814|PEI|Pennsylvania Real Estate Investment Trust
+6815|PGRE|Paramount Group Inc
+6816|PHK|PIMCO High Income Fund
+6817|PHR|Phreesia Inc
+6818|PK|Park Hotels & Resorts Inc
+6819|PLAN|Anaplan Inc
+6820|PLT|Plantronics Inc
+6821|PRTY|Party City Holdco Inc
+6822|PSB|PS Business Parks Inc
+6823|PSTG|Pure Storage Inc
+6824|PSV|Hermitage Offshore Services Ltd
+6825|PTY|PIMCO Corporate & Income Opportunity Fund
+6826|PUMP|ProPetro Holding Corp
+6827|PVG|Pretium Resources Inc
+6828|QTS|QTS Realty Trust Inc
+6830|REV|Revlon Inc
+6831|RGS|Regis Corp
+6832|RLJ|RLJ Lodging Trust
+6833|RMED|RA Medical Systems Inc
+6834|RPAI|Retail Properties of America Inc
+6835|RRC|Range Resources Corp
+6836|RWT|Redwood Trust Inc
+6837|RY|Royal Bank of Canada
+6838|RYAM|Rayonier Advanced Materials Inc
+6839|RYN|Rayonier Inc
+6840|SA|Seabridge Gold Inc
+6841|SAFE.US|Safehold Inc
+6842|SALT|Scorpio Bulkers Inc
+6843|SBSW|Sibanye Stillwater Ltd
+6844|SCM|Stellus Capital Investment Corp
+6845|SCS|Steelcase Inc
+6846|HYLN|Hyliion Holdings Corp
+6847|SHLX|Shell Midstream Partners LP
+6848|SHO|Sunstone Hotel Investors Inc
+6849|SITC|SITE Centers Corp
+6850|SKX|Skechers USA Inc
+6851|SLCA|US Silica Holdings Inc
+6852|SOGO|Sogou Inc
+6853|SOL|ReneSola Ltd
+6854|FSR|FIsker Inc
+6855|SPCE|Virgin Galactic Holdings Inc
+6857|SII|Sprott Inc
+6858|SRC|Spirit Realty Capital Inc
+6859|SRG.US|Seritage Growth Properties
+6860|SSL|Sasol Ltd
+6862|STNG|Scorpio Tankers Inc
+6863|STWD|Starwood Property Trust Inc
+6864|SUN|Sunoco LP
+6866|SWCH|Switch Inc
+6867|TAK|Takeda Pharmaceutical Co Ltd
+6868|TALO|Talos Energy Inc
+6869|TCO|Taubman Centers Inc
+6870|TD|Toronto-Dominion Bank/The
+6871|TDC|Teradata Corp
+6872|TECK|Teck Resources Ltd
+6873|TGNA|TEGNA Inc
+6874|TRNO|Terreno Realty Corp
+6875|TROX|Tronox Holdings PLC
+6876|TRQ|Turquoise Hill Resources Ltd
+6878|TTI|TETRA Technologies Inc
+6879|TUP|Tupperware Brands Corp
+6880|TWI|Titan International Inc
+6881|TWO|Two Harbors Investment Corp
+6882|UAA|Under Armour Inc
+6883|UE|Urban Edge Properties
+6884|UHT|Universal Health Realty Income Trust
+6885|UMC|United Microelectronics Corp
+6886|UN.NV|Unilever NV
+6887|USAC|USA Compression Partners LP
+6888|USNA|USANA Health Sciences Inc
+6889|USX|US Xpress Enterprises Inc
+6890|UVV|Universal Corp/VA
+6891|VALPQ|Valaris plc
+6892|VEDL|Vedanta Ltd
+6893|VER|VEREIT Inc
+6894|VHC|VirnetX Holding Corp
+6895|VICI|VICI Properties Inc
+6896|VLRS|Controladora Vuela Cia de Aviacion SAB de CV
+6897|VVI|Viad Corp
+6898|WES|Western Midstream Partners LP
+6899|WEX|WEX Inc
+6900|WH|Wyndham Hotels & Resorts Inc
+6901|WMC|Western Asset Mortgage Capital Corp
+6902|WPG|Washington Prime Group Inc
+6903|WPM|Wheaton Precious Metals Corp
+6904|WPX|WPX Energy Inc
+6905|WRE|Washington Real Estate Investment Trust
+6906|WRI|Weingarten Realty Investors
+6907|WTI|W&T Offshore Inc
+6908|WWE|World Wrestling Entertainment Inc
+6909|XIN|Xinyuan Real Estate Co Ltd
+6910|YETI|YETI Holdings Inc
+6911|YEXT|Yext Inc
+6912|ZUO|Zuora Inc
+6913|AIM|AIM ImmunoTech Inc
+6914|AMPE|Ampio Pharmaceuticals Inc
+6915|APT|Alpha Pro Tech Ltd
+6916|ATNM|Actinium Pharmaceuticals Inc
+6917|AXU|Alexco Resource Corp
+6918|BRG|Bluerock Residential Growth REIT Inc
+6919|BTO|B2Gold Corp
+6920|CQP|Cheniere Energy Partners LP
+6921|CRMD|CorMedix Inc
+6922|EAD|Wells Fargo Income Opportunities Fund
+6923|EMAN|eMagin Corp
+6924|ENSV|Enservco Corp
+6925|GORO|Gold Resource Corp
+6926|GPL|Great Panther Mining Ltd
+6927|GTE|Gran Tierra Energy Inc
+6928|IBIO|iBio Inc
+6929|INUV|Inuvo Inc
+6930|MAG|MAG Silver Corp
+6931|MTNB|Matinas BioPharma Holdings Inc
+6932|NAK|Northern Dynasty Minerals Ltd
+6933|NBY|NovaBay Pharmaceuticals Inc
+6934|NGD|New Gold Inc
+6935|NRO|Neuberger Berman Real Estate Securities Income Fund Inc
+6936|NSPR|InspireMD Inc
+6937|OGEN|Oragenics Inc
+6938|PLM|PolyMet Mining Corp
+6939|PTN|Palatin Technologies Inc
+6940|RLGT|Radiant Logistics Inc
+6942|SVM|Silvercorp Metals Inc
+6943|TGB|Taseko Mines Ltd
+6944|UAVS|AgEagle Aerial Systems Inc
+6945|EFR|Energy Fuels Inc/Canada
+6946|YCBD|cbdMD Inc
+6947|ZOM|Zomedica Pharmaceuticals Corp
+6960|GOVT|iShares US Treasury Bond ETF
+6961|ITA|iShares US Aerospace & Defense ETF
+6962|NOBL|ProShares S&P 500 Dividend Aristocrats ETF
+6963|PAWZ|Proshares Pet Care ETF
+6964|REM|iShares Mortgage Real Estate ETF
+6966|RO.ZU|Roche bearer shares
+6967|TLRD|Tailored Brands Inc
+6969|TIGO|Millicom International Cellular SA
+6970|COK.DE|CANCOM SE
+6971|ISR.DE|Isra Vision AG
+6972|DRW3.DE|Draegerwerk AG & Co KGaA
+6973|EUZ.DE|Eckert & Ziegler Strahlen- und Medizintechnik AG
+6974|PBB.DE|Deutsche Pfandbriefbank AG
+6975|VAR1.DE|Varta AG
+6976|NOEJ.DE|Norma Group SE
+7206|FSS1|First Sydney stock
+7990|DKNG|Draftkings Inc
+7991|PLTR|Palantir
+7992|ANT.HK|Ant Group
+7993|ASAN|Asana
+7994|AMWL|American Well Corp
+7995|VTRU|Vitru Ltd
+7996|U|Unity Software Inc.
+7997|SUMO|Sumo Logic Inc.
+7998|FROG|Jfrog Ltd
+7999|SNOW|Snowflake Inc.
+8000|SAOC|Aramco Saudi Arabian Oil Corp
+8001|JSNTST|JSNTST
+8002|ALVR|Allovir Inc
+8006|EBS|Emergent BioSolutions Inc
+8008|VLA|Valneva SE
+8009|AGEN|Agenus Inc
+8010|PCVX|Vaxcyte Inc
+8013|CVAC|CureVac NV
+8015|CNDX|iShares NASDAQ 100 UCITS ETF usd
+8016|CNYA|iShares MSCI China A UCITS ETF
+8017|BTEC|iShares Nasdaq US Biotechnology UCITS ETF
+8018|LOWV|SPDR S&P 500 Low Volatility UCITS ETF
+8019|SXLE|SPDR S&P U.S. Energy Select Sector UCITS ETF
+8020|CSP1|iShares Core S&P 500 UCITS ETF
+8021|SXLF|SPDR S&P U.S. Financials Select Sector UCITS ETF
+8022|SXLV|SPDR S&P U.S. Health Care Select Sector UCITS ETF
+8023|SXLI|SPDR S&P U.S. Industrials Select Sector UCITS ETF
+8024|SXLU|SPDR S&P U.S. Utilities Select Sector UCITS ETF
+8025|SXLY|SPDR S&P U.S. Consumer Discretionary Select Sector UCITS ETF
+8026|SXLP|SPDR S&P U.S. Consumer Staples Select Sector UCITS ETF
+8027|SXLK|SPDR S&P U.S. Technology Select Sector UCITS ETF
+8028|EXS3|iShares MDAX UCITS ETF DE
+8029|EXH1|iShares STOXX Europe 600 Oil & Gas UCITS ETF DE
+8030|EXV4|iShares STOXX Europe 600 Health Care UCITS ETF DE
+8031|EXSA|iShares STOXX Europe 600 UCITS ETF DE
+8032|ISPA|iShares STOXX Global Select Dividend 100 UCITS ETF DE
+8033|RBOT|iShares Automation & Robotics UCITS ETF
+8034|SHLD.LN|iShares Digital Security UCITS ETF
+8035|IMV|iShares Edge MSCI Europe Minimum Volatility UCITS ETF
+8037|IHYA|iShares USD High Yield Corp Bond UCITS ETF
+8038|SDIA|iShares USD Short Duration Corp Bond UCITS ETF
+8039|SYBZ|SPDR Bloomberg Barclays Global Aggregate Bond UCITS ETF
+8040|LUSC|SPDR Bloomberg Barclays 10+ Year U.S. Corporate Bond UCITS ETF
+8041|SJNK|SPDR Bloomberg Barclays 0-5 Year U.S. High Yield Bond UCITS ETF
+8042|EMH5|SPDR ICE BofA 0-5 Year EM USD Government Bond UCITS ETF
+8043|STZ.PA|SPDR MSCI Europe Financials UCITS ETF
+8044|CES1|iShares MSCI EMU Small Cap UCITS ETF
+8045|CSMIB|iShares FTSE MIB UCITS ETF EUR Acc
+8046|EXV2|iShares STOXX Europe 600 Telecommunications UCITS ETF DE
+8047|ABNB|Airbnb Inc
+8048|DASH.US|DoorDash Inc
+8100|JSNTST2|JSNTST2
+9019|PLTK|Playtika Holding Corp.
+9020|WOOF|Petco Health & Wellness Co Inc
+9021|POSH|Poshmark Inc Class A
+9022|DRVN|Driven Brands Holdings Inc
+100000|BTC|Bitcoin
+100001|ETHEREUM|Ethereum
+100002|BCH|Bitcoin Cash
+100003|XRP|Ripple
+100004|DASH|Dash
+100005|LTC|Litecoin
+100007|ETC|Ethereum Classic
+100017|ADA|Cardano
+100018|MIOTA|IOTA
+100020|XLM|Stellar
+100022|EOS|EOS
+100023|NEO|NEO
+100026|TRX|TRON
+100028|ZEC|ZCASH
+100030|BNB|Binance Coin
+100032|XTZ|Tezos
+100037|DOT|Polkadot
+100038|MKR|Maker
+100039|COMP|Compound
+100040|LINK|Chainlink
+100041|UNI|Uniswap
+100042|YFI|Yearn.finance
+100109|BTCEUR|Bitcoin/Euro
+100110|ETHEUR|Ethereum/Euro
+100117|ETHGBP|Ethereum/Pound
+100118|BTCGBP|Bitcoin/Pound
+100119|EOSGBP|EOS/Pound
+100120|XRPGBP|Ripple/Pound
+100121|ETHJPY|Ethereum/Japanese Yen
+100122|BTCJPY|Bitcoin/Japanese Yen
+100123|EOSJPY|EOS/Japanese Yen
+100124|XRPJPY|Ripple/Japanese Yen
+100125|ETHEOS|Ethereum/EOS
+100131|ETHXLM|Ethereum/Stellar
+100133|ETHBTC|Ethereum/Bitcoin
+100134|BTCEOS|Bitcoin/EOS
+100140|BTCXLM|Bitcoin/Stellar
+100147|EOSXLM|EOS/Stellar
+100154|BTCAUD|Bitcoin/Australian Dollar
+100155|BTCNZD|Bitcoin/New Zealand Dollar
+100156|BTCCAD|Bitcoin/Canadian Dollar
+100157|BTCCHF|Bitcoin/Swiss Franc
+100158|ETHAUD|Ethereum/ Australian Dollar
+100159|ETHNZD|Ethereum/ New Zealand Dollar
+100160|ETHCAD|Ethereum/ Canadian Dollar
+100161|ETHCHF|Ethereum/ Swiss Franc
+100162|XRPEUR|Ripple/Euro
+100163|XRPAUD|Ripple/ Australian Dollar
+100164|XRPNZD|Ripple/ New Zealand Dollar
+100165|XRPCAD|Ripple/ Canadian Dollar
+100166|XRPCHF|Ripple/ Swiss Franc
+100168|ETCEUR|Ethereum Classic/Euro
+100169|ETCGBP|Ethereum Classic/Pound
+100170|ETCAUD|Ethereum Classic/Australian Dollar
+100171|ETCNZD|Ethereum Classic/New Zealand Dollar
+100172|ETCCAD|Ethereum Classic/Canadian Dollar
+100173|ETCCHF|Ethereum Classic/Swiss Franc
+100174|ETCJPY|Ethereum Classic/Japanese Yen
+100175|BCHEUR|Bitcoin Cash/Euro
+100176|BCHGBP|Bitcoin Cash/Pound
+100177|BCHAUD|Bitcoin Cash/Australian Dollar
+100178|BCHNZD|Bitcoin Cash/New Zealand Dollar
+100179|BCHCAD|Bitcoin Cash/Canadian Dollar
+100180|BCHCHF|Bitcoin Cash/Swiss Franc
+100181|BCHJPY|Bitcoin Cash/Japanese Yen
+100182|LTCEUR|Litecoin/ Euro
+100183|LTCGBP|Litecoin/ Pound
+100184|LTCAUD|Litecoin/ Australian Dollar
+100185|LTCNZD|Litecoin/ New Zealand Dollar
+100186|LTCCAD|Litecoin/ Canadian Dollar
+100187|LTCCHF|Litecoin/ Swiss Franc
+100188|LTCJPY|Litecoin/ Japanese Yen
+100189|BCHLTC|Bitcoin Cash/Litecoin
+100196|SILVERGBP|Silver/Pound
+100197|SILVERJPY|Silver/Japanese Yen
+100198|SILVEREUR|Silver/Euro
+100203|SILVERCHF|Silver/Swiss Franc
+100204|SILVERAUD|Silver/Australian Dollar
+100205|SILVERNZD|Silver/New Zealand Dollar
+100209|XLMGBP|Stellar/Pound
+100210|XLMJPY|Stellar/Japanese Yen
+100211|XLMEUR|Stellar/Euro
+100213|ZECETH|Zcash/Ethereum
+100214|ZECLTC|Zcash/Litecoin
+100215|ZECBCH|Zcash/Bitcoin Cash
+100216|ZECDASH|Zcash/Dash
+100217|ZECGBP|Zcash/Pound
+100218|ZECJPY|Zcash/Japanese Yen
+100219|ZECEUR|Zcash/Euro
+100221|ZECXRP|Zcash/Ripple
+100222|ZECXLM|Zcash/Stellar
+100223|BTCCNH|Bitcoin/Chinese yuan
+100224|ETHCNH|Ethereum/Chinese yuan
+100225|DASHNZD|Dash/New Zealand Dollar
+100228|GOLDNZD|Gold/New Zealand Dollar
+100229|XLMNZD|Stellar/New Zealand Dollar
+100230|ZECNZD|Zcash/New Zealand Dollar
+100232|DASHAUD|Dash/Australian Dollar
+100236|GOLDAUD|Gold/Australian Dollar
+100237|XLMAUD|Stellar/Australian Dollar
+100238|ZECAUD|Zcash/Australian Dollar
+100239|DASHCHF|Dash/Swiss Franc
+100242|GOLDCHF|Gold/Swiss Franc
+100243|XLMCHF|Stellar/Swiss Franc
+100244|ZECCHF|Zcash/Swiss Franc
+100245|XRPDASH|Ripple/Dash
+100251|GOLDGBP|Gold/Pound
+100252|GOLDJPY|Gold/Japanese Yen
+100253|GOLDEUR|Gold/Euro
+100254|DASHEUR|Dash/Euro
+100255|DASHJPY|Dash/Japanese Yen
+100256|DASHGBP|Dash/Pound
+100257|USDXUSD|USDX/USD
+100263|GOLDBTC|GOLDBTC
+100269|BTCGRAM|BTCGRAM
+100270|GRAM|GRAM
+100271|ETHGRAM|ETHGRAM
+100272|GRAMEUR|GRAMEUR
