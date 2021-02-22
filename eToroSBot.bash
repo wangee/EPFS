@@ -3,9 +3,9 @@
 #############
 ## HISTORY ##
 #############
-# 22 Feb 2021 - forked from cyber-jack (who added discord support) wangee
+# 31 Jan 2021 - by Christian Vanguers (wangee@gmail.com)
 #             - comments translated from german to english for a better understanding
-#             - Added curl verbosity (verbosecurl boolean)
+#             - Added curl verbosity (verbosecurl boolean) from conf file
 #             - Added -c argument to curl to handle cookies updates
 
 
@@ -36,7 +36,7 @@ getStdConf () {
   # parameters
   maxHOpen=1
   nrNotFoundClosedPos=0
-  verbosecurl="false"
+#  verbosecurl="false"
 
 }
 
