@@ -1,7 +1,16 @@
 #!/bin/bash
 
+#############
+## HISTORY ##
+#############
+# 22 Feb 2021 - forked from cyber-jack (who added discord support) wangee
+#             - comments translated from german to english for a better understanding
+#             - Added curl verbosity (verbosecurl boolean)
+#             - Added -c argument to curl to handle cookies updates
+
+
 ###############################################################################################
-# Standard Konfiguration kann mit einer spezfischen Konfiguration geändert werden
+# Standard configuration can be changed with a specific configuration
 getStdConf () {
   # directories
   dataDir="./data"
@@ -27,15 +36,15 @@ getStdConf () {
   # parameters
   maxHOpen=1
   nrNotFoundClosedPos=0
-  
+  verbosecurl="false"
 
 }
 
 
 ###############################################################################################
-# einzelne Abfrage bei eToro machen
+# a single query at eToro
 curlCrawl () {
-  # Variabeln Initalisierung & Konfiguration
+  # Variable initialization & configuration
   local url="$1"
   local lCount=0
   local lMax=10
@@ -46,12 +55,16 @@ curlCrawl () {
 
     # get a unique number for the request
     local rNumber=`uuid`
- 
+
     # assemble the url for the request
     local urlTot="$url&client_request_id=$rNumber"
 
     # fetch the data from eToro
-    retValCurlCrawl=`curl -b $inFileCookie -s "$urlTot"`
+    if [ "$verbosecurl" == "true" ]; then
+            retValCurlCrawl=`curl -v -b $inFileCookie -c $inFileCookie -s "$urlTot"`
+    else
+            retValCurlCrawl=`curl -b $inFileCookie -c $inFileCookie -s "$urlTot"`
+    fi
 
     # check output
     if [[ "$retValCurlCrawl" != *"failureReason"* ]]; then
@@ -68,17 +81,17 @@ curlCrawl () {
   if [ $fetchWorked -ne 1 ]; then
     echo "Error: New cookie file required"
     if [ "$silentMode" == "false" ]; then
-    	if [ "$discord" == "true" ]; then
-    		./discord.sh --webhook-url $webhook --username $username --avatar $avatar --text "Maintenance message: New cookie required. Pausing bot."
-	else
-      		./telegram -t $tgAPI -c $tgcID "Maintenance message: New cookie required. Pausing bot."
-      	fi
+        if [ "$discord" == "true" ]; then
+                ./discord.sh --webhook-url $webhook --username $username --avatar $avatar --text "Maintenance message: New cookie required. Pausing bot."
+        else
+                ./telegram -t $tgAPI -c $tgcID "Maintenance message: New cookie required. Pausing bot."
+        fi
     else
        echo "Maintenance message: New cookie required. Pausing bot."
     fi
     cp "$outFileOld" "$outFileNew"
     exit 1
-  fi 
+  fi
 
   # Check on error message of eToro
   if [[ "$retValCurlCrawl" == *"<title>50"* ]]; then
@@ -86,22 +99,22 @@ curlCrawl () {
       echo "##########################"
       echo $urlTot
       echo "Error: eToro seems not available"
-      
+
     ## clean up for the next start (copy the old output back)
     revertAndTerminate
-  fi 
+  fi
 }
 
 
 ###############################################################################################
-# Kontrolliert bot beenden
+# Control bot termination
 revertAndTerminate() {
    if [ "$silentMode" == "false" ]; then
-       	if [ "$discord" == "true" ]; then
-    		./discord.sh --webhook-url $webhook --username $username --avatar $avatar --text "Maintenance message: eToro seems not available. Bot will be started in a few minutes again"
-	else
-     		./telegram -t $tgAPI -c $tgcID "Maintenance message: eToro seems not available. Bot will be started in a few minutes again"
-     	fi
+        if [ "$discord" == "true" ]; then
+                ./discord.sh --webhook-url $webhook --username $username --avatar $avatar --text "Maintenance message: eToro seems not available. Bot will be started in a few minutes again"
+        else
+                ./telegram -t $tgAPI -c $tgcID "Maintenance message: eToro seems not available. Bot will be started in a few minutes again"
+        fi
   else
      echo "Maintenance message: eToro seems not available. Bot will be started in a few minutes again"
   fi
@@ -112,7 +125,7 @@ revertAndTerminate() {
 
 
 ###############################################################################################
-# Cid von eToro oder aus lokale Datei holen
+# Get cid from eToro or from a local file
 
 getCidfFileOrUpdate () {
   # check if cid is already known
@@ -121,13 +134,17 @@ getCidfFileOrUpdate () {
      echo "Info: fetching cid from etoro directly"
      # fetch trader information
      urlTot="https://www.etoro.com/api/logininfo/v1.1/users/$trader"
-     traderInfo=`curl -b $inFileCookie -s "$urlTot"`
+    if [ "$verbosecurl" == "true" ]; then
+     traderInfo=`curl -v -b $inFileCookie -c $inFileCookie -s "$urlTot"`
+    else
+     traderInfo=`curl -b $inFileCookie -c $inFileCookie -s "$urlTot"`
+    fi
 
      # extract cid
      cid=`echo $traderInfo | awk -F "," '{print $2}' | awk -F ":" '{print $2}'`
 
      # check cid (should be a number with multiple digits)
-     if [[ $cid == +([0-9]) ]]; then 
+     if [[ $cid == +([0-9]) ]]; then
         echo \"$trader\",$cid >> $inFileCid
      else
        echo "Error: Configuration error, trader not found"
@@ -136,15 +153,15 @@ getCidfFileOrUpdate () {
      fi
   else
     cid=${cid##*,}
-  fi   
+  fi
 }
 
 
 ###############################################################################################
-# Daten von eToro holen
+# Get data from eToro
 
 fetchEToroData() {
-  # Variabeln Initalisierung & Konfiguration
+  # Variable initialization & configuration
   outFile="$1"
   basePUrl="https://www.etoro.com/sapi/trade-data-real/live/public/portfolios?format=json&cid="
   baseAUrl="https://www.etoro.com/sapi/trade-data-real/live/public/positions?format=json&InstrumentID="
@@ -152,64 +169,64 @@ fetchEToroData() {
   # fetch cid from config list or from eToro
   getCidfFileOrUpdate
 
-  # URL zusammensetzen
+  # Compose the URL
   url="$basePUrl$cid"
 
-  # Daten abgreifen
+  # Tap data
   retValCurlCrawl=""
   curlCrawl "$url"
 
-  # Daten prüfen
+  # Check data
   if [[ "$retValCurlCrawl" != *"CreditByRealizedEquity"* ]]; then
      echo "Fetch of portfolio did not work. Pausing bot"
      revertAndTerminate
   fi
 
-  # Leerer File sicherstellen
+  # Make sure the file is empty
   rmFile "$outFile"
 
-  # sicherstellen, dass positionen vorhanden sind
+  # make sure positions are available
   emptyPortfolio=0
   if [[ "$retValCurlCrawl" == *"\"AggregatedPositions\":[]"* ]]; then
     echo "Empty portfolio"
     emptyPortfolio=1
   fi
 
-  # sicherstellen, dass kein Fehler vorhanden ist
+  # make sure there is no error
   if [[ "$retValCurlCrawl" == *"ErrorCode"* ]]; then
     echo "Empty portfolio with error code"
-    # lockfile entfernen
+    # lockfile removal
     rmFile $outFileLock
     exit 0
   fi
 
   if [[ "$emptyPortfolio" == "0" ]]; then
 
-    # ausschliesslich die AggregatedPositions herausfiltern
+    # only filter out the AggregatedPositions
     fContent=$retValCurlCrawl
     fContent=${fContent%%\}],\"AggregatedMirrors*}
     fContent=${fContent##*AggregatedPositions\":[{}
 
-    # jede Asset Klasse durchgehen und alle entsprechenden Trades holen
+    # go through each asset class and get all corresponding trades
     for assetClass in $(echo $fContent | sed 's/},{/\n/g'); do
-      # Asset Nummer extrahieren
+      # Extract asset number
       assetClass=${assetClass%%,\"Direction*}
       assetClass=${assetClass##\"InstrumentID\":}
-  
-      # URL zusammensetzen
+
+      # Compose the URL
       url=$baseAUrl$assetClass"&cid="$cid
 
-      # Daten abgreifen
+      # Tap data
       curlCrawl "$url"
 
-      # Daten prüfen
+      # Check data
       if [[ "$retValCurlCrawl" != *"PublicPositions"* ]]; then
          echo $retValCurlCrawl
          echo "Fetch of position did not work. Pausing bot"
          revertAndTerminate
       fi
 
-      # Daten extrahieren  
+      # Extract data
       fContent=$retValCurlCrawl
       fContent=${fContent%%\}]\}}
       fContent=${fContent##*PublicPositions\":[{}
@@ -222,14 +239,14 @@ fetchEToroData() {
   fi
 
   # assure that each line is a resonable line. To this end I check for a key word
-  touch $outFile 
+  touch $outFile
   cp $outFile "$outFile"_tmp
   grep "CurrentRate" "$outFile"_tmp > $outFile
   rmFile "$outFile"_tmp
 }
 
 ###############################################################################################
-# Neue Positionen prüfen
+# Check new positions
 
 checkNewOpen () {
   dSLong=`echo $1 | awk -F "," '{print $3}'`
@@ -240,7 +257,7 @@ checkNewOpen () {
 
   dValDiff=$((dValNow-dValPos))
   dValMax=$(($maxHOpen*60*60))
-  
+
   if [ $dValDiff -gt $dValMax ]; then
     echo "Position to long open and therefore ignored"
     return 1
@@ -250,69 +267,68 @@ checkNewOpen () {
 
 
 ###############################################################################################
-# Veränderte Positionen erkennen
+# Recognize changed positions
 
-# neueröffnete, geschlossene und geänderte Positionen identifizieren
+# Identify newly opened, closed and changed positions
 identDifference () {
   inFileNew="$outFileNew"
   inFileOld="$outFileOld"
 
-  # Temporäre Dateien erstellen
+  # Create temporary files
   tmpFilePosNew=`tempfile -d $tmpDir`
   tmpFilePosOld=`tempfile -d $tmpDir`
   tmpFilePosDiff=`tempfile -d $tmpDir`
 
-  # positionsnummern extrahieren
+  # positionsnummer extct position numbers
   sort "$inFileNew" | awk -F "," '{print $1}' > "$tmpFilePosNew"
   sort "$inFileOld" | awk -F "," '{print $1}' > "$tmpFilePosOld"
   diff "$tmpFilePosOld" "$tmpFilePosNew" > "$tmpFilePosDiff"
 
-  # neue Positionen finden
+  # find new positions
   rmFile "$outFilePosOpen"
   for newPos in $(grep ">" $tmpFilePosDiff | awk '{print $2}'); do
      #grep "$newPos" "$inFileNew" >> "$outFilePosOpen"
     newPosStr=`grep "$newPos" "$inFileNew"`
     checkNewOpen $newPosStr
-    rVal=$? 
+    rVal=$?
     if [ "$rVal" -eq "0" ]; then
        echo $newPosStr >> "$outFilePosOpen"
     fi
   done
 
-  # geschlossene Positionen finden
+  # find closed positions
   rmFile "$outFilePosClose"
   for oldPos in $(grep "<" $tmpFilePosDiff | awk '{print $2}'); do
     grep "$oldPos" "$inFileOld" >> "$outFilePosClose"
   done
 
-  # geänderte Positionen finden
+  # find changed positions
   rmFile "$outFileChangeTP"
   rmFile "$outFileChangeSL"
   for posID in $(cat $tmpFilePosNew); do
     posNew=`grep "$posID" "$inFileNew"`
     posOld=`grep "$posID" "$inFileOld"`
     if [ $? -eq 0 ]; then
-      # Take Profit geändert
+      # Changed Take Profit
       tpNew=`echo "$posNew" | awk -F "," '{print $7}'`
       tpOld=`echo "$posOld" | awk -F "," '{print $7}'`
       if [ "$tpNew" != "$tpOld" ]; then echo "$posNew" > "$outFileChangeTP"; fi
 
-      # Stop Loss geändert
+      # Stop Loss changed
       slNew=`echo "$posNew" | awk -F "," '{print $8}'`
       slOld=`echo "$posOld" | awk -F "," '{print $8}'`
       if [ "$slNew" != "$slOld" ]; then echo "$posNew" > "$outFileChangeSL"; fi
     fi
   done
 
-  # aufräumen
+  # cleanup
   rmFile "$tmpFilePosNew"
   rmFile "$tmpFilePosOld"
   rmFile "$tmpFilePosDiff"
 }
 
 ###############################################################################################
-# Holt sich die geschlossenen Trades der letzten 2 bis 3 Tage 
-
+# Get the closed trades of the last 2 to 3 days
 getCTrades() {
   # get the date of today and yesterday
   dDBYesterday=`date -d "2 day ago" '+%Y-%m-%d'`
@@ -322,7 +338,11 @@ getCTrades() {
 
   # get json with the number of closed trades
   urlTot="https://www.etoro.com/sapi/trade-data-real/history/public/credit/flat/aggregated?CID=$cid&StartTime="$dDBYesterday"T00:00:00.000Z&format=json&client_request_id="$rNumber
-  retValCurl=`curl -b $inFileCookie -s "$urlTot"`
+  if [ "$verbosecurl" == "true" ]; then
+     retValCurl=`curl -v -b $inFileCookie -c $inFileCookie -s "$urlTot"`
+  else
+     retValCurl=`curl -b $inFileCookie -c $inFileCookie -s "$urlTot"`
+  fi
 
   # check output
   if [[ "$retValCurl" != *"TotalClosedTrades"* ]]; then
@@ -343,19 +363,23 @@ getCTrades() {
   while [ $nrCTradesLeft -ge 0 ]; do
     # get uuid for the request
     rNumber=`uuid`
-    urlTot="https://www.etoro.com/sapi/trade-data-real/history/public/credit/flat?CID="$cid"&ItemsPerPage=30&PageNumber="$pageNr"&StartTime="$dDBYesterday"T00:00:00.000Z&format=json&client_request_id="$rNumber
-    retValCurl=`curl -b $inFileCookie -s "$urlTot"`
-  
+    urlTot="https://www.etoro.com/sapi/trade-data-real/history/public/credit/flat?CID="$cid"&ItemsPerPage=100&PageNumber="$pageNr"&StartTime="$dDBYesterday"T00:00:00.000Z&format=json&client_request_id="$rNumber
+    if [ "$verbosecurl" == "true" ]; then
+       retValCurl=`curl -v -b $inFileCookie -c $inFileCookie -s "$urlTot"`
+    else
+       retValCurl=`curl -b $inFileCookie -c $inFileCookie -s "$urlTot"`
+    fi
+
     # update counters
     nrCTradesLeft=$((nrCTradesLeft-30))
     pageNr=$(($pageNr+1))
 
-    # Daten prüfen
+    # Check data
     if [[ "$retValCurl" != *"PublicHistoryPositions"* ]]; then
       revertAndTerminate
     fi
 
-    # Daten extrahieren  
+    # Extract data
     fContent=$retValCurl
     fContent=${fContent%%\}]\}}
     fContent=${fContent##*PublicHistoryPositions\":[{}
@@ -367,7 +391,7 @@ getCTrades() {
 }
 
 ###############################################################################################
-# Prüft, ob trades wirklich geschlossen sind
+# Checks whether trades are really closed
 
 checkPCloseTrades() {
   if [ -f "$outFilePosClose" ]; then
@@ -375,7 +399,7 @@ checkPCloseTrades() {
     # get the real closed positions
     getCTrades
 
-    # möglicherweise geschlossene trades in temp file überführen
+    # transfer possibly closed trades to temp file
     mv $outFilePosClose $outFilePosClose"_tmp"
 
     # check each possibly closed position
@@ -387,14 +411,14 @@ checkPCloseTrades() {
        # search position in the real closed trades
        posClosed=`grep "$posNr" "$outFileCTrades"`
        if [ "$?" -eq "0" ]; then
-          # position gefunden daher wirklich beendeter trade
+          # position found therefore really finished trade
           echo $line >> $outFilePosClose
        else
-          # position nicht gefunde, daher weiterhin offener trade
+          # position not found, therefore still open trade
           echo "Position not closed..."
           echo $line >> $outFileNew
           nrNotFoundClosedPos=$((nrNotFoundClosedPos+1))
-       fi   
+       fi
     done <$outFilePosClose"_tmp"
 
     # clean up
@@ -405,9 +429,8 @@ checkPCloseTrades() {
 
 
 ###############################################################################################
-# Meldungen generieren
-
-# Position von etoro in Meldung konvetieren
+# Generate messages
+# Convert position from etoro to message
 lineToMessage () {
   local msgTyp="$1"
   local pos="$2"
@@ -418,12 +441,12 @@ lineToMessage () {
   local time=${time#*\:}
   local open=`echo $pos | awk -F "," '{print $4}'`
   local bsType=`echo $pos | awk -F "," '{print $6}'`
-  if [[ $bsType == *"true"* ]]; then 
-     bs="long"; 
-     bsp=1; 
-  else 
-     bs="short"; 
-     bsp=-1; 
+  if [[ $bsType == *"true"* ]]; then
+     bs="long";
+     bsp=1;
+  else
+     bs="short";
+     bsp=-1;
   fi
   local tp=`echo $pos | awk -F "," '{print $7}'`
   local cr=`echo $pos | awk -F "," '{print $12}'`
@@ -434,13 +457,13 @@ lineToMessage () {
   local amount=`echo $pos | awk -F "," '{print $11}'`
   amount=${amount##*\:}
 
-  # asset nummer in asset name wandeln
+  # Convert asset number to asset name
   local asset=`grep -m1 "${assetnr##*\:}" "$inFileAsset"`
   if [ "$?" -ne "0" ]; then
     echo "Error Asset not found"
     exit 1
-  fi   
-  asset=${asset##*,} 
+  fi
+  asset=${asset##*,}
 
   open=${open##*\:}
   tp=${tp##*\:}
@@ -454,26 +477,26 @@ lineToMessage () {
   cat >>$outFileMsg"_"$(printf "%03d" $index) << EOF
 ********************
 <b>$msgTyp</b> $bs position
-  Time:	${time:1:16}
-  Asset:	$asset
-  open:	$open
-  TP: 	$tp   (${tpp:0:7} %)
+  Time: ${time:1:16}
+  Asset:        $asset
+  open: $open
+  TP:   $tp   (${tpp:0:7} %)
   CR:   $cr   (${np2:0:7} %)
-  SL: 	$sl   (${slp:0:7} %)
-  Levarage:	${levarage##*\:}
+  SL:   $sl   (${slp:0:7} %)
+  Levarage:     ${levarage##*\:}
   Amount:   ${amount:0:4} %
 EOF
-#  NP:	${np2:0:10}
+#  NP:  ${np2:0:10}
 
 }
 
-# Aus Datei mit Positionen Meldungen erstellen
+# Create messages from file with positions
 msgFromFile () {
 local fName="$1"
 local mType="$2"
 
 if [ -f "$fName" ]; then
-  # Header erstellen, falls Datei noch nicht da
+  # Create a header if the file is not already there
   if [ ! -f $outFileMsg"_000" ]; then
     datum=`date`
     cat>>$outFileMsg"_000" << EOL
@@ -494,7 +517,7 @@ fi
 }
 
 
-# sicherstellen, dass Datei leer
+# make sure file is empty
 rmFile () {
   local fName="$1"
   touch $fName
@@ -502,37 +525,37 @@ rmFile () {
 }
 
 
-# Meldungen für Telegram vorbereiten
+# Prepare messages for telegram
 msgCreate () {
 
-# sicherstellen, dass Datei leer
+# make sure file is empty
 rmFile $outFileMsg
 
-# neue Positionen versenden
+# send new positions
 msgFromFile "$outFilePosOpen" "New"
 
-# geschlossene Positionen versenden
+# Send closed positions
 msgFromFile "$outFilePosClose" "Closed"
 
-# TP Änderungen
+# TP change
 msgFromFile "$outFileChangeTP" "Changed TP"
 
-# SL Änderungen
+# SL change
 msgFromFile "$outFileChangeSL" "Changed SL"
 }
 
-# Meldung versenden
+# Send message
 msgSend () {
   if [ -f $outFileMsg"_000" ]; then
     local msgFiles=$outFileMsg"_*"
     for msg in $msgFiles; do
 
       if [ "$silentMode" == "false" ]; then
-      	if [ "$discord" == "true" ]; then
-      		cat $msg
-    		./discord.sh --webhook-url $webhook --username $username --avatar $avatar --title "New Notification!" --description "$(jq -Rs . <$msg | tr -d "*" | awk '{gsub("<b>", "**");gsub("</b>", "**");print}'| cut -c 2- | rev | cut -c 2- | rev)"
-	else
-        	cat $msg | ./telegram -H -t $tgAPI -c $tgcID -
+        if [ "$iscord" == "true" ]; then
+                cat $msg
+                ./discord.sh --webhook-url $webhook --username $username --avatar $avatar --title "New Notification!" --description "$(jq -Rs . <$msg | tr -d "*" | awk '{gsub("<b>", "**");gsub("</b>", "**");print}'| cut -c 2- | rev | cut -c 2- | rev)"
+        else
+                cat $msg | ./telegram -H -t $tgAPI -c $tgcID -
         fi
       else
          cat $msg
@@ -541,39 +564,39 @@ msgSend () {
       rmFile $msg
     done
     if [ "$silentMode" == "false" ]; then
-	if [ "$discord" == "true" ]; then
-    		./discord.sh --webhook-url $webhook --username $username --avatar $avatar --text "Maintenance message: New cookie required. Pausing bot."
-	else
-      		./telegram -t $tgAPI -c $tgcID "Portfolio:https://www.etoro.com/people/$trader/portfolio"$'\n'
-      	fi
+        if [ "$discord" == "true" ]; then
+                ./discord.sh --webhook-url $webhook --username $username --avatar $avatar --text "Maintenance message: New cookie required. Pausing bot."
+        else
+                ./telegram -t $tgAPI -c $tgcID "Portfolio:https://www.etoro.com/people/$trader/portfolio"$'\n'
+        fi
       if [ "$nrNotFoundClosedPos" -ne "0" ]; then
         if [ "$discord" == "true" ]; then
-    		./discord.sh --webhook-url $webhook --username $username --avatar $avatar --text "Maintenance message: New cookie required. Pausing bot."
-	else
-        	./telegram -t $tgAPI -c $tgcID "Maintenance message: Possibly closed position found."
-      	fi
+                ./discord.sh --webhook-url $webhook --username $username --avatar $avatar --text "Maintenance message: New cookie required. Pausing bot."
+        else
+                ./telegram -t $tgAPI -c $tgcID "Maintenance message: Possibly closed position found."
+        fi
       fi
     fi
   fi
 }
 
-# Sicherstellen, dass nur einmal ausgeführt und nicht ausführen nach einem Fehler
+# Make sure this script is run only once and don't run after an error
 lockFileGen () {
 
-# prüfen, dass nicht bereits ein lockfile existiert
+# check that a lockfile does not already exist
   if [ -f  $outFileLock ]; then
-    # bot beenden
+    # Abort
     echo "Info: Lockfile exists. Therefore aborted bot"
     exit 1
   fi
 
-  # lockfile erstellen mit der aktuellen Ausführzeit
+  # Create lockfile with the current execution time
   date > $outFileLock
 
 }
 
 ###############################################################################################
-# Sicherstellen, dass alle benötigten Dateien vorhanden sind
+# Make sure you have all the files you need
 initFiles () {
   touch $outFileNew
   touch $outFileOld
@@ -581,12 +604,12 @@ initFiles () {
 
 
 ###############################################################################################
-# Hauptprogramm
+# Main program
 
-# ins arbeitsverzeichnis wechseln
+# change to the working directory
 cd "$(dirname "$0")"
 
-# Standard Einstellungen
+# Default settings
 silentMode=false
 
 while [ -n "$1" ]; do # while loop starts
@@ -600,39 +623,38 @@ while [ -n "$1" ]; do # while loop starts
     shift
 done
 
-# standard Konfiguration laden
+# load standard configuration
 getStdConf
 
-# spezifische Konfiguration laden
+# load specific configuration
 source eToroSBot.conf
 
-# Initialisiere die Dateien
+# Initialize the files
 initFiles
 
-
-# Sicherstellen, dass nur einmal ausgeführt und nicht ausführen nach einem Fehler
+# Make sure you run only once and don't run after an error
 lockFileGen
 
-# alte Daten sichern
+# save old data
 cp "$outFileNew" "$outFileOld"
 
-# Daten von eToro holen
+# Get data from eToro
 fetchEToroData "$outFileNew"
 
-# Veränderung der Positionen suchen
-identDifference 
+# Looking for a change in positions
+identDifference
 
-# geschlossene Trades prüfen
+# Check closed trades
 checkPCloseTrades
 
-# Meldungen erstellen
-msgCreate 
+# Create messages
+msgCreate
 
 # send message with telegram
 msgSend
 
-# Kopiere alle positionen ins log verzeichnis
+# Copy all positions into the log directory
 cp "$outFileNew" "$logDir/`date "+%g%m%d__%H_%M"`"
 
-# lockfile entfernen
+# Remove lockfile
 rmFile $outFileLock
