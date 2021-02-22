@@ -33,6 +33,7 @@ The bot has been developed under Linux and is mainly a bash script. The followin
 4. awk
 5. sed
 6. jq
+7. busybox
 
 # Installation / configuration
 
