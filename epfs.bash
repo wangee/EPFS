@@ -5,7 +5,7 @@
 #############
 # 31 Jan 2021 - by Christian Vanguers (wangee@gmail.com)
 #             - comments translated from german to english for a better understanding
-#             - Added curl verbosity (verbosecurl boolean) from conf file
+#             - Added curl verbosity (verbosecurl boolean)
 #             - Added -c argument to curl to handle cookies updates
 
 
@@ -36,7 +36,6 @@ getStdConf () {
   # parameters
   maxHOpen=1
   nrNotFoundClosedPos=0
-#  verbosecurl="false"
 
 }
 
@@ -61,9 +60,11 @@ curlCrawl () {
 
     # fetch the data from eToro
     if [ "$verbosecurl" == "true" ]; then
-            retValCurlCrawl=`curl -v -b $inFileCookie -c $inFileCookie -s "$urlTot"`
+            retValCurlCrawl=`curl -v -b $inFileCookie -c $inFileCookie -s "$urlTot" -A "$UserAgent"`
+            microsleepverbose
     else
-            retValCurlCrawl=`curl -b $inFileCookie -c $inFileCookie -s "$urlTot"`
+            retValCurlCrawl=`curl -b $inFileCookie -c $inFileCookie -s "$urlTot" -A "$UserAgent"`
+            microsleep
     fi
 
     # check output
@@ -135,22 +136,24 @@ getCidfFileOrUpdate () {
      # fetch trader information
      urlTot="https://www.etoro.com/api/logininfo/v1.1/users/$trader"
     if [ "$verbosecurl" == "true" ]; then
-     traderInfo=`curl -v -b $inFileCookie -c $inFileCookie -s "$urlTot"`
+     traderInfo=`curl -v -b $inFileCookie -c $inFileCookie -s "$urlTot" -A "$UserAgent"`
+     microsleepverbose
     else
-     traderInfo=`curl -b $inFileCookie -c $inFileCookie -s "$urlTot"`
+     traderInfo=`curl -b $inFileCookie -c $inFileCookie -s "$urlTot" -A "$UserAgent"`
+     microsleep
     fi
 
-     # extract cid
-     cid=`echo $traderInfo | awk -F "," '{print $2}' | awk -F ":" '{print $2}'`
+    # extract cid
+    cid=`echo $traderInfo | awk -F "," '{print $2}' | awk -F ":" '{print $2}'`
 
-     # check cid (should be a number with multiple digits)
-     if [[ $cid == +([0-9]) ]]; then
-        echo \"$trader\",$cid >> $inFileCid
-     else
-       echo "Error: Configuration error, trader not found"
+    # check cid (should be a number with multiple digits)
+    if [[ $cid == +([0-9]) ]]; then
+       echo \"$trader\",$cid >> $inFileCid
+    else
+      echo "Error: Configuration error, trader not found"
    #    ./telegram -t $tgAPI -c $tgcID "Error message: Configuration error. Pausing bot."
-       exit 1
-     fi
+      exit 1
+    fi
   else
     cid=${cid##*,}
   fi
@@ -205,7 +208,7 @@ fetchEToroData() {
     # only filter out the AggregatedPositions
     fContent=$retValCurlCrawl
     fContent=${fContent%%\}],\"AggregatedMirrors*}
-    fContent=${fContent##*AggregatedPositions\":[{}
+    fContent=${fContent##*AggregatedPositions\":[\{}
 
     # go through each asset class and get all corresponding trades
     for assetClass in $(echo $fContent | sed 's/},{/\n/g'); do
@@ -229,7 +232,7 @@ fetchEToroData() {
       # Extract data
       fContent=$retValCurlCrawl
       fContent=${fContent%%\}]\}}
-      fContent=${fContent##*PublicPositions\":[{}
+      fContent=${fContent##*PublicPositions\":[\{}
 
       for asset in $(echo $fContent | sed 's/},{/\n/g'); do
         echo $asset >> $outFile
@@ -339,9 +342,11 @@ getCTrades() {
   # get json with the number of closed trades
   urlTot="https://www.etoro.com/sapi/trade-data-real/history/public/credit/flat/aggregated?CID=$cid&StartTime="$dDBYesterday"T00:00:00.000Z&format=json&client_request_id="$rNumber
   if [ "$verbosecurl" == "true" ]; then
-     retValCurl=`curl -v -b $inFileCookie -c $inFileCookie -s "$urlTot"`
+     retValCurl=`curl -v -b $inFileCookie -c $inFileCookie -s "$urlTot" -A "$UserAgent"`
+     microsleepverbose
   else
-     retValCurl=`curl -b $inFileCookie -c $inFileCookie -s "$urlTot"`
+     retValCurl=`curl -b $inFileCookie -c $inFileCookie -s "$urlTot" -A "$UserAgent"`
+     microsleep
   fi
 
   # check output
@@ -365,9 +370,11 @@ getCTrades() {
     rNumber=`uuid`
     urlTot="https://www.etoro.com/sapi/trade-data-real/history/public/credit/flat?CID="$cid"&ItemsPerPage=100&PageNumber="$pageNr"&StartTime="$dDBYesterday"T00:00:00.000Z&format=json&client_request_id="$rNumber
     if [ "$verbosecurl" == "true" ]; then
-       retValCurl=`curl -v -b $inFileCookie -c $inFileCookie -s "$urlTot"`
+       retValCurl=`curl -v -b $inFileCookie -c $inFileCookie -s "$urlTot" -A "$UserAgent"`
+       microsleepverbose
     else
-       retValCurl=`curl -b $inFileCookie -c $inFileCookie -s "$urlTot"`
+       retValCurl=`curl -b $inFileCookie -c $inFileCookie -s "$urlTot" -A "$UserAgent"`
+       microsleep
     fi
 
     # update counters
@@ -382,7 +389,7 @@ getCTrades() {
     # Extract data
     fContent=$retValCurl
     fContent=${fContent%%\}]\}}
-    fContent=${fContent##*PublicHistoryPositions\":[{}
+    fContent=${fContent##*PublicHistoryPositions\":[\{}
 
     for asset in $(echo $fContent | sed 's/},{/\n/g'); do
       echo $asset >> $outFileCTrades
@@ -595,6 +602,18 @@ lockFileGen () {
 
 }
 
+# Microsleep with verbose functionality
+microsleepverbose () {
+        SLEEPTIME=`shuf -i $minUSleep-$maxUSleep -n 1`
+        SLEEPTIMESEC=` expr $SLEEPTIME / 1000000 `
+        echo "Microsleeping for $SLEEPTIMESEC seconds"
+        /bin/busybox usleep $SLEEPTIME
+}
+
+# Microsleep without verbose functionality
+microsleep () {
+        /bin/busybox usleep `shuf -i $minUSleep-$maxUSleep -n 1`
+}
 ###############################################################################################
 # Make sure you have all the files you need
 initFiles () {
