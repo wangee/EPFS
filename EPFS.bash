@@ -627,7 +627,7 @@ done
 getStdConf
 
 # load specific configuration
-source eToroSBot.conf
+source epfs.conf
 
 # Initialize the files
 initFiles
